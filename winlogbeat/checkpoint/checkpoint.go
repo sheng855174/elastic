@@ -212,7 +212,7 @@ func (c *Checkpoint) persist() bool {
 // flush writes the current state to disk.
 func (c *Checkpoint) flush() error {
 	c.fileLock.Lock()
-	//defer c.fileLock.Unlock()
+	defer c.fileLock.Unlock()
 
 	tempFile := c.file + ".new"
 	file, err := create(tempFile)

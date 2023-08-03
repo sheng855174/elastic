@@ -168,6 +168,6 @@ func (eb *Winlogbeat) processEventLog(
 	state checkpoint.EventLogState,
 	acker *eventACKer,
 ) {
-	defer wg.Done()
+	//defer wg.Done()
 	logger.run(eb.done, eb.pipeline, state, acker)
 }
