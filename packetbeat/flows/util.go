@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 type worker struct {

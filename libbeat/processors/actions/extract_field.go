@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/processors"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/processors"
 )
 
 type extract_field struct {

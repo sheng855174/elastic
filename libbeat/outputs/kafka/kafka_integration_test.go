@@ -34,14 +34,14 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/fmtstr"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/libbeat/outputs"
-	_ "github.com/sheng855174/elastictictic/libbeat/outputs/codec/format"
-	_ "github.com/sheng855174/elastictictic/libbeat/outputs/codec/json"
-	"github.com/sheng855174/elastictictic/libbeat/outputs/outest"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/outputs"
+	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/format"
+	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/json"
+	"github.com/elastic/beats/v7/libbeat/outputs/outest"
 )
 
 const (

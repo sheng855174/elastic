@@ -13,10 +13,10 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
 )
 
 const markerFilename = ".update-marker"

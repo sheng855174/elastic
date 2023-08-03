@@ -20,8 +20,8 @@ package licenser
 import (
 	"fmt"
 
-	"github.com/sheng855174/elastictictic/libbeat/esleg/eslegclient"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 // Verify checks if the connection endpoint is really Elasticsearch.

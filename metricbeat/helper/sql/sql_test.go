@@ -28,8 +28,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/tests/resources"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/tests/resources"
 )
 
 type kv struct {

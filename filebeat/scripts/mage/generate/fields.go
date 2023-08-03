@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	devtools "github.com/sheng855174/elastictictic/dev-tools/mage"
-	genfields "github.com/sheng855174/elastictictic/filebeat/generator/fields"
+	devtools "github.com/elastic/beats/v7/dev-tools/mage"
+	genfields "github.com/elastic/beats/v7/filebeat/generator/fields"
 )
 
 // Fields creates a new fields.yml for an existing Filebeat fileset.

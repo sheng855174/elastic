@@ -20,7 +20,7 @@
 package cassandra
 
 import (
-	"github.com/sheng855174/elastictic/libbeat/asset"
+	"github.com/elastic/beats/v7/libbeat/asset"
 )
 
 func init() {

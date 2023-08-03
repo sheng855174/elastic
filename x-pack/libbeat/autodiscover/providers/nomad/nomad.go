@@ -11,15 +11,15 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/sheng855174/elastic/libbeat/autodiscover"
-	"github.com/sheng855174/elastic/libbeat/autodiscover/builder"
-	"github.com/sheng855174/elastic/libbeat/autodiscover/template"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/common/bus"
-	"github.com/sheng855174/elastic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastic/libbeat/keystore"
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/x-pack/libbeat/common/nomad"
+	"github.com/elastic/beats/v7/libbeat/autodiscover"
+	"github.com/elastic/beats/v7/libbeat/autodiscover/builder"
+	"github.com/elastic/beats/v7/libbeat/autodiscover/template"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/bus"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/libbeat/keystore"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/x-pack/libbeat/common/nomad"
 )
 
 // NomadEventKey is the key under which custom metadata is going

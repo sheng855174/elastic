@@ -28,7 +28,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 // these tests are separated as one cannot delete/rename files

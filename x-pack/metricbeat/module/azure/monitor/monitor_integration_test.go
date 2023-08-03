@@ -10,13 +10,13 @@ package monitor
 import (
 	"testing"
 
-	"github.com/sheng855174/elastic/x-pack/metricbeat/module/azure/test"
+	"github.com/elastic/beats/v7/x-pack/metricbeat/module/azure/test"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 
-	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 )
 
 func TestFetchMetricset(t *testing.T) {

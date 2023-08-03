@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 func connectionStartMethod(m *amqpMessage, args []byte) (bool, bool) {

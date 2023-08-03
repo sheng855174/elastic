@@ -15,9 +15,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/storage"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/storage"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
 )
 
 func TestStateStore(t *testing.T) {

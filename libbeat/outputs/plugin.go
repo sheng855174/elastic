@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	p "github.com/sheng855174/elastictictic/libbeat/plugin"
+	p "github.com/elastic/beats/v7/libbeat/plugin"
 )
 
 type outputPlugin struct {

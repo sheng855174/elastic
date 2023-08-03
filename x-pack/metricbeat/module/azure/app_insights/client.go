@@ -13,7 +13,7 @@ import (
 	"github.com/Azure/azure-sdk-for-go/services/preview/appinsights/v1/insights"
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 // Client represents the azure client which will make use of the azure sdk go metrics related clients

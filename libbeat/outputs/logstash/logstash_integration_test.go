@@ -31,16 +31,16 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/fmtstr"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport/httpcommon"
-	"github.com/sheng855174/elastictictic/libbeat/esleg/eslegclient"
-	"github.com/sheng855174/elastictictic/libbeat/idxmgmt"
-	"github.com/sheng855174/elastictictic/libbeat/outputs"
-	_ "github.com/sheng855174/elastictictic/libbeat/outputs/elasticsearch"
-	"github.com/sheng855174/elastictictic/libbeat/outputs/outest"
-	"github.com/sheng855174/elastictictic/libbeat/outputs/outil"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
+	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
+	"github.com/elastic/beats/v7/libbeat/idxmgmt"
+	"github.com/elastic/beats/v7/libbeat/outputs"
+	_ "github.com/elastic/beats/v7/libbeat/outputs/elasticsearch"
+	"github.com/elastic/beats/v7/libbeat/outputs/outest"
+	"github.com/elastic/beats/v7/libbeat/outputs/outil"
 )
 
 const (

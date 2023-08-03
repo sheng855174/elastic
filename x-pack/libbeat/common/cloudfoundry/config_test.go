@@ -14,7 +14,7 @@ import (
 
 	"github.com/elastic/go-ucfg"
 
-	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 func TestValidation(t *testing.T) {

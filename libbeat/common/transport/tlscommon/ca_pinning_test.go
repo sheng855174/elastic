@@ -36,7 +36,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 var ser int64 = 1

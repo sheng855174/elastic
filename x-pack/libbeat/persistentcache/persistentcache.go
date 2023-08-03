@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/libbeat/paths"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/paths"
 )
 
 const (

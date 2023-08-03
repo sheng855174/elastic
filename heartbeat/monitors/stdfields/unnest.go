@@ -20,7 +20,7 @@ package stdfields
 import (
 	"fmt"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // OptionalStream represents a config that has a stream set, which in practice

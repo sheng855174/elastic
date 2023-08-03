@@ -24,7 +24,7 @@
 package metrics
 
 import (
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 func SetupMetrics(name string) error {

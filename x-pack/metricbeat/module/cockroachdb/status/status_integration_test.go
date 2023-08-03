@@ -13,13 +13,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/libbeat/tests/compose"
-	"github.com/sheng855174/elastic/metricbeat/mb"
-	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/libbeat/tests/compose"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 
 	// Register input module and metricset
-	_ "github.com/sheng855174/elastic/metricbeat/module/prometheus"
-	_ "github.com/sheng855174/elastic/metricbeat/module/prometheus/collector"
+	_ "github.com/elastic/beats/v7/metricbeat/module/prometheus"
+	_ "github.com/elastic/beats/v7/metricbeat/module/prometheus/collector"
 )
 
 func init() {

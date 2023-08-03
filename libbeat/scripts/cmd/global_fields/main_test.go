@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/libbeat/generator/fields"
+	"github.com/elastic/beats/v7/libbeat/generator/fields"
 )
 
 type testcase struct {

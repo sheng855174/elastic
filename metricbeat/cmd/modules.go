@@ -22,9 +22,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/cfgfile"
-	"github.com/sheng855174/elastictic/libbeat/cmd"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/cfgfile"
+	"github.com/elastic/beats/v7/libbeat/cmd"
 )
 
 // BuildModulesManager adds support for modules management to a beat

@@ -26,9 +26,9 @@ import (
 	"github.com/elastic/elastic-agent-client/v7/pkg/client"
 	"github.com/elastic/elastic-agent-client/v7/pkg/proto"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/authority"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/authority"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
 )
 
 const (

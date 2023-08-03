@@ -24,10 +24,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/filebeat/input/inputtest"
-	"github.com/sheng855174/elastictictic/filebeat/inputsource"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/filebeat/input/inputtest"
+	"github.com/elastic/beats/v7/filebeat/inputsource"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 func TestWhenPriorityIsSet(t *testing.T) {

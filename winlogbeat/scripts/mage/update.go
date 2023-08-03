@@ -18,13 +18,13 @@
 package mage
 
 import (
-	"magefile/mage/mg"
+	"github.com/magefile/mage/mg"
 
-	devtools "dev-tools/mage"
-	"dev-tools/mage/target/build"
-	"dev-tools/mage/target/common"
-	"dev-tools/mage/target/dashboards"
-	"dev-tools/mage/target/docs"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/build"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/common"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/dashboards"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/docs"
 )
 
 func init() {

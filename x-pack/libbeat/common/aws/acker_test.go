@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/beat"
 )
 
 func TestEventACKTracker(t *testing.T) {

@@ -30,8 +30,8 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"libbeat/common"
-	"winlogbeat/sys"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/winlogbeat/sys"
 )
 
 // Errors

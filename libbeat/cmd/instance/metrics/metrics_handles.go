@@ -21,10 +21,10 @@
 package metrics
 
 import (
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
 	sysinfo "github.com/elastic/go-sysinfo"
 	"github.com/elastic/go-sysinfo/types"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/libbeat/monitoring"
 )
 
 const (

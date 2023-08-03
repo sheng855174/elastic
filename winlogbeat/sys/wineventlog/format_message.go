@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"winlogbeat/sys"
+	"github.com/sheng855174/elastic/winlogbeat/sys"
 )
 
 // getMessageStringFromHandle returns the message for the given eventHandle.

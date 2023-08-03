@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	pubtest "github.com/sheng855174/elastictictic/libbeat/publisher/testing"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	pubtest "github.com/elastic/beats/v7/libbeat/publisher/testing"
 )
 
 func TestPublish(t *testing.T) {

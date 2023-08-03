@@ -12,13 +12,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/x-pack/metricbeat/module/iis/test"
+	"github.com/elastic/beats/v7/x-pack/metricbeat/module/iis/test"
 
-	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 
 	// Register input module and metricset
-	_ "github.com/sheng855174/elastic/metricbeat/module/windows"
-	_ "github.com/sheng855174/elastic/metricbeat/module/windows/perfmon"
+	_ "github.com/elastic/beats/v7/metricbeat/module/windows"
+	_ "github.com/elastic/beats/v7/metricbeat/module/windows/perfmon"
 )
 
 func TestFetch(t *testing.T) {

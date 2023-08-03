@@ -18,9 +18,9 @@
 package memory
 
 import (
+	"github.com/elastic/beats/v7/libbeat/common"
+	linux "github.com/elastic/beats/v7/metricbeat/module/linux/memory"
 	sysinfotypes "github.com/elastic/go-sysinfo/types"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	linux "github.com/sheng855174/elastictic/metricbeat/module/linux/memory"
 )
 
 func fetchLinuxMemStats(baseMap common.MapStr) error {

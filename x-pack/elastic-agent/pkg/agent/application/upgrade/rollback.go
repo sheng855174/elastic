@@ -14,13 +14,13 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/sheng855174/elastic/libbeat/common/backoff"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control/client"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/install"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/libbeat/common/backoff"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control/client"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/install"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
 )
 
 const (

@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/composable"
-	ctesting "github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/composable/testing"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/composable"
+	ctesting "github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/composable/testing"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
 )
 
 func TestContextProvider(t *testing.T) {

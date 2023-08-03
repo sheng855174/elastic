@@ -20,9 +20,9 @@ package queuetest
 import (
 	"time"
 
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/publisher"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/publisher"
 )
 
 func makeEvent(fields common.MapStr) publisher.Event {

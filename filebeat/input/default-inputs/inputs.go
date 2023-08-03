@@ -18,13 +18,13 @@
 package inputs
 
 import (
-	"github.com/sheng855174/elastictic/filebeat/beater"
-	"github.com/sheng855174/elastictic/filebeat/input/filestream"
-	"github.com/sheng855174/elastictic/filebeat/input/kafka"
-	"github.com/sheng855174/elastictic/filebeat/input/unix"
-	v2 "github.com/sheng855174/elastictic/filebeat/input/v2"
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/elastic/beats/v7/filebeat/beater"
+	"github.com/elastic/beats/v7/filebeat/input/filestream"
+	"github.com/elastic/beats/v7/filebeat/input/kafka"
+	"github.com/elastic/beats/v7/filebeat/input/unix"
+	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 func Init(info beat.Info, log *logp.Logger, components beater.StateStore) []v2.Plugin {

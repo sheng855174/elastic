@@ -20,7 +20,7 @@ package beat
 import (
 	"time"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // Pipeline provides access to libbeat event publishing by creating a Client

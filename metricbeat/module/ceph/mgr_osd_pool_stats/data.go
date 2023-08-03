@@ -20,8 +20,8 @@ package mgr_osd_pool_stats
 import (
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/metricbeat/module/ceph/mgr"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/metricbeat/module/ceph/mgr"
 )
 
 type OsdPoolStat struct {

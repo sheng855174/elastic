@@ -33,14 +33,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 
 	// Processor in the light module
-	_ "github.com/sheng855174/elastictic/libbeat/processors/actions"
+	_ "github.com/elastic/beats/v7/libbeat/processors/actions"
 
 	// Input used in the light module
-	_ "github.com/sheng855174/elastictic/metricbeat/module/http/json"
+	_ "github.com/elastic/beats/v7/metricbeat/module/http/json"
 )
 
 func init() {

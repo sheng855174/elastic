@@ -13,10 +13,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastic/libbeat/api/npipe"
+	"github.com/elastic/beats/v7/libbeat/api/npipe"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
 )
 
 // createListener creates a named pipe listener on Windows

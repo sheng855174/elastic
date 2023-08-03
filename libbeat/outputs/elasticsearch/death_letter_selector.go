@@ -18,8 +18,8 @@
 package elasticsearch
 
 import (
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/outputs"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/outputs"
 )
 
 type DeadLetterSelector struct {

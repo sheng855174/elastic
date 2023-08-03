@@ -18,9 +18,9 @@
 package filestream
 
 import (
-	loginp "github.com/sheng855174/elastictic/filebeat/input/filestream/internal/input-logfile"
-	"github.com/sheng855174/elastictic/libbeat/common/file"
-	"github.com/sheng855174/elastictic/libbeat/logp"
+	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
+	"github.com/elastic/beats/v7/libbeat/common/file"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 func loggerWithEvent(logger *logp.Logger, event loginp.FSEvent, src loginp.Source) *logp.Logger {

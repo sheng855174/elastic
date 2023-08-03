@@ -15,7 +15,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs/cloudwatchlogsiface"
 
-	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 func TestGetStartPosition(t *testing.T) {

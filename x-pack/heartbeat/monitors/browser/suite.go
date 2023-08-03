@@ -8,11 +8,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sheng855174/elastic/heartbeat/monitors/jobs"
-	"github.com/sheng855174/elastic/heartbeat/monitors/plugin"
-	"github.com/sheng855174/elastic/libbeat/beat"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/x-pack/heartbeat/monitors/browser/synthexec"
+	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
+	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/synthexec"
 )
 
 type JourneyLister func(ctx context.Context, suitePath string, params common.MapStr) (journeyNames []string, err error)

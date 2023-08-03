@@ -23,11 +23,11 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	s "github.com/sheng855174/elastictictic/libbeat/common/schema"
-	c "github.com/sheng855174/elastictictic/libbeat/common/schema/mapstriface"
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	"github.com/sheng855174/elastictictic/metricbeat/module/elasticsearch"
+	"github.com/elastic/beats/v7/libbeat/common"
+	s "github.com/elastic/beats/v7/libbeat/common/schema"
+	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstriface"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/module/elasticsearch"
 )
 
 var (

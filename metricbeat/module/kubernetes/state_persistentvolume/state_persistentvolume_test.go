@@ -23,7 +23,7 @@ package state_persistentvolume
 import (
 	"testing"
 
-	"github.com/sheng855174/elastictictic/metricbeat/helper/prometheus/ptest"
+	"github.com/elastic/beats/v7/metricbeat/helper/prometheus/ptest"
 )
 
 func TestEventMapping(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 type encoderFunc func(trReq transformable) ([]byte, error)

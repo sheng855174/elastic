@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sheng855174/elastic/libbeat/common"
-	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
-	"github.com/sheng855174/elastic/x-pack/metricbeat/module/aws/mtest"
+	"github.com/elastic/beats/v7/libbeat/common"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/x-pack/metricbeat/module/aws/mtest"
 )
 
 func TestData(t *testing.T) {

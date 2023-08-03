@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/fileutil"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/fileutil"
 
 	"github.com/gofrs/uuid"
 	"github.com/google/go-cmp/cmp"

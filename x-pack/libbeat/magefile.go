@@ -8,16 +8,16 @@
 package main
 
 import (
-	devtools "github.com/sheng855174/elastic/dev-tools/mage"
+	devtools "github.com/elastic/beats/v7/dev-tools/mage"
 
 	// mage:import
-	_ "github.com/sheng855174/elastic/dev-tools/mage/target/common"
+	_ "github.com/elastic/beats/v7/dev-tools/mage/target/common"
 	// mage:import
-	_ "github.com/sheng855174/elastic/dev-tools/mage/target/unittest"
+	_ "github.com/elastic/beats/v7/dev-tools/mage/target/unittest"
 	// mage:import
-	_ "github.com/sheng855174/elastic/dev-tools/mage/target/integtest"
+	_ "github.com/elastic/beats/v7/dev-tools/mage/target/integtest"
 	// mage:import
-	_ "github.com/sheng855174/elastic/dev-tools/mage/target/test"
+	_ "github.com/elastic/beats/v7/dev-tools/mage/target/test"
 )
 
 func init() {

@@ -7,7 +7,7 @@ package fleet
 import (
 	"context"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
 )
 
 // Acker is a noop acker.

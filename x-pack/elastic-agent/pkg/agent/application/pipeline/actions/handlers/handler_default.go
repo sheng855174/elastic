@@ -7,9 +7,9 @@ package handlers
 import (
 	"context"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/storage/store"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/storage/store"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
 )
 
 // Default is a default handler.

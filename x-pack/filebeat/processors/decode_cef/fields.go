@@ -7,7 +7,7 @@
 package decode_cef
 
 import (
-	"github.com/sheng855174/elastic/libbeat/asset"
+	"github.com/elastic/beats/v7/libbeat/asset"
 )
 
 func init() {

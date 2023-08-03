@@ -29,7 +29,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 var (

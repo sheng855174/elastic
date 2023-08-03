@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/cloudformationiface"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 // Resource type to look for.

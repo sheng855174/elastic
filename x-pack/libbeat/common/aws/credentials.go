@@ -14,9 +14,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws/stscreds"
 	"github.com/aws/aws-sdk-go-v2/service/sts"
 
-	"github.com/sheng855174/elastic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
-	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 // ConfigAWS is a structure defined for AWS credentials

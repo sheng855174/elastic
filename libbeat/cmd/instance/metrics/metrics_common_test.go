@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/libbeat/monitoring"
-	"github.com/sheng855174/elastictictic/libbeat/version"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/elastic/beats/v7/libbeat/version"
 )
 
 func TestMonitoring(t *testing.T) {

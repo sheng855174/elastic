@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/ecs"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/ecs"
 )
 
 var (

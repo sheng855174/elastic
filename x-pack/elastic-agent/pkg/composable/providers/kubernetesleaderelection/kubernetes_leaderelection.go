@@ -13,13 +13,13 @@ import (
 	"k8s.io/client-go/tools/leaderelection"
 	"k8s.io/client-go/tools/leaderelection/resourcelock"
 
-	"github.com/sheng855174/elastic/libbeat/common/kubernetes"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/info"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/composable"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
-	corecomp "github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/composable"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/libbeat/common/kubernetes"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/info"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/composable"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
+	corecomp "github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/composable"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
 )
 
 func init() {

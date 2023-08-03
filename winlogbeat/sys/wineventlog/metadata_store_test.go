@@ -23,9 +23,9 @@ package wineventlog
 import (
 	"testing"
 
-	"stretchr/testify/assert"
+	"github.com/stretchr/testify/assert"
 
-	"libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 func TestPublisherMetadataStore(t *testing.T) {

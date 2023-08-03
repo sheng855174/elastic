@@ -31,9 +31,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/metricbeat/helper/dialer"
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	"github.com/sheng855174/elastictictic/metricbeat/mb/parse"
+	"github.com/elastic/beats/v7/metricbeat/helper/dialer"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/mb/parse"
 )
 
 func TestGetAuthHeaderFromToken(t *testing.T) {

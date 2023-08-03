@@ -30,13 +30,13 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/match"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/metric/system/cgroup"
+	"github.com/elastic/beats/v7/libbeat/metric/system/numcpu"
 	sysinfo "github.com/elastic/go-sysinfo"
 	sigar "github.com/elastic/gosigar"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/match"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/libbeat/metric/system/cgroup"
-	"github.com/sheng855174/elastictictic/libbeat/metric/system/numcpu"
 )
 
 // ProcsMap is a map where the keys are the names of processes and the value is the Process with that name

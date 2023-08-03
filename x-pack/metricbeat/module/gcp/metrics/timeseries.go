@@ -7,7 +7,7 @@ package metrics
 import (
 	"context"
 
-	"github.com/sheng855174/elastic/x-pack/metricbeat/module/gcp"
+	"github.com/elastic/beats/v7/x-pack/metricbeat/module/gcp"
 )
 
 // timeSeriesGrouped groups TimeSeries responses into common Elasticsearch friendly events. This is to avoid sending

@@ -23,7 +23,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"gopkg.in/yaml.v2"
 
-	awscommon "github.com/sheng855174/elastic/x-pack/libbeat/common/aws"
+	awscommon "github.com/elastic/beats/v7/x-pack/libbeat/common/aws"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/aws/external"
@@ -32,14 +32,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/sheng855174/elastic/filebeat/beater"
-	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/libbeat/monitoring"
-	pubtest "github.com/sheng855174/elastic/libbeat/publisher/testing"
-	"github.com/sheng855174/elastic/libbeat/statestore"
-	"github.com/sheng855174/elastic/libbeat/statestore/storetest"
+	"github.com/elastic/beats/v7/filebeat/beater"
+	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
+	pubtest "github.com/elastic/beats/v7/libbeat/publisher/testing"
+	"github.com/elastic/beats/v7/libbeat/statestore"
+	"github.com/elastic/beats/v7/libbeat/statestore/storetest"
 )
 
 const (

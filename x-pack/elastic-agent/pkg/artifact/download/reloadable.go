@@ -4,7 +4,7 @@
 
 package download
 
-import "github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
+import "github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
 
 // Reloader is an interface allowing to reload artifact config
 type Reloader interface {

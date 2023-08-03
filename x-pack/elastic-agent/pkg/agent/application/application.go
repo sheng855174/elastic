@@ -8,18 +8,18 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/storage"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/status"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/sorted"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/storage"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/status"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/sorted"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/info"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/reexec"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/upgrade"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/configuration"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/info"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/reexec"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/upgrade"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/configuration"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
 )
 
 // Application is the application interface implemented by the different running mode.

@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 type pagination struct {

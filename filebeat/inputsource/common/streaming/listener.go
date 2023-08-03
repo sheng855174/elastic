@@ -25,10 +25,10 @@ import (
 	"net"
 	"sync"
 
+	"github.com/elastic/beats/v7/filebeat/inputsource"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/logp"
 	"github.com/elastic/go-concert/ctxtool"
-	"github.com/sheng855174/elastictic/filebeat/inputsource"
-	"github.com/sheng855174/elastictic/libbeat/common/atomic"
-	"github.com/sheng855174/elastictic/libbeat/logp"
 )
 
 // ListenerFactory returns a net.Listener

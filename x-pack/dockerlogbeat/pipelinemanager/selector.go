@@ -9,10 +9,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastic/libbeat/beat"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/outputs"
-	"github.com/sheng855174/elastic/libbeat/outputs/outil"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/outputs"
+	"github.com/elastic/beats/v7/libbeat/outputs/outil"
 )
 
 // IdxSupport is a supporter type used by libbeat to manage index support

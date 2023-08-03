@@ -5,8 +5,8 @@
 package azure
 
 import (
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 )
 
 func addHostMetadata(event *mb.Event, metricList common.MapStr) {

@@ -22,8 +22,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictic/metricbeat/mb"
-	"github.com/sheng855174/elastictic/metricbeat/module/postgresql"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/module/postgresql"
 )
 
 // init registers the MetricSet with the central registry as soon as the program

@@ -26,8 +26,8 @@ package status
 import (
 	"database/sql"
 
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	"github.com/sheng855174/elastictictic/metricbeat/module/mysql"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/module/mysql"
 
 	"github.com/pkg/errors"
 )

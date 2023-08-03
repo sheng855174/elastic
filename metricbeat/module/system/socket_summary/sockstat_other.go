@@ -23,7 +23,7 @@ package socket_summary
 import (
 	"github.com/shirou/gopsutil/net"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // a stub function for non-linux systems

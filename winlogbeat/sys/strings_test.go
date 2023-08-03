@@ -20,9 +20,9 @@ package sys
 import (
 	"testing"
 
-	"stretchr/testify/assert"
+	"github.com/stretchr/testify/assert"
 
-	"libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 func TestUTF16BytesToString(t *testing.T) {

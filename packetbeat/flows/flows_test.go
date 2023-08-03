@@ -27,11 +27,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/packetbeat/config"
-	"github.com/sheng855174/elastictic/packetbeat/procs"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/packetbeat/config"
+	"github.com/elastic/beats/v7/packetbeat/procs"
 )
 
 type flowsChan struct {

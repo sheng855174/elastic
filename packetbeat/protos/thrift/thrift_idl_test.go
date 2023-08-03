@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 func thriftIdlForTesting(t *testing.T, content string) *thriftIdl {

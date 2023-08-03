@@ -25,8 +25,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/libbeat/processors"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/processors"
 )
 
 const initialSize = 20 // initialSize specifies the initial size of the Register.

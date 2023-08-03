@@ -15,9 +15,9 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/x-pack/auditbeat/module/system/socket/helper"
-	"github.com/sheng855174/elastic/x-pack/auditbeat/tracing"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/x-pack/auditbeat/module/system/socket/helper"
+	"github.com/elastic/beats/v7/x-pack/auditbeat/tracing"
 )
 
 // This is how many data we dump from sk_buff->data to read full packet headers

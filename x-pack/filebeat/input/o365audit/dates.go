@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 const (

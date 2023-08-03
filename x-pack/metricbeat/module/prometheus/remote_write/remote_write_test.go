@@ -14,9 +14,9 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/libbeat/common"
-	p "github.com/sheng855174/elastic/metricbeat/helper/prometheus"
-	xcollector "github.com/sheng855174/elastic/x-pack/metricbeat/module/prometheus/collector"
+	"github.com/elastic/beats/v7/libbeat/common"
+	p "github.com/elastic/beats/v7/metricbeat/helper/prometheus"
+	xcollector "github.com/elastic/beats/v7/x-pack/metricbeat/module/prometheus/collector"
 )
 
 // TestGenerateEventsCounter tests counter simple cases

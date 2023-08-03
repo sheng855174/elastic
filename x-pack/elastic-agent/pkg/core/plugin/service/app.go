@@ -13,23 +13,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
 
 	"gopkg.in/yaml.v2"
 
 	"github.com/elastic/elastic-agent-client/v7/pkg/proto"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/configuration"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/app"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/monitoring"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/plugin"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/process"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/server"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/state"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/status"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/tokenbucket"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/configuration"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/app"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/monitoring"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/plugin"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/process"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/server"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/state"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/status"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/tokenbucket"
 )
 
 var (

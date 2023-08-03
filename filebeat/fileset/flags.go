@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // Modules related command line flags.

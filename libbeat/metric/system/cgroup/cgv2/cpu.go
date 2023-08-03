@@ -24,8 +24,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictictic/libbeat/metric/system/cgroup/cgcommon"
-	"github.com/sheng855174/elastictictic/libbeat/opt"
+	"github.com/elastic/beats/v7/libbeat/metric/system/cgroup/cgcommon"
+	"github.com/elastic/beats/v7/libbeat/opt"
 )
 
 // CPUSubsystem contains metrics and limits from the "cpu" subsystem.

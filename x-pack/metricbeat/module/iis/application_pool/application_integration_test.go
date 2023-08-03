@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/x-pack/metricbeat/module/iis/test"
+	"github.com/elastic/beats/v7/x-pack/metricbeat/module/iis/test"
 
-	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 )
 
 func TestFetch(t *testing.T) {

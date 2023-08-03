@@ -33,14 +33,14 @@ import (
 
 	"github.com/prometheus/procfs"
 
+	"github.com/elastic/beats/v7/auditbeat/core"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/mapping"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 	"github.com/elastic/go-libaudit/v2"
 	"github.com/elastic/go-libaudit/v2/auparse"
-	"github.com/sheng855174/elastictic/auditbeat/core"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/libbeat/mapping"
-	"github.com/sheng855174/elastictic/metricbeat/mb"
-	mbtest "github.com/sheng855174/elastictic/metricbeat/mb/testing"
 )
 
 // Specify the -audit flag when running these tests to interact with the real

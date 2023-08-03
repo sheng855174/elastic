@@ -20,8 +20,8 @@ package pipeline
 import (
 	"sync"
 
-	"github.com/sheng855174/elastictictic/libbeat/publisher"
-	"github.com/sheng855174/elastictictic/libbeat/publisher/queue"
+	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/elastic/beats/v7/libbeat/publisher/queue"
 )
 
 type Batch interface {

@@ -14,9 +14,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/info"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/remote"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/info"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/remote"
 )
 
 func TestEnroll(t *testing.T) {

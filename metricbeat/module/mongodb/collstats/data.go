@@ -21,7 +21,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 func eventMapping(key string, data common.MapStr) (common.MapStr, error) {

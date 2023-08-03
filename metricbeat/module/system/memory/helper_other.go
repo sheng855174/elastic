@@ -23,8 +23,8 @@ package memory
 import (
 	"errors"
 
+	"github.com/elastic/beats/v7/libbeat/common"
 	sysinfotypes "github.com/elastic/go-sysinfo/types"
-	"github.com/sheng855174/elastictic/libbeat/common"
 )
 
 // These whole helper files are a shim until we can make breaking changes and remove these

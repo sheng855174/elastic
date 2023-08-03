@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 )
 
 // Transaction represents a DNS transaction of A or AAAA type.

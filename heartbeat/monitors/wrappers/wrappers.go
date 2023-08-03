@@ -26,14 +26,14 @@ import (
 	"github.com/mitchellh/hashstructure"
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictictic/heartbeat/eventext"
-	"github.com/sheng855174/elastictictic/heartbeat/look"
-	"github.com/sheng855174/elastictictic/heartbeat/monitors/jobs"
-	"github.com/sheng855174/elastictictic/heartbeat/monitors/stdfields"
-	"github.com/sheng855174/elastictictic/heartbeat/scheduler/schedule"
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/heartbeat/eventext"
+	"github.com/elastic/beats/v7/heartbeat/look"
+	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
+	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
+	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 // WrapCommon applies the common wrappers that all monitor jobs get.

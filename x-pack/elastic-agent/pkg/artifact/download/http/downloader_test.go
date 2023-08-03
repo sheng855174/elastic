@@ -20,8 +20,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
+	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
 )
 
 func TestDownloadBodyError(t *testing.T) {

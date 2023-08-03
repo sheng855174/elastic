@@ -20,7 +20,7 @@ package conditions
 import (
 	"fmt"
 
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 // Equals is a Condition for testing string equality.

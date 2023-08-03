@@ -5,8 +5,8 @@
 package info
 
 import (
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
 )
 
 // AgentInfo is a collection of information about agent.

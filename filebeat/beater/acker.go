@@ -18,10 +18,10 @@
 package beater
 
 import (
-	"github.com/sheng855174/elastictictic/filebeat/input/file"
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common/acker"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/filebeat/input/file"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common/acker"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 type statefulLogger interface {

@@ -13,8 +13,8 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/function/provider"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/function/provider"
 )
 
 func TestAPIGatewayProxy(t *testing.T) {

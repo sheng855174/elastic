@@ -28,13 +28,13 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"
 
+	"github.com/elastic/beats/v7/libbeat/logp"
 	"github.com/elastic/gosigar"
-	"github.com/sheng855174/elastictic/libbeat/logp"
 )
 
 // Windows API calls

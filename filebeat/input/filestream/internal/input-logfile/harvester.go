@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
+	input "github.com/elastic/beats/v7/filebeat/input/v2"
+	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/logp"
 	"github.com/elastic/go-concert/ctxtool"
 	"github.com/elastic/go-concert/unison"
-	input "github.com/sheng855174/elastictic/filebeat/input/v2"
-	v2 "github.com/sheng855174/elastictic/filebeat/input/v2"
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/logp"
 )
 
 var (

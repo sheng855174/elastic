@@ -22,13 +22,13 @@ import (
 
 	rd "github.com/gomodule/redigo/redis"
 
-	"github.com/sheng855174/elastictictic/filebeat/channel"
-	"github.com/sheng855174/elastictictic/filebeat/harvester"
-	"github.com/sheng855174/elastictictic/filebeat/input"
-	"github.com/sheng855174/elastictictic/filebeat/input/file"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/filebeat/channel"
+	"github.com/elastic/beats/v7/filebeat/harvester"
+	"github.com/elastic/beats/v7/filebeat/input"
+	"github.com/elastic/beats/v7/filebeat/input/file"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 func init() {

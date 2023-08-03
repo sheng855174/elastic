@@ -18,11 +18,11 @@
 package inputs
 
 import (
-	v2 "github.com/sheng855174/elastictictic/filebeat/input/v2"
-	cursor "github.com/sheng855174/elastictictic/filebeat/input/v2/input-cursor"
-	"github.com/sheng855174/elastictictic/filebeat/input/winlog"
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	cursor "github.com/elastic/beats/v7/filebeat/input/v2/input-cursor"
+	"github.com/elastic/beats/v7/filebeat/input/winlog"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 type osComponents interface {

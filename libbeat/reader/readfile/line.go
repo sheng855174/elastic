@@ -25,8 +25,8 @@ import (
 
 	"golang.org/x/text/transform"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/streambuf"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/common/streambuf"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 const unlimited = 0

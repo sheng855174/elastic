@@ -9,10 +9,10 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/download"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/download"
 )
 
 // Downloader is a downloader with a predefined set of downloaders.

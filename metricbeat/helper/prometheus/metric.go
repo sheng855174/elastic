@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 
 	dto "github.com/prometheus/client_model/go"
 )

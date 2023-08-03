@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"joeshaw/multierror"
+	"github.com/joeshaw/multierror"
 
-	"libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 const (

@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictic/libbeat/paths"
-	mbtest "github.com/sheng855174/elastictic/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/libbeat/paths"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 )
 
 func setHostfs(pathString string) {

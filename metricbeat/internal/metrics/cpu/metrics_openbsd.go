@@ -36,7 +36,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/sheng855174/elastictictic/libbeat/opt"
+	"github.com/elastic/beats/v7/libbeat/opt"
 )
 
 // Get is the OpenBSD implementation of get

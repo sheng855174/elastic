@@ -18,10 +18,10 @@
 package host
 
 import (
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
 	"github.com/elastic/go-sysinfo"
 	"github.com/elastic/go-sysinfo/types"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/monitoring"
 )
 
 // MapHostInfo converts the HostInfo to a MapStr based on ECS.

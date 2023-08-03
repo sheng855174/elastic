@@ -12,14 +12,14 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastic/libbeat/feature"
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/libbeat/publisher/pipeline"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/function/provider"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/function/telemetry"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/provider/aws/aws/transformer"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/libbeat/feature"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/function/provider"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/function/telemetry"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/provider/aws/aws/transformer"
 )
 
 type message struct {

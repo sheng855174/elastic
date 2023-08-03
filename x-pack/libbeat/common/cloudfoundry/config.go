@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
+	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
 )
 
 const (

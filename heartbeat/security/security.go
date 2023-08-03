@@ -31,7 +31,7 @@ import (
 
 	"kernel.org/pub/linux/libs/security/libcap/cap"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/seccomp"
+	"github.com/elastic/beats/v7/libbeat/common/seccomp"
 )
 
 func init() {

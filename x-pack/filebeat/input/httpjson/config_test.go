@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/oauth2/google"
 
-	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 func TestConfigValidationCase1(t *testing.T) {

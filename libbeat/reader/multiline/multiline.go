@@ -20,7 +20,7 @@ package multiline
 import (
 	"fmt"
 
-	"github.com/sheng855174/elastictictic/libbeat/reader"
+	"github.com/elastic/beats/v7/libbeat/reader"
 )
 
 // New creates a new multi-line reader combining stream of

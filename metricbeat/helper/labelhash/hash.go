@@ -25,7 +25,7 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 const sep = '\xff'

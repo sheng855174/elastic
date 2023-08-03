@@ -20,9 +20,9 @@ package stat
 import (
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	"github.com/sheng855174/elastictictic/metricbeat/module/haproxy"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/module/haproxy"
 )
 
 const (

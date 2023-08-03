@@ -20,10 +20,10 @@ package dbstats
 import (
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	"github.com/sheng855174/elastictictic/metricbeat/module/mongodb"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/module/mongodb"
 )
 
 var logger = logp.NewLogger("mongodb.dbstats")

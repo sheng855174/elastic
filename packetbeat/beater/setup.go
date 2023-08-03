@@ -18,14 +18,14 @@
 package beater
 
 import (
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/processors"
-	"github.com/sheng855174/elastictic/packetbeat/config"
-	"github.com/sheng855174/elastictic/packetbeat/flows"
-	"github.com/sheng855174/elastictic/packetbeat/procs"
-	"github.com/sheng855174/elastictic/packetbeat/protos"
-	"github.com/sheng855174/elastictic/packetbeat/sniffer"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/processors"
+	"github.com/elastic/beats/v7/packetbeat/config"
+	"github.com/elastic/beats/v7/packetbeat/flows"
+	"github.com/elastic/beats/v7/packetbeat/procs"
+	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/elastic/beats/v7/packetbeat/sniffer"
 )
 
 func setupSniffer(cfg config.Config, protocols *protos.ProtocolsStruct, workerFactory sniffer.WorkerFactory) (*sniffer.Sniffer, error) {

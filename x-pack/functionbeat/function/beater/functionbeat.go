@@ -11,20 +11,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sheng855174/elastic/libbeat/common/fmtstr"
-	"github.com/sheng855174/elastic/libbeat/outputs/elasticsearch"
-	"github.com/sheng855174/elastic/libbeat/publisher/pipeline"
+	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
+	"github.com/elastic/beats/v7/libbeat/outputs/elasticsearch"
+	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
 
-	"github.com/sheng855174/elastic/libbeat/beat"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/licenser"
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/libbeat/monitoring"
-	"github.com/sheng855174/elastic/libbeat/processors"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/config"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/function/core"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/function/provider"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/function/telemetry"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/licenser"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/elastic/beats/v7/libbeat/processors"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/config"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/function/core"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/function/provider"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/function/telemetry"
 )
 
 var (

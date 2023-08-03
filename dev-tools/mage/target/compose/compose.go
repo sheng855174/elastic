@@ -30,7 +30,7 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	devtools "github.com/sheng855174/elastictic/dev-tools/mage"
+	devtools "github.com/elastic/beats/v7/dev-tools/mage"
 )
 
 // SupportedVersions is the definition of supported version files

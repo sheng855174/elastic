@@ -22,7 +22,7 @@ import (
 	"sort"
 	"strings"
 
-	"libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 // ConfigCommon is the common configuration data used to instantiate a new

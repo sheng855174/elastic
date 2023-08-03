@@ -22,12 +22,12 @@ import (
 	"io"
 	"regexp"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 
-	s "github.com/sheng855174/elastictic/libbeat/common/schema"
-	c "github.com/sheng855174/elastictic/libbeat/common/schema/mapstrstr"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/metricbeat/mb"
+	s "github.com/elastic/beats/v7/libbeat/common/schema"
+	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstrstr"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 )
 
 var (

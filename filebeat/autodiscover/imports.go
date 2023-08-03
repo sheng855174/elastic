@@ -18,5 +18,5 @@
 package autodiscover
 
 import (
-	_ "github.com/sheng855174/elastictictic/filebeat/autodiscover/builder/hints"
+	_ "github.com/elastic/beats/v7/filebeat/autodiscover/builder/hints"
 )

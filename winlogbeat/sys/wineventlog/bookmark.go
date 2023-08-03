@@ -23,10 +23,10 @@ package wineventlog
 import (
 	"syscall"
 
-	"pkg/errors"
+	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"
 
-	"winlogbeat/sys"
+	"github.com/sheng855174/elastic/winlogbeat/sys"
 )
 
 // Bookmark is a handle to an event log bookmark.

@@ -29,10 +29,10 @@ import (
 	"github.com/tsg/gopacket/layers"
 	"github.com/tsg/gopacket/pcap"
 
-	"github.com/sheng855174/elastictic/libbeat/common/atomic"
-	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/logp"
 
-	"github.com/sheng855174/elastictic/packetbeat/config"
+	"github.com/elastic/beats/v7/packetbeat/config"
 )
 
 // Sniffer provides packet sniffing capabilities, forwarding packets read

@@ -10,7 +10,7 @@ import (
 
 	"github.com/elastic/elastic-agent-client/v7/pkg/proto"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/process"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/process"
 )
 
 // Status describes the current status of the application process.

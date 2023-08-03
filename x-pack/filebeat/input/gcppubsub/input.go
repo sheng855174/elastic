@@ -18,14 +18,14 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"
 
-	"github.com/sheng855174/elastic/filebeat/channel"
-	"github.com/sheng855174/elastic/filebeat/input"
-	"github.com/sheng855174/elastic/libbeat/beat"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/common/acker"
-	"github.com/sheng855174/elastic/libbeat/common/atomic"
-	"github.com/sheng855174/elastic/libbeat/common/useragent"
-	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/elastic/beats/v7/filebeat/channel"
+	"github.com/elastic/beats/v7/filebeat/input"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/acker"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/common/useragent"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 const (

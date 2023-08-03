@@ -13,7 +13,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
 )
 
 type embeddedInstaller interface {

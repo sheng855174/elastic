@@ -36,8 +36,8 @@ import (
 
 	"go.elastic.co/ecszap"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/file"
-	"github.com/sheng855174/elastictictic/libbeat/paths"
+	"github.com/elastic/beats/v7/libbeat/common/file"
+	"github.com/elastic/beats/v7/libbeat/paths"
 )
 
 var (

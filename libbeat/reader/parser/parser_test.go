@@ -25,11 +25,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/reader"
-	"github.com/sheng855174/elastictictic/libbeat/reader/multiline"
-	"github.com/sheng855174/elastictictic/libbeat/reader/readfile"
-	"github.com/sheng855174/elastictictic/libbeat/reader/readfile/encoding"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/reader"
+	"github.com/elastic/beats/v7/libbeat/reader/multiline"
+	"github.com/elastic/beats/v7/libbeat/reader/readfile"
+	"github.com/elastic/beats/v7/libbeat/reader/readfile/encoding"
 )
 
 func TestParsersConfigSuffix(t *testing.T) {

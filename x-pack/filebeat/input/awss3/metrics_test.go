@@ -7,7 +7,7 @@ package awss3
 import (
 	"testing"
 
-	"github.com/sheng855174/elastic/libbeat/monitoring"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
 )
 
 // TestInputMetricsClose asserts that metrics registered by this input are

@@ -16,14 +16,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/download"
+	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/download"
 
 	"golang.org/x/crypto/openpgp" //nolint:staticcheck // won't update the package for now
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
 )
 
 const (

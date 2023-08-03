@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/bus"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/bus"
 )
 
 // Appender provides an interface by which extra configuration can be added into configs

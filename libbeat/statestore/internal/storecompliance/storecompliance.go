@@ -34,7 +34,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/libbeat/statestore/backend"
+	"github.com/elastic/beats/v7/libbeat/statestore/backend"
 )
 
 // BackendFactory is used by TestBackendCompliance to create

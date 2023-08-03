@@ -20,10 +20,10 @@ package main
 import (
 	"os"
 
-	"github.com/sheng855174/elastictic/auditbeat/cmd"
+	"github.com/elastic/beats/v7/auditbeat/cmd"
 
 	// Register includes.
-	_ "github.com/sheng855174/elastictic/auditbeat/include"
+	_ "github.com/elastic/beats/v7/auditbeat/include"
 )
 
 func main() {

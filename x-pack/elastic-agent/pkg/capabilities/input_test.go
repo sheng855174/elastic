@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/state"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/state"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/transpiler"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/transpiler"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
 )
 
 func TestMultiInput(t *testing.T) {

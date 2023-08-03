@@ -25,12 +25,12 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/metric/system/process"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/mb/parse"
 	sigar "github.com/elastic/gosigar"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/libbeat/metric/system/process"
-	"github.com/sheng855174/elastictic/metricbeat/mb"
-	"github.com/sheng855174/elastictic/metricbeat/mb/parse"
 )
 
 // init registers the MetricSet with the central registry.

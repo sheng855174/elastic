@@ -28,10 +28,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/metricbeat/helper/windows/pdh"
-	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/metricbeat/helper/windows/pdh"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 )
 
 var processRegexp = regexp.MustCompile(`(.+?[^\s])(?:#\d+|$)`)

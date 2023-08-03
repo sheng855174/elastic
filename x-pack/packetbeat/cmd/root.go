@@ -5,10 +5,10 @@
 package cmd
 
 import (
-	"github.com/sheng855174/elastic/libbeat/cmd"
-	packetbeatCmd "github.com/sheng855174/elastic/packetbeat/cmd"
+	"github.com/elastic/beats/v7/libbeat/cmd"
+	packetbeatCmd "github.com/elastic/beats/v7/packetbeat/cmd"
 
-	_ "github.com/sheng855174/elastic/x-pack/libbeat/include"
+	_ "github.com/elastic/beats/v7/x-pack/libbeat/include"
 )
 
 // Name of this beat.

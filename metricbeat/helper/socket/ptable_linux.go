@@ -21,7 +21,7 @@
 package socket
 
 import (
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 var requiredCapabilities = []string{"sys_ptrace", "dac_read_search"}

@@ -29,14 +29,14 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/eapache/go-resiliency/breaker"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/fmtstr"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/libbeat/outputs"
-	"github.com/sheng855174/elastictictic/libbeat/outputs/codec"
-	"github.com/sheng855174/elastictictic/libbeat/outputs/outil"
-	"github.com/sheng855174/elastictictic/libbeat/publisher"
-	"github.com/sheng855174/elastictictic/libbeat/testing"
+	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
+	"github.com/elastic/beats/v7/libbeat/common/transport"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/outputs"
+	"github.com/elastic/beats/v7/libbeat/outputs/codec"
+	"github.com/elastic/beats/v7/libbeat/outputs/outil"
+	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/elastic/beats/v7/libbeat/testing"
 )
 
 type client struct {

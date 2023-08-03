@@ -25,8 +25,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sheng855174/elastictictic/libbeat/generator/fields"
-	"github.com/sheng855174/elastictictic/libbeat/mapping"
+	"github.com/elastic/beats/v7/libbeat/generator/fields"
+	"github.com/elastic/beats/v7/libbeat/mapping"
 )
 
 func main() {

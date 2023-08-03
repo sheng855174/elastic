@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sheng855174/elastictic/libbeat/tests/compose"
-	mbtest "github.com/sheng855174/elastictic/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/libbeat/tests/compose"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 
 	rd "github.com/gomodule/redigo/redis"
 	"github.com/stretchr/testify/assert"

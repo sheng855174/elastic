@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 )
 
 func (m *MetricSet) processBody(response *http.Response, jsonBody interface{}) mb.Event {

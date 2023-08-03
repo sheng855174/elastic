@@ -18,7 +18,7 @@
 package mage
 
 import (
-	devtools "dev-tools/mage"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
 )
 
 // config generates short/reference configs.

@@ -20,7 +20,7 @@ package msetlists
 import (
 	"strings"
 
-	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 )
 
 // DefaultMetricsets returns a JSON array of all registered default metricsets

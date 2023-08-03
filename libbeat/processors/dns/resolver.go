@@ -28,8 +28,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rcrowley/go-metrics"
 
-	"github.com/sheng855174/elastictictic/libbeat/monitoring"
-	"github.com/sheng855174/elastictictic/libbeat/monitoring/adapter"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/elastic/beats/v7/libbeat/monitoring/adapter"
 )
 
 const etcResolvConf = "/etc/resolv.conf"

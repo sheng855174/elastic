@@ -15,12 +15,12 @@ import (
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/libbeat/autodiscover/template"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/common/bus"
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/libbeat/tests/resources"
-	"github.com/sheng855174/elastic/x-pack/libbeat/common/nomad"
+	"github.com/elastic/beats/v7/libbeat/autodiscover/template"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/bus"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/tests/resources"
+	"github.com/elastic/beats/v7/x-pack/libbeat/common/nomad"
 )
 
 func TestGenerateHints(t *testing.T) {

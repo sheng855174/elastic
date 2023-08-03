@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 type rateLimiter struct {

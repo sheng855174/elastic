@@ -18,8 +18,8 @@
 package dialchain
 
 import (
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common/transport"
 )
 
 // DialerChain composes builders for multiple network layers, used to build

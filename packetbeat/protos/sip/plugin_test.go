@@ -26,10 +26,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/packetbeat/procs"
-	"github.com/sheng855174/elastictic/packetbeat/protos"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/packetbeat/procs"
+	"github.com/elastic/beats/v7/packetbeat/protos"
 )
 
 func TestParseURI(t *testing.T) {

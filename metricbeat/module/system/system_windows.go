@@ -18,8 +18,8 @@
 package system
 
 import (
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/metricbeat/helper"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/metricbeat/helper"
 )
 
 func initModule(config string) {

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // RemoveIndexPattern removes the index pattern entry from a given dashboard export

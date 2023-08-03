@@ -27,16 +27,16 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastictictic/libbeat/common/fmtstr"
-	"github.com/sheng855174/elastictictic/libbeat/common/kafka"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport/kerberos"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport/tlscommon"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/libbeat/monitoring"
-	"github.com/sheng855174/elastictictic/libbeat/monitoring/adapter"
-	"github.com/sheng855174/elastictictic/libbeat/outputs/codec"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
+	"github.com/elastic/beats/v7/libbeat/common/kafka"
+	"github.com/elastic/beats/v7/libbeat/common/transport/kerberos"
+	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/elastic/beats/v7/libbeat/monitoring/adapter"
+	"github.com/elastic/beats/v7/libbeat/outputs/codec"
 )
 
 type backoffConfig struct {

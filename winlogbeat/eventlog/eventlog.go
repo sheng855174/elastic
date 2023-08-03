@@ -20,11 +20,11 @@ package eventlog
 import (
 	"time"
 
-	"libbeat/beat"
-	"libbeat/common"
-	"libbeat/logp"
-	"winlogbeat/checkpoint"
-	"winlogbeat/sys/winevent"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/winlogbeat/checkpoint"
+	"github.com/sheng855174/elastic/winlogbeat/sys/winevent"
 )
 
 // Debug selectors used in this package.

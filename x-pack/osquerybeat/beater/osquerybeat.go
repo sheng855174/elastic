@@ -18,15 +18,15 @@ import (
 	klogger "github.com/osquery/osquery-go/plugin/logger"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/sheng855174/elastic/libbeat/beat"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
 
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/config"
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/distro"
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/osqd"
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/osqdcli"
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/pub"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/config"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/distro"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/osqd"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/osqdcli"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/pub"
 )
 
 var (

@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	mbtest "github.com/sheng855174/elastictictic/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 )
 
 // TestMapper tests mapping methods

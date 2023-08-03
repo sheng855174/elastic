@@ -28,8 +28,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/shirou/gopsutil/net"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/paths"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/paths"
 )
 
 // SockStat contains data from /proc/net/sockstat

@@ -14,8 +14,8 @@ import (
 	"google.golang.org/api/option"
 	monitoringpb "google.golang.org/genproto/googleapis/monitoring/v3"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/x-pack/metricbeat/module/gcp"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/x-pack/metricbeat/module/gcp"
 )
 
 // NewMetadataService returns the specific Metadata service for a GCP Compute resource

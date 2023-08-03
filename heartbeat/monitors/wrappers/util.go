@@ -21,10 +21,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/sheng855174/elastictictic/heartbeat/eventext"
-	"github.com/sheng855174/elastictictic/heartbeat/monitors/jobs"
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/heartbeat/eventext"
+	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // WithFields wraps a Job and all continuations, updating all events returned with the set of

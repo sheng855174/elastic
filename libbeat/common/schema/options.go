@@ -20,7 +20,7 @@ package schema
 import (
 	"github.com/joeshaw/multierror"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // DefaultApplyOptions are the default options for Apply()

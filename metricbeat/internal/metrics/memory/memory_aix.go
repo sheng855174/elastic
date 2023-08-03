@@ -36,7 +36,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sheng855174/elastictictic/libbeat/opt"
+	"github.com/elastic/beats/v7/libbeat/opt"
 )
 
 var system struct {

@@ -20,7 +20,7 @@ package add_cloud_metadata
 import (
 	"encoding/json"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 type hwMeta struct {

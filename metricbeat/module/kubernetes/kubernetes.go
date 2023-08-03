@@ -25,10 +25,10 @@ import (
 	"github.com/pkg/errors"
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/sheng855174/elastictictic/metricbeat/helper"
-	p "github.com/sheng855174/elastictictic/metricbeat/helper/prometheus"
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	"github.com/sheng855174/elastictictic/metricbeat/module/kubernetes/util"
+	"github.com/elastic/beats/v7/metricbeat/helper"
+	p "github.com/elastic/beats/v7/metricbeat/helper/prometheus"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/module/kubernetes/util"
 )
 
 func init() {

@@ -12,8 +12,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/cloudformationiface"
 	"github.com/gofrs/uuid"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/x-pack/functionbeat/manager/executor"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/x-pack/functionbeat/manager/executor"
 )
 
 type opDeleteCloudFormation struct {

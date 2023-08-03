@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"andrewkroh/sys/windows/svc/eventlog"
-	"stretchr/testify/assert"
-	"stretchr/testify/require"
+	"github.com/andrewkroh/sys/windows/svc/eventlog"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 
-	"libbeat/common"
-	"winlogbeat/checkpoint"
-	"winlogbeat/sys/wineventlog"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/winlogbeat/checkpoint"
+	"github.com/sheng855174/elastic/winlogbeat/sys/wineventlog"
 )
 
 const (

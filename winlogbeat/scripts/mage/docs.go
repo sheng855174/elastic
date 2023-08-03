@@ -25,9 +25,9 @@ import (
 	"regexp"
 	"strings"
 
-	"pkg/errors"
+	"github.com/pkg/errors"
 
-	"dev-tools/mage"
+	"github.com/sheng855174/elastic/dev-tools/mage"
 )
 
 const moduleDocsGlob = "module/*/_meta/docs.asciidoc"

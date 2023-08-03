@@ -18,10 +18,10 @@
 package fileset
 
 import (
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/cfgfile"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	pubpipeline "github.com/sheng855174/elastictic/libbeat/publisher/pipeline"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/cfgfile"
+	"github.com/elastic/beats/v7/libbeat/common"
+	pubpipeline "github.com/elastic/beats/v7/libbeat/publisher/pipeline"
 )
 
 // SetupFactory is for loading module assets when running setup subcommand.

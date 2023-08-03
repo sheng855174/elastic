@@ -13,8 +13,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/transpiler"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/transpiler"
 )
 
 // ErrMissingWhen is returned when no boolean expression is defined for a program.

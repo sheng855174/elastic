@@ -11,8 +11,8 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/sheng855174/elastic/libbeat/beat/events"
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/ecs"
+	"github.com/elastic/beats/v7/libbeat/beat/events"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/ecs"
 )
 
 func TestHitToEvent(t *testing.T) {

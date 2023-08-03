@@ -17,11 +17,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/sheng855174/elastic/metricbeat/mb/parse"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/monitoring/beats"
+	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/monitoring/beats"
 )
 
 const (

@@ -27,9 +27,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/metricbeat/module/beat"
+	"github.com/elastic/beats/v7/metricbeat/module/beat"
 
-	mbtest "github.com/sheng855174/elastictictic/metricbeat/mb/testing"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 )
 
 func TestEventMapping(t *testing.T) {

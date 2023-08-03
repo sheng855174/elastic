@@ -7,7 +7,7 @@ package configuration
 import (
 	"time"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
 )
 
 var (

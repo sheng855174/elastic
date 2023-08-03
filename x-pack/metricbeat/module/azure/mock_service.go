@@ -9,7 +9,7 @@ import (
 	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2019-10-01/resources"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 )
 
 // MockService mock for the azure monitor services

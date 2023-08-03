@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictic/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
 )
 
 const (

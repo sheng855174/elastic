@@ -7,9 +7,9 @@ package kubernetes
 import (
 	"testing"
 
-	"github.com/sheng855174/elastic/libbeat/common/kubernetes/metadata"
+	"github.com/elastic/beats/v7/libbeat/common/kubernetes/metadata"
 
-	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 
 	"github.com/stretchr/testify/assert"
 
@@ -17,7 +17,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/sheng855174/elastic/libbeat/common/kubernetes"
+	"github.com/elastic/beats/v7/libbeat/common/kubernetes"
 )
 
 func TestGenerateServiceData(t *testing.T) {

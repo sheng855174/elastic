@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/reporter"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/reporter/fleet/config"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/reporter"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/reporter/fleet/config"
 )
 
 type event struct {

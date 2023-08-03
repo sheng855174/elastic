@@ -29,11 +29,11 @@ import (
 	"go.uber.org/multierr"
 	"golang.org/x/sys/windows"
 
-	"libbeat/common"
-	"libbeat/common/cfgwarn"
-	"libbeat/logp"
-	"winlogbeat/checkpoint"
-	win "winlogbeat/sys/wineventlog"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/cfgwarn"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/winlogbeat/checkpoint"
+	win "github.com/sheng855174/elastic/winlogbeat/sys/wineventlog"
 )
 
 const (

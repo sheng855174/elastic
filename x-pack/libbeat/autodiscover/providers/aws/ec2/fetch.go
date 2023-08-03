@@ -12,8 +12,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ec2/ec2iface"
 	"go.uber.org/multierr"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
-	awsauto "github.com/sheng855174/elastic/x-pack/libbeat/autodiscover/providers/aws"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	awsauto "github.com/elastic/beats/v7/x-pack/libbeat/autodiscover/providers/aws"
 )
 
 // fetcher is an interface that can fetch a list of ec2Instance objects without pagination being necessary.

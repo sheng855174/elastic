@@ -20,7 +20,7 @@
 package linux
 
 import (
-	"github.com/sheng855174/elastictictic/libbeat/asset"
+	"github.com/elastic/beats/v7/libbeat/asset"
 )
 
 func init() {

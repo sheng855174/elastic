@@ -24,11 +24,11 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	s "github.com/sheng855174/elastictictic/libbeat/common/schema"
-	c "github.com/sheng855174/elastictictic/libbeat/common/schema/mapstriface"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport/tlscommon"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/common"
+	s "github.com/elastic/beats/v7/libbeat/common/schema"
+	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstriface"
+	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 const (

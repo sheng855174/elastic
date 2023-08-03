@@ -20,9 +20,9 @@ package diskqueue
 import (
 	"fmt"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/atomic"
-	"github.com/sheng855174/elastictictic/libbeat/publisher"
-	"github.com/sheng855174/elastictictic/libbeat/publisher/queue"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/elastic/beats/v7/libbeat/publisher/queue"
 )
 
 type diskQueueConsumer struct {

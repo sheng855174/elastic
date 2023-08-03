@@ -5,10 +5,10 @@
 package resources
 
 import (
-	s "github.com/sheng855174/elastic/libbeat/common/schema"
-	c "github.com/sheng855174/elastic/libbeat/common/schema/mapstriface"
-	"github.com/sheng855174/elastic/metricbeat/mb"
-	"github.com/sheng855174/elastic/x-pack/metricbeat/module/syncgateway"
+	s "github.com/elastic/beats/v7/libbeat/common/schema"
+	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstriface"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/x-pack/metricbeat/module/syncgateway"
 )
 
 var globalSchema = s.Schema{

@@ -27,9 +27,9 @@ import (
 	"github.com/godbus/dbus"
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/metricbeat/mb"
 )
 
 // init registers the MetricSet with the central registry as soon as the program

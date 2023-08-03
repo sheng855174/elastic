@@ -26,21 +26,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
 
 	"github.com/Shopify/sarama"
 	"github.com/pkg/errors"
 
-	input "github.com/sheng855174/elastictictic/filebeat/input/v2"
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/acker"
-	"github.com/sheng855174/elastictictic/libbeat/common/backoff"
-	"github.com/sheng855174/elastictictic/libbeat/common/kafka"
-	"github.com/sheng855174/elastictictic/libbeat/feature"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/libbeat/reader"
-	"github.com/sheng855174/elastictictic/libbeat/reader/parser"
+	input "github.com/elastic/beats/v7/filebeat/input/v2"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/acker"
+	"github.com/elastic/beats/v7/libbeat/common/backoff"
+	"github.com/elastic/beats/v7/libbeat/common/kafka"
+	"github.com/elastic/beats/v7/libbeat/feature"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/reader"
+	"github.com/elastic/beats/v7/libbeat/reader/parser"
 )
 
 const pluginName = "kafka"

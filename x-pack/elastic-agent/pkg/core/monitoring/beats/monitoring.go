@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
-	monitoringConfig "github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/monitoring/config"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
+	monitoringConfig "github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/monitoring/config"
 )
 
 const (

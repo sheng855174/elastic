@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/transport/tlscommon"
-	"github.com/sheng855174/elastictictic/libbeat/testing"
+	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/elastic/beats/v7/libbeat/testing"
 )
 
 func TLSDialer(forward Dialer, config *tlscommon.TLSConfig, timeout time.Duration) Dialer {

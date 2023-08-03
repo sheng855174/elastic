@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/productorigin"
+	"github.com/elastic/beats/v7/libbeat/common/productorigin"
 )
 
 func TestAPIKeyEncoding(t *testing.T) {

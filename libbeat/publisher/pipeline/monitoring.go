@@ -17,7 +17,7 @@
 
 package pipeline
 
-import "github.com/sheng855174/elastictictic/libbeat/monitoring"
+import "github.com/elastic/beats/v7/libbeat/monitoring"
 
 type observer interface {
 	pipelineObserver

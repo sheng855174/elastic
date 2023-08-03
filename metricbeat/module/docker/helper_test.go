@@ -20,11 +20,11 @@ package docker
 import (
 	"testing"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 
 	"github.com/stretchr/testify/assert"
 
-	helpers "github.com/sheng855174/elastictictic/libbeat/common/docker"
+	helpers "github.com/elastic/beats/v7/libbeat/common/docker"
 )
 
 func TestDeDotLabels(t *testing.T) {

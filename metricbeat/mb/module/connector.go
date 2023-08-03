@@ -20,11 +20,11 @@ package module
 import (
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/common/fmtstr"
-	"github.com/sheng855174/elastictic/libbeat/processors"
-	"github.com/sheng855174/elastictic/libbeat/processors/add_formatted_index"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
+	"github.com/elastic/beats/v7/libbeat/processors"
+	"github.com/elastic/beats/v7/libbeat/processors/add_formatted_index"
 )
 
 // Connector configures and establishes a beat.Client for publishing events

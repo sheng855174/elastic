@@ -14,10 +14,10 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs/cloudwatchlogsiface"
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
-	"github.com/sheng855174/elastic/libbeat/monitoring"
-	"github.com/sheng855174/elastic/libbeat/statestore"
-	awscommon "github.com/sheng855174/elastic/x-pack/libbeat/common/aws"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/elastic/beats/v7/libbeat/statestore"
+	awscommon "github.com/elastic/beats/v7/x-pack/libbeat/common/aws"
 )
 
 type cloudwatchPoller struct {

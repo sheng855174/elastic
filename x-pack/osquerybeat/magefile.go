@@ -19,19 +19,19 @@ import (
 
 	"github.com/magefile/mage/mg"
 
-	devtools "github.com/sheng855174/elastic/dev-tools/mage"
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/command"
-	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/distro"
-	osquerybeat "github.com/sheng855174/elastic/x-pack/osquerybeat/scripts/mage"
+	devtools "github.com/elastic/beats/v7/dev-tools/mage"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/command"
+	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/distro"
+	osquerybeat "github.com/elastic/beats/v7/x-pack/osquerybeat/scripts/mage"
 
 	// mage:import
-	_ "github.com/sheng855174/elastic/dev-tools/mage/target/pkg"
+	_ "github.com/elastic/beats/v7/dev-tools/mage/target/pkg"
 	// mage:import
-	_ "github.com/sheng855174/elastic/dev-tools/mage/target/unittest"
+	_ "github.com/elastic/beats/v7/dev-tools/mage/target/unittest"
 	// mage:import
-	_ "github.com/sheng855174/elastic/dev-tools/mage/target/integtest/notests"
+	_ "github.com/elastic/beats/v7/dev-tools/mage/target/integtest/notests"
 	// mage:import
-	_ "github.com/sheng855174/elastic/dev-tools/mage/target/test"
+	_ "github.com/elastic/beats/v7/dev-tools/mage/target/test"
 )
 
 func init() {

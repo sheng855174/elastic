@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/libbeat/publisher/queue"
-	"github.com/sheng855174/elastictictic/libbeat/publisher/queue/queuetest"
+	"github.com/elastic/beats/v7/libbeat/publisher/queue"
+	"github.com/elastic/beats/v7/libbeat/publisher/queue/queuetest"
 )
 
 var seed int64

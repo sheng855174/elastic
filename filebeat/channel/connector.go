@@ -18,8 +18,8 @@
 package channel
 
 import (
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // ConnectorFunc is an adapter for using ordinary functions as Connector.

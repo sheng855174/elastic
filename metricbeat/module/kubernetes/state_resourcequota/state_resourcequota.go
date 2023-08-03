@@ -20,9 +20,9 @@ package state_resourcequota
 import (
 	"fmt"
 
-	p "github.com/sheng855174/elastictictic/metricbeat/helper/prometheus"
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	k8smod "github.com/sheng855174/elastictictic/metricbeat/module/kubernetes"
+	p "github.com/elastic/beats/v7/metricbeat/helper/prometheus"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	k8smod "github.com/elastic/beats/v7/metricbeat/module/kubernetes"
 )
 
 func init() {

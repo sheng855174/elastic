@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastic/libbeat/common"
-	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
-	"github.com/sheng855174/elastic/x-pack/metricbeat/module/gcp/metrics"
+	"github.com/elastic/beats/v7/libbeat/common"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/x-pack/metricbeat/module/gcp/metrics"
 )
 
 func TestFetch(t *testing.T) {

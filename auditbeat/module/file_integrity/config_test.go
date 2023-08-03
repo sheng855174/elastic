@@ -26,8 +26,8 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/stretchr/testify/assert"
 
+	"github.com/elastic/beats/v7/libbeat/common"
 	"github.com/elastic/go-ucfg"
-	"github.com/sheng855174/elastictic/libbeat/common"
 )
 
 func TestConfig(t *testing.T) {

@@ -29,10 +29,10 @@ import (
 
 	"github.com/elastic/go-concert/unison"
 
-	v2 "github.com/sheng855174/elastictic/filebeat/input/v2"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/libbeat/statestore"
+	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/statestore"
 )
 
 // InputManager is used to create, manage, and coordinate stateful inputs and

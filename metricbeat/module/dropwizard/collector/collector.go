@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/sheng855174/elastictictic/metricbeat/helper"
-	"github.com/sheng855174/elastictictic/metricbeat/mb"
-	"github.com/sheng855174/elastictictic/metricbeat/mb/parse"
+	"github.com/elastic/beats/v7/metricbeat/helper"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/mb/parse"
 )
 
 const (

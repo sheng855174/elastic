@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/filebeat/input/file"
-	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/elastic/beats/v7/filebeat/input/file"
+	"github.com/elastic/beats/v7/libbeat/beat"
 )
 
 type mockStatefulLogger struct {

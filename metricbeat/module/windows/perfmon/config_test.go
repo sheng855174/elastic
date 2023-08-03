@@ -23,8 +23,8 @@ package perfmon
 import (
 	"testing"
 
+	"github.com/elastic/beats/v7/libbeat/common"
 	"github.com/elastic/go-ucfg"
-	"github.com/sheng855174/elastictic/libbeat/common"
 
 	"github.com/stretchr/testify/assert"
 )

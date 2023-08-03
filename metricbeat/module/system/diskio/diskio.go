@@ -24,13 +24,13 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastictic/libbeat/metric/system/diskio"
-	"github.com/sheng855174/elastictic/metricbeat/mb"
-	"github.com/sheng855174/elastictic/metricbeat/mb/parse"
-	"github.com/sheng855174/elastictic/metricbeat/module/linux/iostat"
-	"github.com/sheng855174/elastictic/metricbeat/module/system"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/libbeat/metric/system/diskio"
+	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/elastic/beats/v7/metricbeat/module/linux/iostat"
+	"github.com/elastic/beats/v7/metricbeat/module/system"
 
 	"github.com/pkg/errors"
 )

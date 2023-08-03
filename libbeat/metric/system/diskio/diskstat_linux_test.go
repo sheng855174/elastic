@@ -27,8 +27,8 @@ import (
 	"github.com/shirou/gopsutil/disk"
 	"github.com/stretchr/testify/assert"
 
+	"github.com/elastic/beats/v7/libbeat/common"
 	sigar "github.com/elastic/gosigar"
-	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 func Test_GetCLKTCK(t *testing.T) {

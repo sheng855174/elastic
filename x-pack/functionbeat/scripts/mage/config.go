@@ -5,7 +5,7 @@
 package mage
 
 import (
-	devtools "github.com/sheng855174/elastic/dev-tools/mage"
+	devtools "github.com/elastic/beats/v7/dev-tools/mage"
 )
 
 // XPackConfigFileParams returns the configuration of sample and reference configuration data.

@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/sheng855174/elastictic/filebeat/channel"
-	"github.com/sheng855174/elastictic/filebeat/input"
-	"github.com/sheng855174/elastictic/filebeat/input/log"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/elastic/beats/v7/filebeat/channel"
+	"github.com/elastic/beats/v7/filebeat/input"
+	"github.com/elastic/beats/v7/filebeat/input/log"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/libbeat/logp"
 
 	"github.com/pkg/errors"
 )

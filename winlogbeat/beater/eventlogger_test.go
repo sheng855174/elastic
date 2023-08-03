@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"stretchr/testify/assert"
+	"github.com/stretchr/testify/assert"
 
-	"libbeat/beat"
-	"libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 func TestProcessorsForConfig(t *testing.T) {

@@ -29,13 +29,13 @@ import (
 	"time"
 	"unsafe"
 
-	"cespare/xxhash/v2"
+	"github.com/cespare/xxhash/v2"
 	"go.uber.org/multierr"
 	"golang.org/x/sys/windows"
 
-	"libbeat/logp"
-	"winlogbeat/sys"
-	"winlogbeat/sys/winevent"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/winlogbeat/sys"
+	"github.com/sheng855174/elastic/winlogbeat/sys/winevent"
 )
 
 const (

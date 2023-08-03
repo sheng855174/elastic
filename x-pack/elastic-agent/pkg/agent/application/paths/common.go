@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
 )
 
 const (

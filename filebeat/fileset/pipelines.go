@@ -24,8 +24,8 @@ import (
 
 	"github.com/joeshaw/multierror"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 // PipelineLoaderFactory builds and returns a PipelineLoader

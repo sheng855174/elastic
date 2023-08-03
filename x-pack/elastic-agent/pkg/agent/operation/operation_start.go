@@ -7,9 +7,9 @@ package operation
 import (
 	"context"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/configuration"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/state"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/configuration"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/state"
 )
 
 // operationStart start installed process

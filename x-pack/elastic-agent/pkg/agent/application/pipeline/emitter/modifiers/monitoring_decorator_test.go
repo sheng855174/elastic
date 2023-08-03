@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/info"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/transpiler"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/info"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/transpiler"
 )
 
 func TestMonitoringInjection(t *testing.T) {

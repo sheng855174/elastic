@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
-	"github.com/sheng855174/elastic/libbeat/logp"
+	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 var inputCtx = v2.Context{

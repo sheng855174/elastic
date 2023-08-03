@@ -29,15 +29,15 @@ import (
 
 	"go.elastic.co/apm/module/apmelasticsearch"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/productorigin"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport/httpcommon"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport/kerberos"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport/tlscommon"
-	"github.com/sheng855174/elastictictic/libbeat/common/useragent"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/libbeat/testing"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/productorigin"
+	"github.com/elastic/beats/v7/libbeat/common/transport"
+	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/elastic/beats/v7/libbeat/common/transport/kerberos"
+	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/elastic/beats/v7/libbeat/common/useragent"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/testing"
 )
 
 type esHTTPClient interface {

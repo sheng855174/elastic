@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	devtools "github.com/sheng855174/elastictic/dev-tools/mage"
+	devtools "github.com/elastic/beats/v7/dev-tools/mage"
 )
 
 // PackageSystemTests packages the python system tests results

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/monitoring"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
 )
 
 var (

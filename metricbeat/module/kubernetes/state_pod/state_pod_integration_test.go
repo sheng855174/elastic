@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/sheng855174/elastictictic/metricbeat/mb/testing"
-	"github.com/sheng855174/elastictictic/metricbeat/module/kubernetes/test"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/metricbeat/module/kubernetes/test"
 )
 
 func TestFetchMetricset(t *testing.T) {

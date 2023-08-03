@@ -22,8 +22,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictic/libbeat/common/cfgwarn"
-	metrics "github.com/sheng855174/elastictic/metricbeat/internal/metrics/cpu"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	metrics "github.com/elastic/beats/v7/metricbeat/internal/metrics/cpu"
 )
 
 // CPU metric types.

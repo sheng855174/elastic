@@ -25,7 +25,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictictic/metricbeat/module/docker"
+	"github.com/elastic/beats/v7/metricbeat/module/docker"
 )
 
 var blkioService BlkioService

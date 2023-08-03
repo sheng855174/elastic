@@ -20,7 +20,7 @@ package meta
 import (
 	"sync"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // Map stores a map of id -> MapStrPointer

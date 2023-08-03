@@ -37,11 +37,11 @@ import (
 	errw "github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/common/cfgwarn"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	mlimporter "github.com/sheng855174/elastictic/libbeat/ml-importer"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	mlimporter "github.com/elastic/beats/v7/libbeat/ml-importer"
 )
 
 // Fileset struct is the representation of a fileset.

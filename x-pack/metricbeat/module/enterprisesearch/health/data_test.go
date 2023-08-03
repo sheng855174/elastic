@@ -10,10 +10,10 @@ package health
 import (
 	"testing"
 
-	"github.com/sheng855174/elastic/libbeat/logp"
-	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 
-	_ "github.com/sheng855174/elastic/x-pack/metricbeat/module/enterprisesearch"
+	_ "github.com/elastic/beats/v7/x-pack/metricbeat/module/enterprisesearch"
 )
 
 func TestEventMapping(t *testing.T) {

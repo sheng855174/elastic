@@ -20,9 +20,9 @@ package main
 import (
 	"os"
 
-	"github.com/sheng855174/elastictictic/heartbeat/cmd"
+	"github.com/elastic/beats/v7/heartbeat/cmd"
 
-	_ "github.com/sheng855174/elastictictic/heartbeat/include"
+	_ "github.com/elastic/beats/v7/heartbeat/include"
 )
 
 func main() {

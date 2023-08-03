@@ -20,7 +20,7 @@ package memory
 import (
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictictic/libbeat/opt"
+	"github.com/elastic/beats/v7/libbeat/opt"
 )
 
 // get is the linux implementation for fetching Memory data

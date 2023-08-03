@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sheng855174/elastic/libbeat/paths"
+	"github.com/elastic/beats/v7/libbeat/paths"
 )
 
 func TestMain(m *testing.M) {

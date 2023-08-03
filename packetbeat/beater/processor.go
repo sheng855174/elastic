@@ -22,18 +22,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sheng855174/elastictic/libbeat/beat"
-	"github.com/sheng855174/elastictic/libbeat/cfgfile"
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	"github.com/sheng855174/elastictic/libbeat/publisher/pipeline"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/cfgfile"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
 
-	"github.com/sheng855174/elastictic/packetbeat/config"
-	"github.com/sheng855174/elastictic/packetbeat/flows"
-	"github.com/sheng855174/elastictic/packetbeat/procs"
-	"github.com/sheng855174/elastictic/packetbeat/protos"
-	"github.com/sheng855174/elastictic/packetbeat/publish"
-	"github.com/sheng855174/elastictic/packetbeat/sniffer"
+	"github.com/elastic/beats/v7/packetbeat/config"
+	"github.com/elastic/beats/v7/packetbeat/flows"
+	"github.com/elastic/beats/v7/packetbeat/procs"
+	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/elastic/beats/v7/packetbeat/publish"
+	"github.com/elastic/beats/v7/packetbeat/sniffer"
 )
 
 type processor struct {

@@ -3,8 +3,8 @@ package cmd
 import (
 	"{beat_path}/beater"
 
-	cmd "github.com/sheng855174/elastictic/libbeat/cmd"
-	"github.com/sheng855174/elastictic/libbeat/cmd/instance"
+	cmd "github.com/elastic/beats/v7/libbeat/cmd"
+	"github.com/elastic/beats/v7/libbeat/cmd/instance"
 )
 
 // Name of this beat

@@ -5,10 +5,10 @@
 package cmd
 
 import (
-	heartbeatCmd "github.com/sheng855174/elastic/heartbeat/cmd"
-	"github.com/sheng855174/elastic/libbeat/cmd"
+	heartbeatCmd "github.com/elastic/beats/v7/heartbeat/cmd"
+	"github.com/elastic/beats/v7/libbeat/cmd"
 
-	_ "github.com/sheng855174/elastic/x-pack/libbeat/include"
+	_ "github.com/elastic/beats/v7/x-pack/libbeat/include"
 )
 
 // RootCmd to handle beats cli

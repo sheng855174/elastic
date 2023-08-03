@@ -21,12 +21,12 @@ import (
 	"context"
 	"time"
 
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common/transport"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/outputs"
+	"github.com/elastic/beats/v7/libbeat/publisher"
 	v2 "github.com/elastic/go-lumber/client/v2"
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common/transport"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
-	"github.com/sheng855174/elastictictic/libbeat/outputs"
-	"github.com/sheng855174/elastictictic/libbeat/publisher"
 )
 
 type syncClient struct {

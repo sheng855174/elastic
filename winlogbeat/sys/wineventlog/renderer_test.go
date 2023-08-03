@@ -31,13 +31,13 @@ import (
 	"text/template"
 	"time"
 
-	"andrewkroh/sys/windows/svc/eventlog"
+	"github.com/andrewkroh/sys/windows/svc/eventlog"
 
-	"stretchr/testify/assert"
+	"github.com/stretchr/testify/assert"
 
-	"libbeat/common/atomic"
-	"libbeat/logp"
-	"winlogbeat/sys/winevent"
+	"github.com/sheng855174/elastic/libbeat/common/atomic"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/winlogbeat/sys/winevent"
 )
 
 func TestRenderer(t *testing.T) {

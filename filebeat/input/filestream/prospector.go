@@ -23,12 +23,12 @@ import (
 
 	"github.com/urso/sderr"
 
-	loginp "github.com/sheng855174/elastictic/filebeat/input/filestream/internal/input-logfile"
-	input "github.com/sheng855174/elastictic/filebeat/input/v2"
-	"github.com/sheng855174/elastictic/libbeat/beat"
+	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
+	input "github.com/elastic/beats/v7/filebeat/input/v2"
+	"github.com/elastic/beats/v7/libbeat/beat"
 
+	"github.com/elastic/beats/v7/libbeat/logp"
 	"github.com/elastic/go-concert/unison"
-	"github.com/sheng855174/elastictic/libbeat/logp"
 )
 
 type ignoreInactiveType uint8

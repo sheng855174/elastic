@@ -20,9 +20,9 @@ package mage
 import (
 	"os"
 
-	"magefile/mage/mg"
+	"github.com/magefile/mage/mg"
 
-	devtools "dev-tools/mage"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
 )
 
 var fb fieldsBuilder

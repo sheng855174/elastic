@@ -30,7 +30,7 @@ import (
 
 	"golang.org/x/sys/windows/svc/eventlog"
 
-	"libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 const gigabyte = 1 << 30

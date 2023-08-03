@@ -20,8 +20,8 @@ package acker
 import (
 	"sync"
 
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
 )
 
 // Nil creates an ACKer that does nothing.

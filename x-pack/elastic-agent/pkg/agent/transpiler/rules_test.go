@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/internal/yamltest"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/internal/yamltest"
 )
 
 func TestRules(t *testing.T) {

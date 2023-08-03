@@ -25,18 +25,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/elastic/beats/v7/heartbeat/eventext"
+	"github.com/elastic/beats/v7/heartbeat/hbtest"
+	"github.com/elastic/beats/v7/heartbeat/hbtestllext"
+	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
+	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/monitoring"
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/isdef"
 	"github.com/elastic/go-lookslike/validator"
-	"github.com/sheng855174/elastictictic/heartbeat/eventext"
-	"github.com/sheng855174/elastictictic/heartbeat/hbtest"
-	"github.com/sheng855174/elastictictic/heartbeat/hbtestllext"
-	"github.com/sheng855174/elastictictic/heartbeat/monitors/jobs"
-	"github.com/sheng855174/elastictictic/heartbeat/monitors/plugin"
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/common/atomic"
-	"github.com/sheng855174/elastictictic/libbeat/monitoring"
 )
 
 type MockBeatClient struct {

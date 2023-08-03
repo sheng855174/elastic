@@ -25,9 +25,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sheng855174/elastictic/libbeat/common"
-	"github.com/sheng855174/elastictic/libbeat/logp"
-	mbtest "github.com/sheng855174/elastictic/metricbeat/mb/testing"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
+	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
 )
 
 func assertExpectations(t *testing.T, expectations common.MapStr, report common.MapStr, message ...string) {

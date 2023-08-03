@@ -23,9 +23,9 @@ package config
 import (
 	"testing"
 
-	"stretchr/testify/assert"
+	"github.com/stretchr/testify/assert"
 
-	"libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 type validationTestCase struct {

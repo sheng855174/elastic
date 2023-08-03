@@ -18,7 +18,7 @@
 package mage
 
 import (
-	devtools "github.com/sheng855174/elastictic/dev-tools/mage"
+	devtools "github.com/elastic/beats/v7/dev-tools/mage"
 )
 
 // GolangCrossBuild build the Beat binary inside of the golang-builder.

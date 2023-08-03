@@ -25,8 +25,8 @@ import (
 
 	errw "github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 // ImportDashboards tries to import the kibana dashboards.

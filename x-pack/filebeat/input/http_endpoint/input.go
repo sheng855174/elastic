@@ -10,12 +10,12 @@ import (
 	"net"
 	"net/http"
 
+	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
+	stateless "github.com/elastic/beats/v7/filebeat/input/v2/input-stateless"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/elastic/beats/v7/libbeat/feature"
 	"github.com/elastic/go-concert/ctxtool"
-	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
-	stateless "github.com/sheng855174/elastic/filebeat/input/v2/input-stateless"
-	"github.com/sheng855174/elastic/libbeat/common"
-	"github.com/sheng855174/elastic/libbeat/common/transport/tlscommon"
-	"github.com/sheng855174/elastic/libbeat/feature"
 )
 
 const (

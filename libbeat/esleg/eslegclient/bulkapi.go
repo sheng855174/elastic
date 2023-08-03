@@ -30,8 +30,8 @@ import (
 	"go.elastic.co/apm"
 	"go.elastic.co/apm/module/apmhttp"
 
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 var (

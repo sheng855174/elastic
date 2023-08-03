@@ -25,14 +25,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/libbeat/beat"
-	"github.com/sheng855174/elastictictic/libbeat/beat/events"
-	"github.com/sheng855174/elastictictic/libbeat/common"
-	"github.com/sheng855174/elastictictic/libbeat/processors"
-	"github.com/sheng855174/elastictictic/libbeat/processors/actions"
+	"github.com/elastic/beats/v7/libbeat/beat"
+	"github.com/elastic/beats/v7/libbeat/beat/events"
+	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/elastic/beats/v7/libbeat/processors"
+	"github.com/elastic/beats/v7/libbeat/processors/actions"
 
-	_ "github.com/sheng855174/elastictictic/libbeat/processors/add_cloud_metadata"
-	_ "github.com/sheng855174/elastictictic/libbeat/processors/add_kubernetes_metadata"
+	_ "github.com/elastic/beats/v7/libbeat/processors/add_cloud_metadata"
+	_ "github.com/elastic/beats/v7/libbeat/processors/add_kubernetes_metadata"
 )
 
 func TestProcessorsForConfig(t *testing.T) {

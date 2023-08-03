@@ -30,7 +30,7 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	"github.com/sheng855174/elastictic/libbeat/common/file"
+	"github.com/elastic/beats/v7/libbeat/common/file"
 )
 
 // NewMetadata returns a new Metadata object. If an error is returned it is

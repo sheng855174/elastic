@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"winlogbeat/sys"
+	"github.com/sheng855174/elastic/winlogbeat/sys"
 )
 
 // EvtHandle is a handle to the event log.

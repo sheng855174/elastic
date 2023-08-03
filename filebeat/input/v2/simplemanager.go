@@ -18,8 +18,8 @@
 package v2
 
 import (
+	"github.com/elastic/beats/v7/libbeat/common"
 	"github.com/elastic/go-concert/unison"
-	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 type simpleInputManager struct {

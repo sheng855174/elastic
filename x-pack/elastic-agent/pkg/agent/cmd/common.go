@@ -13,11 +13,11 @@ import (
 	"github.com/spf13/cobra"
 
 	// import logp flags
-	_ "github.com/sheng855174/elastic/libbeat/logp/configure"
+	_ "github.com/elastic/beats/v7/libbeat/logp/configure"
 
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/basecmd"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/cli"
-	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/basecmd"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/cli"
+	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
 )
 
 func troubleshootMessage() string {

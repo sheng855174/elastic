@@ -26,8 +26,8 @@ import (
 
 	"github.com/elastic/go-concert/unison"
 
-	"github.com/sheng855174/elastictictic/libbeat/common/atomic"
-	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/elastic/beats/v7/libbeat/common/atomic"
+	"github.com/elastic/beats/v7/libbeat/logp"
 )
 
 func init() {

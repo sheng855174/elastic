@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sheng855174/elastictictic/metricbeat/module/logstash"
+	"github.com/elastic/beats/v7/metricbeat/module/logstash"
 )
 
 func TestMakeClusterToPipelinesMap(t *testing.T) {

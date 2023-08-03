@@ -23,8 +23,8 @@ package redis
 import (
 	"testing"
 
-	"github.com/sheng855174/elastictictic/filebeat/input/inputtest"
-	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/elastic/beats/v7/filebeat/input/inputtest"
+	"github.com/elastic/beats/v7/libbeat/common"
 )
 
 func TestNewInputDone(t *testing.T) {
