@@ -194,7 +194,6 @@ require (
 )
 
 require (
-	github.com/sheng855174/elastic v0
 	github.com/elastic/elastic-agent-libs v0.2.11
 	github.com/elastic/elastic-agent-system-metrics v0.4.4
 )
