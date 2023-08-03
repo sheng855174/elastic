@@ -18,7 +18,7 @@
 package input_logfile
 
 import (
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
+	input "github.com/sheng855174/elastic/filebeat/input/v2"
 )
 
 // Prospector is responsible for starting, stopping harvesters

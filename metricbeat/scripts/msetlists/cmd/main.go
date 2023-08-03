@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elastic/beats/v7/libbeat/paths"
-	_ "github.com/elastic/beats/v7/metricbeat/include"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/scripts/msetlists"
+	"github.com/sheng855174/elastic/libbeat/paths"
+	_ "github.com/sheng855174/elastic/metricbeat/include"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/scripts/msetlists"
 )
 
 func main() {

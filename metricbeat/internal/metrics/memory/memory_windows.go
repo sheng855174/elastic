@@ -20,7 +20,7 @@ package memory
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/sheng855174/elastic/libbeat/opt"
 	"github.com/elastic/go-windows"
 )
 

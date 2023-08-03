@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -20,9 +20,9 @@ package mb_test
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb/parse"
 )
 
 var hostParser = parse.URLHostParserBuilder{

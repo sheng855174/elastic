@@ -21,8 +21,8 @@
 package decode_xml_wineventlog
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/winlogbeat/sys/winevent"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/winlogbeat/sys/winevent"
 )
 
 type nonWinDecoder struct{}

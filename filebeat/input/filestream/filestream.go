@@ -28,10 +28,10 @@ import (
 	"github.com/elastic/go-concert/timed"
 	"github.com/elastic/go-concert/unison"
 
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/common/backoff"
-	"github.com/elastic/beats/v7/libbeat/common/file"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	input "github.com/sheng855174/elastic/filebeat/input/v2"
+	"github.com/sheng855174/elastic/libbeat/common/backoff"
+	"github.com/sheng855174/elastic/libbeat/common/file"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 var (

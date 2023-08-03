@@ -28,10 +28,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/libbeat/common/useragent"
-	"github.com/elastic/beats/v7/metricbeat/helper/dialer"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastic/libbeat/common/useragent"
+	"github.com/sheng855174/elastic/metricbeat/helper/dialer"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 )
 
 var userAgent = useragent.UserAgent("Metricbeat", true)

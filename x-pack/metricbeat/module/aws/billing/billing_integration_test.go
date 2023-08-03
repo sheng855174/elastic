@@ -14,11 +14,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	_ "github.com/elastic/beats/v7/libbeat/processors/actions"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/aws"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/aws/mtest"
+	"github.com/sheng855174/elastic/libbeat/common"
+	_ "github.com/sheng855174/elastic/libbeat/processors/actions"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	"github.com/sheng855174/elastic/x-pack/metricbeat/module/aws"
+	"github.com/sheng855174/elastic/x-pack/metricbeat/module/aws/mtest"
 )
 
 func TestFetch(t *testing.T) {

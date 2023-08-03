@@ -18,9 +18,9 @@
 package memqueue
 
 import (
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/publisher"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/publisher"
+	"github.com/sheng855174/elastic/libbeat/publisher/queue"
 )
 
 type forgetfulProducer struct {

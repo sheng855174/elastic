@@ -23,11 +23,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/elastic"
+	"github.com/sheng855174/elastic/metricbeat/helper/elastic"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	b "github.com/elastic/beats/v7/metricbeat/module/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	b "github.com/sheng855174/elastic/metricbeat/module/beat"
 )
 
 func eventMappingXPack(r mb.ReporterV2, m *MetricSet, info b.Info, content []byte) error {

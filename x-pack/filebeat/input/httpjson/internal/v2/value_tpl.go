@@ -23,7 +23,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // we define custom delimiters to prevent issues when using template values as part of other Go templates.

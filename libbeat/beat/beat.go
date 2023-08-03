@@ -18,11 +18,11 @@
 package beat
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	"github.com/elastic/beats/v7/libbeat/instrumentation"
-	"github.com/elastic/beats/v7/libbeat/keystore"
-	"github.com/elastic/beats/v7/libbeat/management"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/reload"
+	"github.com/sheng855174/elastic/libbeat/instrumentation"
+	"github.com/sheng855174/elastic/libbeat/keystore"
+	"github.com/sheng855174/elastic/libbeat/management"
 )
 
 // Creator initializes and configures a new Beater instance used to execute

@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/cfgtype"
-	"github.com/elastic/beats/v7/libbeat/paths"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/cfgtype"
+	"github.com/sheng855174/elastic/libbeat/paths"
+	"github.com/sheng855174/elastic/libbeat/publisher/queue"
 )
 
 // Settings contains the configuration fields to create a new disk queue

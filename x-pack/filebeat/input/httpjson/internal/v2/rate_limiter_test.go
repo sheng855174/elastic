@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // Test getRateLimit function with a remaining quota, expect to receive 0, nil.

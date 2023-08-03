@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 // ProxyHeaders is a headers for proxy serialized as a map[string]string.

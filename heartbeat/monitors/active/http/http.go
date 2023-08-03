@@ -22,15 +22,15 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
+	"github.com/sheng855174/elastic/heartbeat/monitors/plugin"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/v7/libbeat/common/useragent"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/heartbeat/monitors/jobs"
+	"github.com/sheng855174/elastic/heartbeat/monitors/wrappers"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastic/libbeat/common/transport/tlscommon"
+	"github.com/sheng855174/elastic/libbeat/common/useragent"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 func init() {

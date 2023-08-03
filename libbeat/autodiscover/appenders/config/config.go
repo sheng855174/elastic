@@ -22,13 +22,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/autodiscover/template"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/conditions"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/autodiscover"
+	"github.com/sheng855174/elastic/libbeat/autodiscover/template"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/bus"
+	"github.com/sheng855174/elastic/libbeat/common/cfgwarn"
+	"github.com/sheng855174/elastic/libbeat/conditions"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 func init() {

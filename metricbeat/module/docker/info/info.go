@@ -22,9 +22,9 @@ import (
 
 	"github.com/docker/docker/client"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/docker"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/module/docker"
 )
 
 func init() {

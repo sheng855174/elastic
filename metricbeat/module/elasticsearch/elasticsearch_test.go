@@ -22,19 +22,19 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/metricbeat/module/elasticsearch"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	"github.com/sheng855174/elastic/metricbeat/module/elasticsearch"
 
 	// Make sure metricsets are registered in mb.Registry
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/ccr"
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/cluster_stats"
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/enrich"
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/index"
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/index_recovery"
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/index_summary"
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/ml_job"
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/node_stats"
-	_ "github.com/elastic/beats/v7/metricbeat/module/elasticsearch/shard"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/ccr"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/cluster_stats"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/enrich"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/index"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/index_recovery"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/index_summary"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/ml_job"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/node_stats"
+	_ "github.com/sheng855174/elastic/metricbeat/module/elasticsearch/shard"
 )
 
 func TestXPackEnabledMetricsets(t *testing.T) {

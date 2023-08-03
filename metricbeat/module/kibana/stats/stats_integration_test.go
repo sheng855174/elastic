@@ -28,12 +28,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/tests/compose"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/metricbeat/module/kibana"
-	"github.com/elastic/beats/v7/metricbeat/module/kibana/mtest"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	"github.com/sheng855174/elastic/metricbeat/module/kibana"
+	"github.com/sheng855174/elastic/metricbeat/module/kibana/mtest"
 )
 
 func TestFetch(t *testing.T) {

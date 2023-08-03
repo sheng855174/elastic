@@ -30,13 +30,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	pubtest "github.com/elastic/beats/v7/libbeat/publisher/testing"
-	"github.com/elastic/beats/v7/libbeat/tests/resources"
+	input "github.com/sheng855174/elastic/filebeat/input/v2"
+	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	pubtest "github.com/sheng855174/elastic/libbeat/publisher/testing"
+	"github.com/sheng855174/elastic/libbeat/tests/resources"
 	"github.com/elastic/go-concert/unison"
 )
 

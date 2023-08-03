@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/common/cli"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/sheng855174/elastic/libbeat/cmd/instance"
+	"github.com/sheng855174/elastic/libbeat/common/cli"
+	"github.com/sheng855174/elastic/libbeat/version"
 )
 
 // GenVersionCmd generates the command version for a Beat.

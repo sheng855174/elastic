@@ -18,8 +18,8 @@
 package memory
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common"
-	linux "github.com/elastic/beats/v7/metricbeat/module/linux/memory"
+	"github.com/sheng855174/elastic/libbeat/common"
+	linux "github.com/sheng855174/elastic/metricbeat/module/linux/memory"
 	sysinfotypes "github.com/elastic/go-sysinfo/types"
 )
 

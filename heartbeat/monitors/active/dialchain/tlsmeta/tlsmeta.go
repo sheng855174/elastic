@@ -28,9 +28,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/look"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/sheng855174/elastic/heartbeat/look"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/transport/tlscommon"
 )
 
 // UnknownTLSHandshakeDuration to be used in AddTLSMetadata when the duration of the TLS handshake can't be determined.

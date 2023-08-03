@@ -24,10 +24,10 @@ import (
 
 	"golang.org/x/net/netutil"
 
-	"github.com/elastic/beats/v7/filebeat/inputsource"
-	"github.com/elastic/beats/v7/filebeat/inputsource/common/dgram"
-	"github.com/elastic/beats/v7/filebeat/inputsource/common/streaming"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/filebeat/inputsource"
+	"github.com/sheng855174/elastic/filebeat/inputsource/common/dgram"
+	"github.com/sheng855174/elastic/filebeat/inputsource/common/streaming"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // Server is run by the input.

@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	mtest "github.com/elastic/beats/v7/x-pack/metricbeat/module/mssql/testing"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/tests/compose"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	mtest "github.com/sheng855174/elastic/x-pack/metricbeat/module/mssql/testing"
 )
 
 func TestFetch(t *testing.T) {

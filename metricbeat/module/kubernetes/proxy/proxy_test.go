@@ -24,7 +24,7 @@ package proxy
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/prometheus/ptest"
+	"github.com/sheng855174/elastic/metricbeat/helper/prometheus/ptest"
 )
 
 const testFile = "_meta/test/metrics"

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/elastic/beats/v7/libbeat/common/flowhash"
+	"github.com/sheng855174/elastic/libbeat/common/flowhash"
 )
 
 // ExampleCommunityIDHash shows example usage for flowhash.CommunityID.Hash()

@@ -21,15 +21,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/filebeat/harvester"
-	"github.com/elastic/beats/v7/filebeat/input"
-	"github.com/elastic/beats/v7/filebeat/inputsource"
-	"github.com/elastic/beats/v7/filebeat/inputsource/common/streaming"
-	"github.com/elastic/beats/v7/filebeat/inputsource/tcp"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/filebeat/channel"
+	"github.com/sheng855174/elastic/filebeat/harvester"
+	"github.com/sheng855174/elastic/filebeat/input"
+	"github.com/sheng855174/elastic/filebeat/inputsource"
+	"github.com/sheng855174/elastic/filebeat/inputsource/common/streaming"
+	"github.com/sheng855174/elastic/filebeat/inputsource/tcp"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 func init() {

@@ -5,7 +5,7 @@
 package telemetry
 
 import (
-	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/sheng855174/elastic/libbeat/monitoring"
 )
 
 // T is a telemetry instance

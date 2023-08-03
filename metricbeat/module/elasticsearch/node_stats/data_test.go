@@ -23,7 +23,7 @@ package node_stats
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/module/elasticsearch"
+	"github.com/sheng855174/elastic/metricbeat/module/elasticsearch"
 )
 
 func TestStats(t *testing.T) {

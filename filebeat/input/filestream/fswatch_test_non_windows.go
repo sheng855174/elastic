@@ -32,9 +32,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
-	"github.com/elastic/beats/v7/libbeat/common/match"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	loginp "github.com/sheng855174/elastic/filebeat/input/filestream/internal/input-logfile"
+	"github.com/sheng855174/elastic/libbeat/common/match"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 func TestFileScannerSymlinks(t *testing.T) {

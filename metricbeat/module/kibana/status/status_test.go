@@ -23,9 +23,9 @@ package status
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/v7/metricbeat/module/kibana"
+	_ "github.com/sheng855174/elastic/metricbeat/module/kibana"
 )
 
 func TestData(t *testing.T) {

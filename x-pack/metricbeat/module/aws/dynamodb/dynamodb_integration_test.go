@@ -10,8 +10,8 @@ package dynamodb
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/aws/mtest"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	"github.com/sheng855174/elastic/x-pack/metricbeat/module/aws/mtest"
 )
 
 func TestData(t *testing.T) {

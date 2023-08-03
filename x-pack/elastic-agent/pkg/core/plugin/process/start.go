@@ -13,14 +13,14 @@ import (
 
 	"github.com/elastic/elastic-agent-client/v7/pkg/proto"
 
-	"github.com/elastic/beats/v7/libbeat/common/proc"
+	"github.com/sheng855174/elastic/libbeat/common/proc"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/app"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/process"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/server"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/state"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/app"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/process"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/server"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/state"
 )
 
 // Start starts the application with a specified config.
@@ -122,7 +122,7 @@ func (a *Application) start(ctx context.Context, t app.Taggable, cfg map[string]
 	spec.Args = a.monitor.EnrichArgs(a.desc.Spec(), a.pipelineID, spec.Args, isSidecar)
 
 	// specify beat name to avoid data lock conflicts
-	// as for https://github.com/elastic/beats/v7/pull/14030 more than one instance
+	// as for https://github.com/sheng855174/elastic/pull/14030 more than one instance
 	// of the beat with same data path fails to start
 	spec.Args = injectDataPath(spec.Args, a.pipelineID, a.id)
 

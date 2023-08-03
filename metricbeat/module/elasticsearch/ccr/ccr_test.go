@@ -25,9 +25,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/metricbeat/module/elasticsearch"
+	"github.com/sheng855174/elastic/metricbeat/module/elasticsearch"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
 )
 
 func startESServer(esVersion, license string, ccrEnabled bool) *httptest.Server {

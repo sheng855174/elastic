@@ -22,9 +22,9 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/beats/v7/filebeat/harvester"
-	"github.com/elastic/beats/v7/filebeat/inputsource/common/streaming"
-	"github.com/elastic/beats/v7/filebeat/inputsource/tcp"
+	"github.com/sheng855174/elastic/filebeat/harvester"
+	"github.com/sheng855174/elastic/filebeat/inputsource/common/streaming"
+	"github.com/sheng855174/elastic/filebeat/inputsource/tcp"
 )
 
 type config struct {

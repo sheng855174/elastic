@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/sheng855174/elastic/libbeat/opt"
 )
 
 func TestPressure(t *testing.T) {

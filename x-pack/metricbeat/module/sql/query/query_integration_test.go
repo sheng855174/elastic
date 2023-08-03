@@ -19,12 +19,12 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/metricbeat/module/mysql"
-	"github.com/elastic/beats/v7/metricbeat/module/postgresql"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/tests/compose"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
+	"github.com/sheng855174/elastic/metricbeat/module/mysql"
+	"github.com/sheng855174/elastic/metricbeat/module/postgresql"
 )
 
 type testFetchConfig struct {

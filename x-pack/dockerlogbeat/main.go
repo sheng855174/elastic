@@ -11,18 +11,18 @@ import (
 
 	"github.com/docker/go-plugins-helpers/sdk"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	logpcfg "github.com/elastic/beats/v7/libbeat/logp/configure"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/console"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/elasticsearch"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/fileout"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/kafka"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/logstash"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/redis"
-	_ "github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue"
-	_ "github.com/elastic/beats/v7/libbeat/publisher/queue/spool"
-	"github.com/elastic/beats/v7/libbeat/service"
-	"github.com/elastic/beats/v7/x-pack/dockerlogbeat/pipelinemanager"
+	"github.com/sheng855174/elastic/libbeat/common"
+	logpcfg "github.com/sheng855174/elastic/libbeat/logp/configure"
+	_ "github.com/sheng855174/elastic/libbeat/outputs/console"
+	_ "github.com/sheng855174/elastic/libbeat/outputs/elasticsearch"
+	_ "github.com/sheng855174/elastic/libbeat/outputs/fileout"
+	_ "github.com/sheng855174/elastic/libbeat/outputs/kafka"
+	_ "github.com/sheng855174/elastic/libbeat/outputs/logstash"
+	_ "github.com/sheng855174/elastic/libbeat/outputs/redis"
+	_ "github.com/sheng855174/elastic/libbeat/publisher/queue/memqueue"
+	_ "github.com/sheng855174/elastic/libbeat/publisher/queue/spool"
+	"github.com/sheng855174/elastic/libbeat/service"
+	"github.com/sheng855174/elastic/x-pack/dockerlogbeat/pipelinemanager"
 )
 
 // genNewMonitoringConfig is a hacked-in function to enable a debug stderr logger

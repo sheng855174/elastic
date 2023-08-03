@@ -22,7 +22,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/reader"
+	"github.com/sheng855174/elastic/libbeat/reader"
 )
 
 var (

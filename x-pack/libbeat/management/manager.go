@@ -18,11 +18,11 @@ import (
 	"github.com/elastic/elastic-agent-client/v7/pkg/client"
 	"github.com/elastic/elastic-agent-client/v7/pkg/proto"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	lbmanagement "github.com/elastic/beats/v7/libbeat/management"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/cfgwarn"
+	"github.com/sheng855174/elastic/libbeat/common/reload"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	lbmanagement "github.com/sheng855174/elastic/libbeat/management"
 )
 
 var notReportedErrors = []error{

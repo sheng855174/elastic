@@ -22,10 +22,10 @@ import (
 
 	libmqtt "github.com/eclipse/paho.mqtt.golang"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/backoff"
+	"github.com/sheng855174/elastic/filebeat/channel"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/backoff"
 )
 
 type mockedMessage struct {

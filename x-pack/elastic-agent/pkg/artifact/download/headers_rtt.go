@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
 )
 
 // Headers is a collection of headers used in download client.

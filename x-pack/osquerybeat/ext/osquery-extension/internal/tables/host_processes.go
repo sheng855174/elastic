@@ -13,8 +13,8 @@ import (
 
 	"github.com/osquery/osquery-go/plugin/table"
 
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/ext/osquery-extension/internal/hostfs"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/ext/osquery-extension/internal/proc"
+	"github.com/sheng855174/elastic/x-pack/osquerybeat/ext/osquery-extension/internal/hostfs"
+	"github.com/sheng855174/elastic/x-pack/osquerybeat/ext/osquery-extension/internal/proc"
 )
 
 const (

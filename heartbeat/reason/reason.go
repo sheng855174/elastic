@@ -17,7 +17,7 @@
 
 package reason
 
-import "github.com/elastic/beats/v7/libbeat/common"
+import "github.com/sheng855174/elastic/libbeat/common"
 
 type Reason interface {
 	error

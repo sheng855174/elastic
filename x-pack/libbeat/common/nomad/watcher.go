@@ -10,7 +10,7 @@ import (
 
 	api "github.com/hashicorp/nomad/api"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // Max back off time for retries

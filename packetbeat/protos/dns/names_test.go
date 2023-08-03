@@ -32,8 +32,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/packetbeat/pb"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/packetbeat/pb"
 )
 
 type dnsTestMsg struct {

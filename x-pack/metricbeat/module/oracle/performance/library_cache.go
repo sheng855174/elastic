@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/oracle"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/x-pack/metricbeat/module/oracle"
 )
 
 type libraryCache struct {

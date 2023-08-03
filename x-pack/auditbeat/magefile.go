@@ -15,17 +15,17 @@ import (
 	"github.com/magefile/mage/sh"
 	"github.com/pkg/errors"
 
-	auditbeat "github.com/elastic/beats/v7/auditbeat/scripts/mage"
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
+	auditbeat "github.com/sheng855174/elastic/auditbeat/scripts/mage"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
 
 	// mage:import
-	"github.com/elastic/beats/v7/dev-tools/mage/target/common"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/common"
 	// mage:import
-	"github.com/elastic/beats/v7/dev-tools/mage/target/unittest"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/unittest"
 	// mage:import
-	_ "github.com/elastic/beats/v7/dev-tools/mage/target/integtest"
+	_ "github.com/sheng855174/elastic/dev-tools/mage/target/integtest"
 	// mage:import
-	_ "github.com/elastic/beats/v7/dev-tools/mage/target/test"
+	_ "github.com/sheng855174/elastic/dev-tools/mage/target/test"
 )
 
 func init() {
@@ -218,7 +218,7 @@ func installDependencies(arch string, pkgs ...string) error {
 	// TODO: This is only for debian 7 and should be removed when move to a newer OS. This flag is
 	// going to be used unnecessary when building using non-debian7 images
 	// (like when making the linux/arm binaries) and we should remove it soonish.
-	// See https://github.com/elastic/beats/v7/issues/11750 for more details.
+	// See https://github.com/sheng855174/elastic/issues/11750 for more details.
 	if err := sh.Run("apt-get", "update", "-o", "Acquire::Check-Valid-Until=false"); err != nil {
 		return err
 	}

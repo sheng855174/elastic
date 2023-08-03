@@ -26,7 +26,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/paths"
+	"github.com/sheng855174/elastic/libbeat/paths"
 )
 
 // getCPU implements NumCPU on linux

@@ -20,8 +20,8 @@ package linux
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/paths"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/libbeat/paths"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 )
 
 func init() {

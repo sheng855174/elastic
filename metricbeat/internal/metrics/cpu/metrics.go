@@ -20,8 +20,8 @@ package cpu
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/opt"
 )
 
 // CPU manages the CPU metrics from /proc/stat

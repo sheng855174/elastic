@@ -23,7 +23,7 @@ package memory
 import (
 	"errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 	sysinfotypes "github.com/elastic/go-sysinfo/types"
 )
 

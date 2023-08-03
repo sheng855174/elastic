@@ -21,9 +21,9 @@
 package inputs
 
 import (
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 type osComponents interface{}

@@ -9,11 +9,11 @@ import (
 
 	"github.com/elastic/go-concert/unison"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	inputcursor "github.com/elastic/beats/v7/filebeat/input/v2/input-cursor"
-	stateless "github.com/elastic/beats/v7/filebeat/input/v2/input-stateless"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
+	inputcursor "github.com/sheng855174/elastic/filebeat/input/v2/input-cursor"
+	stateless "github.com/sheng855174/elastic/filebeat/input/v2/input-stateless"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // inputManager wraps one stateless input manager

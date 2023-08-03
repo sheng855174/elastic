@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi/client"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi/client"
 )
 
 const fleetTimeFormat = "2006-01-02T15:04:05.99999-07:00"

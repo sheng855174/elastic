@@ -20,12 +20,12 @@ package add_id
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/processors/add_id/generator"
+	"github.com/sheng855174/elastic/libbeat/processors/add_id/generator"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/processors"
-	jsprocessor "github.com/elastic/beats/v7/libbeat/processors/script/javascript/module/processor"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/processors"
+	jsprocessor "github.com/sheng855174/elastic/libbeat/processors/script/javascript/module/processor"
 )
 
 func init() {

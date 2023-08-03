@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/filelock"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/filelock"
 )
 
 // defaultAgentCapabilitiesFile is a name of file used to store agent capabilities

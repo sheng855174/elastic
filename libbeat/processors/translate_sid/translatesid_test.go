@@ -29,8 +29,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sys/windows"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/winlogbeat/sys/winevent"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/winlogbeat/sys/winevent"
 )
 
 func TestTranslateSID(t *testing.T) {

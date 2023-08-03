@@ -7,7 +7,7 @@ package collector
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 // CounterCache keeps a cache of the last value of all given counters

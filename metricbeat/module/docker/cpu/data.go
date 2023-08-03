@@ -18,8 +18,8 @@
 package cpu
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 )
 
 func eventsMapping(r mb.ReporterV2, cpuStatsList []CPUStats) {

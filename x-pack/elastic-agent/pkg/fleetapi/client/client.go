@@ -14,10 +14,10 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/remote"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/remote"
 )
 
 // Sender is an sender interface describing client behavior.

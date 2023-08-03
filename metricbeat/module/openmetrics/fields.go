@@ -20,7 +20,7 @@
 package openmetrics
 
 import (
-	"github.com/elastic/beats/v7/libbeat/asset"
+	"github.com/sheng855174/elastic/libbeat/asset"
 )
 
 func init() {

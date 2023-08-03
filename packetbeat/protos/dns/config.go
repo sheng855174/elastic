@@ -18,8 +18,8 @@
 package dns
 
 import (
-	"github.com/elastic/beats/v7/packetbeat/config"
-	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/sheng855174/elastic/packetbeat/config"
+	"github.com/sheng855174/elastic/packetbeat/protos"
 )
 
 type dnsConfig struct {

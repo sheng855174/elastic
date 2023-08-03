@@ -23,9 +23,9 @@ package info
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/tests/compose"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

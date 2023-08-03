@@ -8,13 +8,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/gateway"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/pipeline"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/configuration"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi/client"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/gateway"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/pipeline"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/configuration"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi/client"
 )
 
 const gatewayWait = 2 * time.Second

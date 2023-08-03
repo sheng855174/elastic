@@ -23,17 +23,17 @@ package collector
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 
 	"github.com/golang/protobuf/proto"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	p "github.com/elastic/beats/v7/metricbeat/helper/prometheus"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/sheng855174/elastic/libbeat/common"
+	p "github.com/sheng855174/elastic/metricbeat/helper/prometheus"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/v7/metricbeat/module/prometheus"
+	_ "github.com/sheng855174/elastic/metricbeat/module/prometheus"
 )
 
 func TestGetPromEventsFromMetricFamily(t *testing.T) {

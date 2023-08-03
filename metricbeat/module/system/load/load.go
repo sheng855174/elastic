@@ -23,11 +23,11 @@ package load
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/metric/system/cpu"
-	"github.com/elastic/beats/v7/libbeat/metric/system/numcpu"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/metric/system/cpu"
+	"github.com/sheng855174/elastic/libbeat/metric/system/numcpu"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb/parse"
 )
 
 func init() {

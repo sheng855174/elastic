@@ -21,10 +21,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/elastic/beats/v7/libbeat/common/fleetmode"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/paths"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/libbeat/common/fleetmode"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/paths"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 )
 
 var once sync.Once

@@ -12,11 +12,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control/client"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/download"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/cli"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control/client"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/download"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/cli"
 )
 
 const (

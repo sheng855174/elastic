@@ -18,9 +18,9 @@
 package filestream
 
 import (
-	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	loginp "github.com/sheng855174/elastic/filebeat/input/filestream/internal/input-logfile"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 type fingerprintIdentifier struct {

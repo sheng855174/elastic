@@ -29,7 +29,7 @@ import (
 	"github.com/fsnotify/fsevents"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 type fsreader struct {

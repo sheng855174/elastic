@@ -22,10 +22,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	p "github.com/elastic/beats/v7/metricbeat/helper/prometheus"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	k8smod "github.com/elastic/beats/v7/metricbeat/module/kubernetes"
+	"github.com/sheng855174/elastic/libbeat/common"
+	p "github.com/sheng855174/elastic/metricbeat/helper/prometheus"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	k8smod "github.com/sheng855174/elastic/metricbeat/module/kubernetes"
 )
 
 func init() {

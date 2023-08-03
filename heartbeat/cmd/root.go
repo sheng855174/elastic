@@ -20,20 +20,20 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/heartbeat/beater"
+	"github.com/sheng855174/elastic/heartbeat/beater"
 
 	// include all heartbeat specific autodiscovery builders
-	_ "github.com/elastic/beats/v7/heartbeat/autodiscover/builder/hints"
+	_ "github.com/sheng855174/elastic/heartbeat/autodiscover/builder/hints"
 
-	cmd "github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/publisher/processing"
+	cmd "github.com/sheng855174/elastic/libbeat/cmd"
+	"github.com/sheng855174/elastic/libbeat/cmd/instance"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/publisher/processing"
 
 	// Import packages that need to register themselves.
-	_ "github.com/elastic/beats/v7/heartbeat/monitors/active/http"
-	_ "github.com/elastic/beats/v7/heartbeat/monitors/active/icmp"
-	_ "github.com/elastic/beats/v7/heartbeat/monitors/active/tcp"
+	_ "github.com/sheng855174/elastic/heartbeat/monitors/active/http"
+	_ "github.com/sheng855174/elastic/heartbeat/monitors/active/icmp"
+	_ "github.com/sheng855174/elastic/heartbeat/monitors/active/tcp"
 )
 
 const (

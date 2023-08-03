@@ -21,9 +21,9 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/elastic/beats/v7/libbeat/common/schema"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/mongodb"
+	"github.com/sheng855174/elastic/libbeat/common/schema"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/module/mongodb"
 )
 
 func init() {

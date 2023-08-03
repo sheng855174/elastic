@@ -22,7 +22,7 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/beats/v7/filebeat/inputsource/unix"
+	"github.com/sheng855174/elastic/filebeat/inputsource/unix"
 )
 
 type config struct {

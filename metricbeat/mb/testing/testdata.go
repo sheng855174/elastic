@@ -32,13 +32,13 @@ import (
 	"github.com/mitchellh/hashstructure"
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/v7/libbeat/asset"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/mapping"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/testing/flags"
+	"github.com/sheng855174/elastic/libbeat/asset"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/mapping"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb/testing/flags"
 
-	_ "github.com/elastic/beats/v7/metricbeat/include/fields"
+	_ "github.com/sheng855174/elastic/metricbeat/include/fields"
 )
 
 const (

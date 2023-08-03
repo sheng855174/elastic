@@ -11,11 +11,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	c "github.com/elastic/beats/v7/libbeat/common/cli"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/filelock"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/install"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/cli"
+	c "github.com/sheng855174/elastic/libbeat/common/cli"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/filelock"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/install"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/cli"
 )
 
 func newInstallCommandWithArgs(_ []string, streams *cli.IOStreams) *cobra.Command {

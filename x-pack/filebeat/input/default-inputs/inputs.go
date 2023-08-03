@@ -5,17 +5,17 @@
 package inputs
 
 import (
-	"github.com/elastic/beats/v7/filebeat/beater"
-	ossinputs "github.com/elastic/beats/v7/filebeat/input/default-inputs"
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/awscloudwatch"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/awss3"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/cloudfoundry"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/http_endpoint"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/httpjson"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/o365audit"
+	"github.com/sheng855174/elastic/filebeat/beater"
+	ossinputs "github.com/sheng855174/elastic/filebeat/input/default-inputs"
+	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/awscloudwatch"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/awss3"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/cloudfoundry"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/http_endpoint"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/httpjson"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/o365audit"
 )
 
 func Init(info beat.Info, log *logp.Logger, store beater.StateStore) []v2.Plugin {

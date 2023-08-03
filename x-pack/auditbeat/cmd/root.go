@@ -5,12 +5,12 @@
 package cmd
 
 import (
-	auditbeatcmd "github.com/elastic/beats/v7/auditbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/cmd"
+	auditbeatcmd "github.com/sheng855174/elastic/auditbeat/cmd"
+	"github.com/sheng855174/elastic/libbeat/cmd"
 
 	// Register Auditbeat x-pack modules.
-	_ "github.com/elastic/beats/v7/x-pack/auditbeat/include"
-	_ "github.com/elastic/beats/v7/x-pack/libbeat/include"
+	_ "github.com/sheng855174/elastic/x-pack/auditbeat/include"
+	_ "github.com/sheng855174/elastic/x-pack/libbeat/include"
 )
 
 // Name of the beat

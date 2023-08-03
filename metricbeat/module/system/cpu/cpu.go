@@ -23,11 +23,11 @@ package cpu
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	metrics "github.com/elastic/beats/v7/metricbeat/internal/metrics/cpu"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/metricbeat/module/system"
+	"github.com/sheng855174/elastic/libbeat/common"
+	metrics "github.com/sheng855174/elastic/metricbeat/internal/metrics/cpu"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb/parse"
+	"github.com/sheng855174/elastic/metricbeat/module/system"
 )
 
 func init() {

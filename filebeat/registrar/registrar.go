@@ -25,11 +25,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
-	"github.com/elastic/beats/v7/libbeat/statestore"
-	"github.com/elastic/beats/v7/libbeat/statestore/backend"
+	"github.com/sheng855174/elastic/filebeat/input/file"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/monitoring"
+	"github.com/sheng855174/elastic/libbeat/statestore"
+	"github.com/sheng855174/elastic/libbeat/statestore/backend"
 )
 
 type Registrar struct {

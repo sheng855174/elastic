@@ -25,9 +25,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/elastic/beats/v7/filebeat/inputsource"
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/filebeat/inputsource"
+	"github.com/sheng855174/elastic/libbeat/common/atomic"
+	"github.com/sheng855174/elastic/libbeat/logp"
 	"github.com/elastic/go-concert/ctxtool"
 )
 

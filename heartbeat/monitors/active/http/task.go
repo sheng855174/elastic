@@ -31,18 +31,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/active/dialchain/tlsmeta"
+	"github.com/sheng855174/elastic/heartbeat/monitors/active/dialchain/tlsmeta"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/look"
-	"github.com/elastic/beats/v7/heartbeat/monitors"
-	"github.com/elastic/beats/v7/heartbeat/monitors/active/dialchain"
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/reason"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/sheng855174/elastic/heartbeat/eventext"
+	"github.com/sheng855174/elastic/heartbeat/look"
+	"github.com/sheng855174/elastic/heartbeat/monitors"
+	"github.com/sheng855174/elastic/heartbeat/monitors/active/dialchain"
+	"github.com/sheng855174/elastic/heartbeat/monitors/jobs"
+	"github.com/sheng855174/elastic/heartbeat/reason"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastic/libbeat/common/transport/tlscommon"
 )
 
 type requestFactory func() (*http.Request, error)

@@ -32,7 +32,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 const namespaceFilePath = "/var/run/secrets/kubernetes.io/serviceaccount/namespace"

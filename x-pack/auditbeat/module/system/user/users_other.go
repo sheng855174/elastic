@@ -10,7 +10,7 @@ package user
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 )
 
 const (

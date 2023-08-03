@@ -7,11 +7,11 @@ package test
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/x-pack/winlogbeat/module"
+	"github.com/sheng855174/elastic/x-pack/winlogbeat/module"
 
 	// Register required processors.
-	_ "github.com/elastic/beats/v7/libbeat/cmd/instance"
-	_ "github.com/elastic/beats/v7/libbeat/processors/timestamp"
+	_ "github.com/sheng855174/elastic/libbeat/cmd/instance"
+	_ "github.com/sheng855174/elastic/libbeat/processors/timestamp"
 )
 
 // Ignore these fields because they can be different on different versions

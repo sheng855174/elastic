@@ -15,18 +15,18 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/info"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/pipeline"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/pipeline/actions"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/configuration"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/storage"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/storage/store"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi/client"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/remote"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/info"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/pipeline"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/pipeline/actions"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/configuration"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/storage"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/storage/store"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi/client"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/remote"
 )
 
 const (

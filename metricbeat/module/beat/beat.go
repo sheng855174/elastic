@@ -24,10 +24,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/helper"
-	"github.com/elastic/beats/v7/metricbeat/helper/elastic"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/metricbeat/helper"
+	"github.com/sheng855174/elastic/metricbeat/helper/elastic"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 )
 
 func init() {

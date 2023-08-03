@@ -10,9 +10,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/composable"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/composable"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 var varsRegex = regexp.MustCompile(`\${([\p{L}\d\s\\\-_|.'":\/]*)}`)

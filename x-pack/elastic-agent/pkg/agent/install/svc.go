@@ -9,7 +9,7 @@ import (
 
 	"github.com/kardianos/service"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
 )
 
 const (

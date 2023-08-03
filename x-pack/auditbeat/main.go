@@ -7,14 +7,14 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/v7/x-pack/auditbeat/cmd"
+	"github.com/sheng855174/elastic/x-pack/auditbeat/cmd"
 
 	// Register modules.
-	_ "github.com/elastic/beats/v7/auditbeat/module/auditd"
-	_ "github.com/elastic/beats/v7/auditbeat/module/file_integrity"
+	_ "github.com/sheng855174/elastic/auditbeat/module/auditd"
+	_ "github.com/sheng855174/elastic/auditbeat/module/file_integrity"
 
 	// Register includes.
-	_ "github.com/elastic/beats/v7/auditbeat/include"
+	_ "github.com/sheng855174/elastic/auditbeat/include"
 )
 
 func main() {

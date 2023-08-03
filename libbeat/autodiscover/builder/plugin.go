@@ -20,8 +20,8 @@ package builder
 import (
 	"errors"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	p "github.com/elastic/beats/v7/libbeat/plugin"
+	"github.com/sheng855174/elastic/libbeat/autodiscover"
+	p "github.com/sheng855174/elastic/libbeat/plugin"
 )
 
 type builderPlugin struct {

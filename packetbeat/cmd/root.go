@@ -22,14 +22,14 @@ import (
 
 	"github.com/spf13/pflag"
 
-	cmd "github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/publisher/processing"
-	"github.com/elastic/beats/v7/packetbeat/beater"
+	cmd "github.com/sheng855174/elastic/libbeat/cmd"
+	"github.com/sheng855174/elastic/libbeat/cmd/instance"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/publisher/processing"
+	"github.com/sheng855174/elastic/packetbeat/beater"
 
 	// Register fields and protocol modules.
-	_ "github.com/elastic/beats/v7/packetbeat/include"
+	_ "github.com/sheng855174/elastic/packetbeat/include"
 )
 
 const (

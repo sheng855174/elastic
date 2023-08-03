@@ -24,10 +24,10 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/streambuf"
-	"github.com/elastic/beats/v7/packetbeat/procs"
-	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/streambuf"
+	"github.com/sheng855174/elastic/packetbeat/procs"
+	"github.com/sheng855174/elastic/packetbeat/protos"
 )
 
 // Http Message

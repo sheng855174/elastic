@@ -35,15 +35,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/active/dialchain/tlsmeta"
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/heartbeat/monitors/active/dialchain/tlsmeta"
+	"github.com/sheng855174/elastic/libbeat/common"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtestllext"
+	"github.com/sheng855174/elastic/heartbeat/hbtestllext"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/libbeat/common/x509util"
+	"github.com/sheng855174/elastic/heartbeat/monitors/wrappers"
+	"github.com/sheng855174/elastic/libbeat/common/x509util"
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/isdef"
 	"github.com/elastic/go-lookslike/validator"

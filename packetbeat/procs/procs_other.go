@@ -21,7 +21,7 @@
 package procs
 
 import (
-	"github.com/elastic/beats/v7/packetbeat/protos/applayer"
+	"github.com/sheng855174/elastic/packetbeat/protos/applayer"
 	"github.com/elastic/go-sysinfo/types"
 )
 

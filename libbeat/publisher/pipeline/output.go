@@ -21,11 +21,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/sheng855174/elastic/libbeat/publisher"
 
 	"go.elastic.co/apm"
 
-	"github.com/elastic/beats/v7/libbeat/outputs"
+	"github.com/sheng855174/elastic/libbeat/outputs"
 )
 
 type worker struct {

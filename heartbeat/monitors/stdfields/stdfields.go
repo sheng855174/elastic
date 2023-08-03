@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/heartbeat/scheduler/schedule"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 type ServiceFields struct {

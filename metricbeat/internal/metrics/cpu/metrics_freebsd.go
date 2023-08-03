@@ -25,7 +25,7 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/sheng855174/elastic/libbeat/opt"
 )
 
 func scanStatFile(scanner *bufio.Scanner) (CPUMetrics, error) {

@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 var (

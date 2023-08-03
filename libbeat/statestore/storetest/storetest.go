@@ -22,8 +22,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
-	"github.com/elastic/beats/v7/libbeat/statestore/backend"
+	"github.com/sheng855174/elastic/libbeat/common/transform/typeconv"
+	"github.com/sheng855174/elastic/libbeat/statestore/backend"
 )
 
 // MemoryStore provides a dummy backend store that holds all access stores and

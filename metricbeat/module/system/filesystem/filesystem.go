@@ -24,13 +24,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/metricbeat/module/system"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb/parse"
+	"github.com/sheng855174/elastic/metricbeat/module/system"
 
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
+	"github.com/sheng855174/elastic/libbeat/common/transform/typeconv"
 	fs "github.com/elastic/elastic-agent-system-metrics/metric/system/filesystem"
 	"github.com/elastic/elastic-agent-system-metrics/metric/system/resolve"
 )

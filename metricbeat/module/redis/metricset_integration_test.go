@@ -27,10 +27,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/tests/compose"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb/parse"
 )
 
 const (
@@ -38,7 +38,7 @@ const (
 )
 
 func TestPasswords(t *testing.T) {
-	t.Skip("Changing password affects other tests, see https://github.com/elastic/beats/v7/issues/10955")
+	t.Skip("Changing password affects other tests, see https://github.com/sheng855174/elastic/issues/10955")
 
 	service := compose.EnsureUp(t, "redis")
 	host := service.Host()

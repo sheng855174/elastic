@@ -10,11 +10,11 @@ import (
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
-	"github.com/elastic/beats/v7/dev-tools/mage/target/build"
-	"github.com/elastic/beats/v7/dev-tools/mage/target/common"
-	"github.com/elastic/beats/v7/dev-tools/mage/target/pkg"
-	"github.com/elastic/beats/v7/dev-tools/mage/target/unittest"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/build"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/common"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/pkg"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/unittest"
 )
 
 func init() {

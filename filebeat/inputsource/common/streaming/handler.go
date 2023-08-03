@@ -24,8 +24,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/filebeat/inputsource"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/filebeat/inputsource"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // HandlerFactory returns a ConnectionHandler func

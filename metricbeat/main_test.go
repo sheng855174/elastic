@@ -23,8 +23,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/tests/system/template"
-	"github.com/elastic/beats/v7/metricbeat/cmd"
+	"github.com/sheng855174/elastic/libbeat/tests/system/template"
+	"github.com/sheng855174/elastic/metricbeat/cmd"
 )
 
 var systemTest *bool

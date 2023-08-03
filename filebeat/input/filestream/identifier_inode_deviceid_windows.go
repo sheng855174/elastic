@@ -23,7 +23,7 @@ package filestream
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 func newINodeMarkerIdentifier(cfg *common.Config) (fileIdentifier, error) {

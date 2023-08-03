@@ -23,8 +23,8 @@ import (
 
 	errw "github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 // Format encodes the type of format to report monitoring data in. This

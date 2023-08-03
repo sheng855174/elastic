@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
+	"github.com/sheng855174/elastic/libbeat/tests/compose"
 )
 
 func TestServerID(t *testing.T) {

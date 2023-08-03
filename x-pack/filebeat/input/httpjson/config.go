@@ -13,9 +13,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	v2 "github.com/elastic/beats/v7/x-pack/filebeat/input/httpjson/internal/v2"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
+	v2 "github.com/sheng855174/elastic/x-pack/filebeat/input/httpjson/internal/v2"
 )
 
 // config contains information about httpjson configuration

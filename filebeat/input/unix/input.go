@@ -21,13 +21,13 @@ import (
 	"net"
 	"time"
 
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	stateless "github.com/elastic/beats/v7/filebeat/input/v2/input-stateless"
-	"github.com/elastic/beats/v7/filebeat/inputsource"
-	"github.com/elastic/beats/v7/filebeat/inputsource/unix"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/feature"
+	input "github.com/sheng855174/elastic/filebeat/input/v2"
+	stateless "github.com/sheng855174/elastic/filebeat/input/v2/input-stateless"
+	"github.com/sheng855174/elastic/filebeat/inputsource"
+	"github.com/sheng855174/elastic/filebeat/inputsource/unix"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/feature"
 	"github.com/elastic/go-concert/ctxtool"
 )
 

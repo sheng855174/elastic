@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/distro"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
+	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/distro"
 )
 
 const defaultArch = "amd64"

@@ -21,7 +21,7 @@ import (
 	"github.com/magefile/mage/mg"
 	"github.com/pkg/errors"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
 )
 
 var (

@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue/queuetest"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/publisher/queue"
+	"github.com/sheng855174/elastic/libbeat/publisher/queue/queuetest"
 )
 
 var seed int64

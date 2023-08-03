@@ -23,10 +23,10 @@ package decode_xml_wineventlog
 import (
 	"sync"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/winlogbeat/sys/winevent"
-	"github.com/elastic/beats/v7/winlogbeat/sys/wineventlog"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/winlogbeat/sys/winevent"
+	"github.com/sheng855174/elastic/winlogbeat/sys/wineventlog"
 )
 
 type winDecoder struct {

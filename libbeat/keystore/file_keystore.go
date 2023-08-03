@@ -34,8 +34,8 @@ import (
 
 	"golang.org/x/crypto/pbkdf2"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/file"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/file"
 )
 
 const (

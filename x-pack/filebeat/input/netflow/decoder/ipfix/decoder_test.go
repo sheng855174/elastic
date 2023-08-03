@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/fields"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/template"
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/test"
-	v9 "github.com/elastic/beats/v7/x-pack/filebeat/input/netflow/decoder/v9"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/netflow/decoder/fields"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/netflow/decoder/template"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/netflow/decoder/test"
+	v9 "github.com/sheng855174/elastic/x-pack/filebeat/input/netflow/decoder/v9"
 )
 
 func TestDecoderV9_ReadFieldDefinition(t *testing.T) {

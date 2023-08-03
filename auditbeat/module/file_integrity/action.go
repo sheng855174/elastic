@@ -21,7 +21,7 @@ import (
 	"math/bits"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 // Action is a description of the changes described by an event.

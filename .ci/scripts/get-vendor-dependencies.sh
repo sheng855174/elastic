@@ -12,5 +12,5 @@ eval "$(gvm "${GO_VERSION}")"
 go list -deps ./"${BEATS}" \
 | grep 'elastic/beats' \
 | sort \
-| sed -e "s#github.com/elastic/beats/v7/##g" \
+| sed -e "s#github.com/sheng855174/elastic/##g" \
 | awk '{print "^" $1 "/.*"}'

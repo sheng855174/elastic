@@ -20,10 +20,10 @@ package format
 import (
 	"errors"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/fmtstr"
+	"github.com/sheng855174/elastic/libbeat/outputs/codec"
 )
 
 type Encoder struct {

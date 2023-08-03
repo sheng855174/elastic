@@ -20,8 +20,8 @@ package mgr_cluster_disk
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/module/ceph/mgr"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/metricbeat/module/ceph/mgr"
 )
 
 type DfResponse struct {

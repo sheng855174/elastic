@@ -9,14 +9,14 @@ import (
 	"errors"
 	"runtime"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/install/atomic"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/install/awaitable"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/install/dir"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/install/hooks"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/install/tar"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/install/zip"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/install/atomic"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/install/awaitable"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/install/dir"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/install/hooks"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/install/tar"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/install/zip"
 )
 
 var (

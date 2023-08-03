@@ -20,9 +20,9 @@ package transport
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport"
+	"github.com/sheng855174/elastic/libbeat/common/transport"
 
-	"github.com/elastic/beats/v7/libbeat/testing"
+	"github.com/sheng855174/elastic/libbeat/testing"
 )
 
 func NetDialer(timeout time.Duration) Dialer {

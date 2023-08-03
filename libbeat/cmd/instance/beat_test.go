@@ -25,7 +25,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
+	"github.com/sheng855174/elastic/libbeat/cfgfile"
 
 	"github.com/gofrs/uuid"
 	"github.com/stretchr/testify/assert"

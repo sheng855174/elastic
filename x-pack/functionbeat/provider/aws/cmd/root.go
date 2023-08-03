@@ -7,8 +7,8 @@ package cmd
 import (
 	"flag"
 
-	"github.com/elastic/beats/v7/x-pack/functionbeat/function/beater"
-	funcmd "github.com/elastic/beats/v7/x-pack/functionbeat/function/cmd"
+	"github.com/sheng855174/elastic/x-pack/functionbeat/function/beater"
+	funcmd "github.com/sheng855174/elastic/x-pack/functionbeat/function/cmd"
 )
 
 // Name of this beat

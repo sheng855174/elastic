@@ -7,9 +7,9 @@ package host
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/auditbeat/core"
-	abtest "github.com/elastic/beats/v7/auditbeat/testing"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/sheng855174/elastic/auditbeat/core"
+	abtest "github.com/sheng855174/elastic/auditbeat/testing"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

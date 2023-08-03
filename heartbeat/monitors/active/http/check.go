@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/elastic/beats/v7/heartbeat/reason"
-	"github.com/elastic/beats/v7/libbeat/common/match"
+	"github.com/sheng855174/elastic/heartbeat/reason"
+	"github.com/sheng855174/elastic/libbeat/common/match"
 )
 
 // multiValidator combines multiple validations of each type into a single easy to use object.

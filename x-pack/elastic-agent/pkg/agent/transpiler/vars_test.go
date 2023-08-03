@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	corecomp "github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/composable"
+	"github.com/sheng855174/elastic/libbeat/common"
+	corecomp "github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/composable"
 )
 
 func TestVars_Replace(t *testing.T) {

@@ -27,10 +27,10 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/heartbeat/scheduler/timerqueue"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/sheng855174/elastic/heartbeat/config"
+	"github.com/sheng855174/elastic/heartbeat/scheduler/timerqueue"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/monitoring"
 )
 
 var debugf = logp.MakeDebug("scheduler")

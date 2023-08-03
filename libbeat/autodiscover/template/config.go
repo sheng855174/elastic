@@ -23,11 +23,11 @@ import (
 	"github.com/elastic/go-ucfg"
 	"github.com/elastic/go-ucfg/parse"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/conditions"
-	"github.com/elastic/beats/v7/libbeat/keystore"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/bus"
+	"github.com/sheng855174/elastic/libbeat/conditions"
+	"github.com/sheng855174/elastic/libbeat/keystore"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // Mapper maps config templates with conditions in ConditionMaps, if a match happens on a discover event

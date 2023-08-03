@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/filebeat/harvester"
+	"github.com/sheng855174/elastic/filebeat/harvester"
 )
 
 func TestCleanOlderError(t *testing.T) {

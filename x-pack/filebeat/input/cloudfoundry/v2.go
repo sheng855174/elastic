@@ -5,9 +5,9 @@
 package cloudfoundry
 
 import (
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	stateless "github.com/elastic/beats/v7/filebeat/input/v2/input-stateless"
-	"github.com/elastic/beats/v7/x-pack/libbeat/common/cloudfoundry"
+	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
+	stateless "github.com/sheng855174/elastic/filebeat/input/v2/input-stateless"
+	"github.com/sheng855174/elastic/x-pack/libbeat/common/cloudfoundry"
 	"github.com/elastic/go-concert/ctxtool"
 )
 

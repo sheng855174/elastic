@@ -21,7 +21,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/shirou/gopsutil/cpu"
 
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/sheng855174/elastic/libbeat/opt"
 )
 
 // Get is the Darwin implementation of Get

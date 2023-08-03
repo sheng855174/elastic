@@ -26,17 +26,17 @@ import (
 
 	"github.com/magefile/mage/mg"
 
-	auditbeat "github.com/elastic/beats/v7/auditbeat/scripts/mage"
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
+	auditbeat "github.com/sheng855174/elastic/auditbeat/scripts/mage"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
 
 	// mage:import
-	"github.com/elastic/beats/v7/dev-tools/mage/target/common"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/common"
 	// mage:import
-	"github.com/elastic/beats/v7/dev-tools/mage/target/unittest"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/unittest"
 	// mage:import
-	"github.com/elastic/beats/v7/dev-tools/mage/target/integtest"
+	"github.com/sheng855174/elastic/dev-tools/mage/target/integtest"
 	// mage:import
-	_ "github.com/elastic/beats/v7/dev-tools/mage/target/test"
+	_ "github.com/sheng855174/elastic/dev-tools/mage/target/test"
 )
 
 func init() {

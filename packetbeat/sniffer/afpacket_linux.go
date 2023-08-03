@@ -26,7 +26,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 
 	"github.com/tsg/gopacket"
 	"github.com/tsg/gopacket/afpacket"

@@ -21,6 +21,6 @@ package include
 
 import (
 	// Import packages that need to register themselves.
-	_ "github.com/elastic/beats/v7/auditbeat/module/auditd"
-	_ "github.com/elastic/beats/v7/auditbeat/module/file_integrity"
+	_ "github.com/sheng855174/elastic/auditbeat/module/auditd"
+	_ "github.com/sheng855174/elastic/auditbeat/module/file_integrity"
 )

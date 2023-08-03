@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/monitoring/report"
+	"github.com/sheng855174/elastic/libbeat/monitoring/report"
 )
 
 func TestMakeClientParams(t *testing.T) {

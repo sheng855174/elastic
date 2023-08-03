@@ -24,15 +24,15 @@ import (
 	"github.com/mitchellh/hashstructure"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/heartbeat/scheduler"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/publisher/pipeline"
+	"github.com/sheng855174/elastic/heartbeat/monitors/jobs"
+	"github.com/sheng855174/elastic/heartbeat/monitors/plugin"
+	"github.com/sheng855174/elastic/heartbeat/monitors/stdfields"
+	"github.com/sheng855174/elastic/heartbeat/monitors/wrappers"
+	"github.com/sheng855174/elastic/heartbeat/scheduler"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/publisher/pipeline"
 )
 
 // ErrMonitorDisabled is returned when the monitor plugin is marked as disabled.

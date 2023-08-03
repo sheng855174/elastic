@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control/server"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/cli"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control/server"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/cli"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
 )
 
 func TestCmdBinaryOnly(t *testing.T) {

@@ -7,11 +7,11 @@ package gke
 import (
 	"os"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 
 	// Register input module and metricset
-	_ "github.com/elastic/beats/v7/x-pack/metricbeat/module/gcp"
-	_ "github.com/elastic/beats/v7/x-pack/metricbeat/module/gcp/metrics"
+	_ "github.com/sheng855174/elastic/x-pack/metricbeat/module/gcp"
+	_ "github.com/sheng855174/elastic/x-pack/metricbeat/module/gcp/metrics"
 )
 
 func init() {

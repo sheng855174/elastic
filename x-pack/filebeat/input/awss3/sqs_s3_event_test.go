@@ -18,8 +18,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	awscommon "github.com/elastic/beats/v7/x-pack/libbeat/common/aws"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	awscommon "github.com/sheng855174/elastic/x-pack/libbeat/common/aws"
 	"github.com/elastic/go-concert/timed"
 )
 

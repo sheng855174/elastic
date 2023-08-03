@@ -22,7 +22,7 @@ import (
 
 	"go.uber.org/multierr"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
+	devtools "github.com/sheng855174/elastic/dev-tools/mage"
 )
 
 // GolangCrossBuild builds the Beat binary inside the golang-builder and then
