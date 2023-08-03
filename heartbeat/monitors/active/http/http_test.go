@@ -39,18 +39,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/heartbeat/monitors/stdfields"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/file"
-	btesting "github.com/elastic/beats/v7/libbeat/testing"
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/isdef"
 	"github.com/elastic/go-lookslike/testslike"
 	"github.com/elastic/go-lookslike/validator"
+	"github.com/sheng855174/elastictictic/heartbeat/hbtest"
+	"github.com/sheng855174/elastictictic/heartbeat/monitors/stdfields"
+	"github.com/sheng855174/elastictictic/heartbeat/monitors/wrappers"
+	"github.com/sheng855174/elastictictic/heartbeat/scheduler/schedule"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/file"
+	btesting "github.com/sheng855174/elastictictic/libbeat/testing"
 )
 
 func sendSimpleTLSRequest(t *testing.T, testURL string, useUrls bool) *beat.Event {

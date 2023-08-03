@@ -22,16 +22,16 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
+	"github.com/sheng855174/elastictictic/heartbeat/monitors/plugin"
 
-	"github.com/elastic/beats/v7/heartbeat/eventext"
-	"github.com/elastic/beats/v7/heartbeat/look"
-	"github.com/elastic/beats/v7/heartbeat/monitors"
-	"github.com/elastic/beats/v7/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/heartbeat/eventext"
+	"github.com/sheng855174/elastictictic/heartbeat/look"
+	"github.com/sheng855174/elastictictic/heartbeat/monitors"
+	"github.com/sheng855174/elastictictic/heartbeat/monitors/jobs"
+	"github.com/sheng855174/elastictictic/heartbeat/monitors/wrappers"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 var debugf = logp.MakeDebug("icmp")

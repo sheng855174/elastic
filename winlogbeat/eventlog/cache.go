@@ -24,9 +24,9 @@ import (
 	"expvar"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/winlogbeat/sys"
+	"libbeat/common"
+	"libbeat/logp"
+	"winlogbeat/sys"
 )
 
 // Stats for the message file caches.

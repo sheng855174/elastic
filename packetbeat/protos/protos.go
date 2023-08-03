@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/packetbeat/procs"
+	"github.com/sheng855174/elastictic/libbeat/beat"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/common/cfgwarn"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/packetbeat/procs"
 )
 
 const (

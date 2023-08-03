@@ -21,13 +21,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/v7/auditbeat/core"
-	"github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/publisher/processing"
-	"github.com/elastic/beats/v7/metricbeat/beater"
-	"github.com/elastic/beats/v7/metricbeat/mb/module"
+	"github.com/sheng855174/elastictic/auditbeat/core"
+	"github.com/sheng855174/elastictic/libbeat/cmd"
+	"github.com/sheng855174/elastictic/libbeat/cmd/instance"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/publisher/processing"
+	"github.com/sheng855174/elastictic/metricbeat/beater"
+	"github.com/sheng855174/elastictic/metricbeat/mb/module"
 )
 
 const (

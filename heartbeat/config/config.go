@@ -21,8 +21,8 @@
 package config
 
 import (
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/autodiscover"
+	"github.com/sheng855174/elastictic/libbeat/common"
 )
 
 // Config defines the structure of heartbeat.yml.

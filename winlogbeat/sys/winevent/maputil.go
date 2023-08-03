@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/winlogbeat/sys"
+	"libbeat/common"
+	"winlogbeat/sys"
 )
 
 // AddOptional adds a key and value to the given MapStr if the value is not the

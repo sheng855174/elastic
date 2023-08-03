@@ -18,8 +18,8 @@
 package metrics
 
 import (
-	s "github.com/elastic/beats/v7/libbeat/common/schema"
-	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstriface"
+	s "github.com/sheng855174/elastictictic/libbeat/common/schema"
+	c "github.com/sheng855174/elastictictic/libbeat/common/schema/mapstriface"
 )
 
 var schemaMetrics = s.Schema{

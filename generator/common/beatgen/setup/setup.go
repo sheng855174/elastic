@@ -25,8 +25,8 @@ import (
 	"github.com/magefile/mage/sh"
 	"github.com/pkg/errors"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
-	"github.com/elastic/beats/v7/dev-tools/mage/gotool"
+	devtools "github.com/sheng855174/elastictic/dev-tools/mage"
+	"github.com/sheng855174/elastictic/dev-tools/mage/gotool"
 )
 
 func InitModule() error {
@@ -110,7 +110,7 @@ func CopyVendor() error {
 		"./vendor",
 		[]devtools.CopyModule{
 			devtools.CopyModule{
-				Name: "github.com/elastic/beats/v7",
+				Name: "github.com/sheng855174/elastictic",
 				FilesToCopy: []string{
 					"dev-tools",
 					"libbeat",

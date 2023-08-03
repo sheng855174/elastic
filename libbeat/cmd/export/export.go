@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/idxmgmt"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/idxmgmt"
+	"github.com/sheng855174/elastictictic/libbeat/version"
 )
 
 type stdoutClient struct {

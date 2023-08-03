@@ -7,9 +7,9 @@ package browser
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/source"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/monitors/browser/synthexec"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/x-pack/heartbeat/monitors/browser/source"
+	"github.com/sheng855174/elastic/x-pack/heartbeat/monitors/browser/synthexec"
 )
 
 func DefaultConfig() *Config {

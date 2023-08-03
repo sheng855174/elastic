@@ -13,9 +13,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/elastic/beats/v7/libbeat/api/npipe"
+	"github.com/sheng855174/elastic/libbeat/api/npipe"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control"
 )
 
 func dialContext(ctx context.Context) (*grpc.ClientConn, error) {

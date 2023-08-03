@@ -17,7 +17,7 @@
 
 package mage
 
-import devtools "github.com/elastic/beats/v7/dev-tools/mage"
+import devtools "github.com/sheng855174/elastictic/dev-tools/mage"
 
 // CrossBuild cross-builds the beat for all target platforms.
 func CrossBuild() error {

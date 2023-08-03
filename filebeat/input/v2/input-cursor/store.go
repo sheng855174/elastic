@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/common/cleanup"
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/statestore"
 	"github.com/elastic/go-concert"
 	"github.com/elastic/go-concert/unison"
+	"github.com/sheng855174/elastictictic/libbeat/common/atomic"
+	"github.com/sheng855174/elastictictic/libbeat/common/cleanup"
+	"github.com/sheng855174/elastictictic/libbeat/common/transform/typeconv"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/statestore"
 )
 
 // store encapsulates the persistent store and the in memory state store, that

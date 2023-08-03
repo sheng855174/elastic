@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors"
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/libbeat/conditions"
+	"github.com/sheng855174/elastictictic/heartbeat/monitors"
+	"github.com/sheng855174/elastictictic/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastictictic/libbeat/conditions"
 )
 
 type Config struct {

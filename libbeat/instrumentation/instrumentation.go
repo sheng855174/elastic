@@ -28,9 +28,9 @@ import (
 	"go.elastic.co/apm"
 	apmtransport "go.elastic.co/apm/transport"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transport"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/transport"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 func init() {

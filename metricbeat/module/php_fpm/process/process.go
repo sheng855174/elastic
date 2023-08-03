@@ -20,10 +20,10 @@ package process
 import (
 	"net/url"
 
-	"github.com/elastic/beats/v7/metricbeat/helper"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/metricbeat/module/php_fpm"
+	"github.com/sheng855174/elastictic/metricbeat/helper"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/sheng855174/elastictic/metricbeat/mb/parse"
+	"github.com/sheng855174/elastictic/metricbeat/module/php_fpm"
 )
 
 // init registers the MetricSet with the central registry as soon as the program

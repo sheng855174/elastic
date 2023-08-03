@@ -29,12 +29,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/common/docker"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/metric/system/cgroup"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/bus"
+	"github.com/sheng855174/elastictictic/libbeat/common/docker"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/metric/system/cgroup"
 )
 
 func init() {

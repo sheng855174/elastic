@@ -20,8 +20,8 @@ package docker
 import (
 	"github.com/docker/docker/api/types"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	helpers "github.com/elastic/beats/v7/libbeat/common/docker"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	helpers "github.com/sheng855174/elastictictic/libbeat/common/docker"
 )
 
 // Container is a struct representation of a container

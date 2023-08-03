@@ -21,7 +21,7 @@
 package service
 
 import (
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
 )
 
 // init registers the MetricSet with the central registry.

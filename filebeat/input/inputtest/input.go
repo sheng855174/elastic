@@ -23,11 +23,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/filebeat/channel"
-	"github.com/elastic/beats/v7/filebeat/input"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/tests/resources"
+	"github.com/sheng855174/elastictictic/filebeat/channel"
+	"github.com/sheng855174/elastictictic/filebeat/input"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/tests/resources"
 )
 
 // Outlet is an empty outlet for testing.

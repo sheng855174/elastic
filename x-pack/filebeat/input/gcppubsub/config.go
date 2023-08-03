@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elastic/beats/v7/filebeat/harvester"
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/filebeat/harvester"
+	"github.com/sheng855174/elastic/libbeat/common"
 
 	"cloud.google.com/go/pubsub"
 	"golang.org/x/oauth2/google"

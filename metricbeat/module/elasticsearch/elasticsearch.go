@@ -28,13 +28,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	s "github.com/elastic/beats/v7/libbeat/common/schema"
-	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/helper"
-	"github.com/elastic/beats/v7/metricbeat/helper/elastic"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	s "github.com/sheng855174/elastictictic/libbeat/common/schema"
+	c "github.com/sheng855174/elastictictic/libbeat/common/schema/mapstriface"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/sheng855174/elastictictic/metricbeat/helper"
+	"github.com/sheng855174/elastictictic/metricbeat/helper/elastic"
+	"github.com/sheng855174/elastictictic/metricbeat/mb"
 )
 
 func init() {

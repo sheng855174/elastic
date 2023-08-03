@@ -31,11 +31,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
-	"github.com/elastic/beats/v7/libbeat/idxmgmt/ilm"
-	"github.com/elastic/beats/v7/libbeat/version"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastictictic/libbeat/esleg/eslegclient"
+	"github.com/sheng855174/elastictictic/libbeat/idxmgmt/ilm"
+	"github.com/sheng855174/elastictictic/libbeat/version"
 )
 
 const (

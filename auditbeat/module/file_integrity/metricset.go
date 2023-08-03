@@ -26,10 +26,10 @@ import (
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/elastic/beats/v7/auditbeat/datastore"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/sheng855174/elastictic/auditbeat/datastore"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/sheng855174/elastictic/metricbeat/mb/parse"
 )
 
 const (

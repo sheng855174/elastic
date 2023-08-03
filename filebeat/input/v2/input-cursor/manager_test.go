@@ -30,14 +30,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	pubtest "github.com/elastic/beats/v7/libbeat/publisher/testing"
-	"github.com/elastic/beats/v7/libbeat/tests/resources"
 	"github.com/elastic/go-concert/unison"
+	input "github.com/sheng855174/elastictictic/filebeat/input/v2"
+	v2 "github.com/sheng855174/elastictictic/filebeat/input/v2"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
+	pubtest "github.com/sheng855174/elastictictic/libbeat/publisher/testing"
+	"github.com/sheng855174/elastictictic/libbeat/tests/resources"
 )
 
 type fakeTestInput struct {

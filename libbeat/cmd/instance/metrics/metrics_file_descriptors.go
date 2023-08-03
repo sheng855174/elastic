@@ -23,8 +23,8 @@ package metrics
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/monitoring"
 )
 
 func setupLinuxBSDFDMetrics() {

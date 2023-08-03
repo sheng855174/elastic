@@ -29,10 +29,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	mbtest "github.com/sheng855174/elastictic/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/v7/metricbeat/module/traefik"
+	_ "github.com/sheng855174/elastictic/metricbeat/module/traefik"
 )
 
 func TestFetchEventContents(t *testing.T) {

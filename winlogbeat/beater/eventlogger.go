@@ -22,17 +22,17 @@ import (
 	"io"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/acker"
-	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/processors"
-	"github.com/elastic/beats/v7/libbeat/processors/add_formatted_index"
-	"github.com/elastic/beats/v7/libbeat/publisher/pipetool"
+	"libbeat/beat"
+	"libbeat/common"
+	"libbeat/common/acker"
+	"libbeat/common/fmtstr"
+	"libbeat/logp"
+	"libbeat/processors"
+	"libbeat/processors/add_formatted_index"
+	"libbeat/publisher/pipetool"
 
-	"github.com/elastic/beats/v7/winlogbeat/checkpoint"
-	"github.com/elastic/beats/v7/winlogbeat/eventlog"
+	"winlogbeat/checkpoint"
+	"winlogbeat/eventlog"
 )
 
 type eventLogger struct {
@@ -108,6 +108,7 @@ func (e *eventLogger) run(
 		eventACKer.ACKEvents(private)
 	}))
 
+	e.log.Debugw("client connect.")
 	client, err := e.connect(pipeline)
 	if err != nil {
 		e.log.Warnw("Pipeline error. Failed to connect to publisher pipeline", "error", err)

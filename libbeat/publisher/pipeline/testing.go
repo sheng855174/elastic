@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/publisher"
-	"github.com/elastic/beats/v7/libbeat/publisher/queue"
+	"github.com/sheng855174/elastictictic/libbeat/outputs"
+	"github.com/sheng855174/elastictictic/libbeat/publisher"
+	"github.com/sheng855174/elastictictic/libbeat/publisher/queue"
 )
 
 type mockPublishFn func(publisher.Batch) error

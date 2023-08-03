@@ -29,7 +29,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 const logSelector = "tls"

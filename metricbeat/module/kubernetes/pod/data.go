@@ -21,10 +21,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/kubernetes"
-	"github.com/elastic/beats/v7/metricbeat/module/kubernetes/util"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/metricbeat/mb"
+	"github.com/sheng855174/elastictictic/metricbeat/module/kubernetes"
+	"github.com/sheng855174/elastictictic/metricbeat/module/kubernetes/util"
 )
 
 func eventMapping(content []byte, metricsRepo *util.MetricsRepo) ([]common.MapStr, error) {

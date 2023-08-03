@@ -26,12 +26,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	stateless "github.com/elastic/beats/v7/filebeat/input/v2/input-stateless"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	pubtest "github.com/elastic/beats/v7/libbeat/publisher/testing"
+	v2 "github.com/sheng855174/elastictictic/filebeat/input/v2"
+	stateless "github.com/sheng855174/elastictictic/filebeat/input/v2/input-stateless"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/atomic"
+	pubtest "github.com/sheng855174/elastictictic/libbeat/publisher/testing"
 )
 
 type fakeStatelessInput struct {

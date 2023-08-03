@@ -20,8 +20,8 @@ package exchange
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/rabbitmq"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/sheng855174/elastictic/metricbeat/module/rabbitmq"
 )
 
 func init() {

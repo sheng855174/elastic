@@ -25,8 +25,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
+	"github.com/sheng855174/elastictictic/metricbeat/mb"
+	"github.com/sheng855174/elastictictic/metricbeat/mb/parse"
 )
 
 var hostParser = parse.URLHostParserBuilder{DefaultScheme: "tcp"}.Build()

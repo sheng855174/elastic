@@ -11,8 +11,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/x-pack/functionbeat/manager/executor"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/x-pack/functionbeat/manager/executor"
 )
 
 type opUploadToBucket struct {

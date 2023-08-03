@@ -22,7 +22,7 @@ import (
 
 	"github.com/joeshaw/multierror"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 // ServerConfig defines the user configurable tls options for any TCP based service.

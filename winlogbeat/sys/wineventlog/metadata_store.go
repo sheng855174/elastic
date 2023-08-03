@@ -26,12 +26,12 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/pkg/errors"
+	"pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/winlogbeat/sys"
-	"github.com/elastic/beats/v7/winlogbeat/sys/winevent"
+	"libbeat/logp"
+	"winlogbeat/sys"
+	"winlogbeat/sys/winevent"
 )
 
 var (

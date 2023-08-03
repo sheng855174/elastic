@@ -19,7 +19,7 @@ import (
 	"golang.org/x/oauth2/endpoints"
 	"golang.org/x/oauth2/google"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 // An oauth2Provider represents a supported oauth provider.

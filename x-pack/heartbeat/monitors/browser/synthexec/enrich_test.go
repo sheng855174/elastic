@@ -12,14 +12,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/beat/events"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/processors/add_data_stream"
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/testslike"
 	"github.com/elastic/go-lookslike/validator"
+	"github.com/sheng855174/elastic/heartbeat/monitors/wrappers"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/beat/events"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/processors/add_data_stream"
 )
 
 func makeStepEvent(typ string, ts float64, name string, index int, status string, urlstr string, err *SynthError) *SynthEvent {

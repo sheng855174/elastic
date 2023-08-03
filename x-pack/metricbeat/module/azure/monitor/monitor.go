@@ -5,8 +5,8 @@
 package monitor
 
 import (
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/azure"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/x-pack/metricbeat/module/azure"
 )
 
 // init registers the MetricSet with the central registry as soon as the program

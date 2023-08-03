@@ -21,18 +21,18 @@ import (
 	"flag"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/reload"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/management"
-	"github.com/elastic/beats/v7/libbeat/service"
+	"github.com/sheng855174/elastictic/libbeat/beat"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/common/reload"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/management"
+	"github.com/sheng855174/elastictic/libbeat/service"
 
-	"github.com/elastic/beats/v7/packetbeat/config"
-	"github.com/elastic/beats/v7/packetbeat/protos"
+	"github.com/sheng855174/elastictic/packetbeat/config"
+	"github.com/sheng855174/elastictic/packetbeat/protos"
 
 	// Add packetbeat default processors
-	_ "github.com/elastic/beats/v7/packetbeat/processor/add_kubernetes_metadata"
+	_ "github.com/sheng855174/elastictic/packetbeat/processor/add_kubernetes_metadata"
 )
 
 // this is mainly a limitation to ensure that we never deadlock

@@ -24,8 +24,8 @@ import (
 
 	"github.com/elastic/go-ucfg"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/bus"
 )
 
 type fakeBuilder struct{}

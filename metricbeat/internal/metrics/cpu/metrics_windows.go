@@ -27,8 +27,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/opt"
 	"github.com/elastic/gosigar/sys/windows"
+	"github.com/sheng855174/elastictictic/libbeat/opt"
 )
 
 // Get fetches Windows CPU system times

@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/eql"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/eql"
 
 	"github.com/elastic/go-ucfg"
 )

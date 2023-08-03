@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/download"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/download/http"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
+	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/download"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/download/http"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
 )
 
 // Downloader is responsible for downloading artifacts

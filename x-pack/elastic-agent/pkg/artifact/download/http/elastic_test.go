@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
+	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
 )
 
 const (

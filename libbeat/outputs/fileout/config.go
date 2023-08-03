@@ -20,8 +20,8 @@ package fileout
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/common/file"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec"
+	"github.com/sheng855174/elastictictic/libbeat/common/file"
+	"github.com/sheng855174/elastictictic/libbeat/outputs/codec"
 )
 
 type config struct {

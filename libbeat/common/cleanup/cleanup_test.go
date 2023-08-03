@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common/cleanup"
+	"github.com/sheng855174/elastictictic/libbeat/common/cleanup"
 )
 
 func TestIfBool(t *testing.T) {

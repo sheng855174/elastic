@@ -9,11 +9,11 @@ import (
 
 	k8s "k8s.io/client-go/kubernetes"
 
-	"github.com/elastic/beats/v7/libbeat/common/kubernetes"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/composable"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/libbeat/common/kubernetes"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/composable"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
 )
 
 const (

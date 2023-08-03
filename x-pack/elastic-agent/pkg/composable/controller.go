@@ -14,13 +14,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/transpiler"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
-	corecomp "github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/composable"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/transpiler"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
+	corecomp "github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/composable"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
 )
 
 // VarsCallback is callback called when the current vars state changes.

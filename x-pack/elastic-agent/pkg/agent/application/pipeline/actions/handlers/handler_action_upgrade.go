@@ -8,10 +8,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/upgrade"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/storage/store"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/upgrade"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/storage/store"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
 )
 
 // Upgrade is a handler for UPGRADE action.

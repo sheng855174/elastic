@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/logp"
 )
 
 type testProcFile struct {

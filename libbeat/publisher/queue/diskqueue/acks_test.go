@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 type addFramesTestStep struct {

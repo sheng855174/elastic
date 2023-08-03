@@ -23,13 +23,13 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/esleg/eslegclient"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
-	"github.com/elastic/beats/v7/libbeat/outputs/elasticsearch"
+	"github.com/sheng855174/elastictic/libbeat/beat"
+	"github.com/sheng855174/elastictic/libbeat/cfgfile"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/esleg/eslegclient"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/monitoring"
+	"github.com/sheng855174/elastictic/libbeat/outputs/elasticsearch"
 )
 
 var (

@@ -25,8 +25,8 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/common/cfgwarn"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 type pluginList struct {

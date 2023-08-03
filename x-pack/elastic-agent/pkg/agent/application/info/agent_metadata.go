@@ -10,10 +10,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
 	"github.com/elastic/go-sysinfo"
 	"github.com/elastic/go-sysinfo/types"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
 )
 
 // ECSMeta is a collection of agent related metadata in ECS compliant object form.

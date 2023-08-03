@@ -23,10 +23,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/active/dialchain/tlsmeta"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common/transport"
-	"github.com/elastic/beats/v7/libbeat/common/transport/tlscommon"
+	"github.com/sheng855174/elastictictic/heartbeat/monitors/active/dialchain/tlsmeta"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common/transport"
+	"github.com/sheng855174/elastictictic/libbeat/common/transport/tlscommon"
 )
 
 // TLSLayer configures the TLS layer in a DialerChain.

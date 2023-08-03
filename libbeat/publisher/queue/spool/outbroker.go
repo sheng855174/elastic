@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/publisher"
 	"github.com/elastic/go-txfile/pq"
+	"github.com/sheng855174/elastictictic/libbeat/publisher"
 )
 
 type outBroker struct {

@@ -24,10 +24,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	libxml "github.com/elastic/beats/v7/libbeat/common/encoding/xml"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/winlogbeat/sys"
+	"libbeat/common"
+	libxml "libbeat/common/encoding/xml"
+	"libbeat/logp"
+	"winlogbeat/sys"
 )
 
 // Debug selectors used in this package.

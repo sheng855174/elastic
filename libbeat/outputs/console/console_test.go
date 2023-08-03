@@ -29,15 +29,15 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/fmtstr"
-	"github.com/elastic/beats/v7/libbeat/outputs"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec/format"
-	"github.com/elastic/beats/v7/libbeat/outputs/codec/json"
-	"github.com/elastic/beats/v7/libbeat/outputs/outest"
-	"github.com/elastic/beats/v7/libbeat/publisher"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/fmtstr"
+	"github.com/sheng855174/elastictictic/libbeat/outputs"
+	"github.com/sheng855174/elastictictic/libbeat/outputs/codec"
+	"github.com/sheng855174/elastictictic/libbeat/outputs/codec/format"
+	"github.com/sheng855174/elastictictic/libbeat/outputs/codec/json"
+	"github.com/sheng855174/elastictictic/libbeat/outputs/outest"
+	"github.com/sheng855174/elastictictic/libbeat/publisher"
 )
 
 // capture stdout and return captured string

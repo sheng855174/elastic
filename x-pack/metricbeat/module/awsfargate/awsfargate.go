@@ -7,7 +7,7 @@ package awsfargate
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 )
 
 // Config defines all required and optional parameters for awsfargate metricsets

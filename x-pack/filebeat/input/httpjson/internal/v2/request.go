@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"net/url"
 
-	inputcursor "github.com/elastic/beats/v7/filebeat/input/v2/input-cursor"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	inputcursor "github.com/sheng855174/elastic/filebeat/input/v2/input-cursor"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 const requestNamespace = "request"

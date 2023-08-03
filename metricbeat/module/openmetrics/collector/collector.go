@@ -18,9 +18,9 @@
 package collector
 
 import (
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/metricbeat/module/prometheus/collector"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/sheng855174/elastictic/metricbeat/mb/parse"
+	"github.com/sheng855174/elastictic/metricbeat/module/prometheus/collector"
 )
 
 const (

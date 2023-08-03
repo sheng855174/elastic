@@ -19,15 +19,15 @@ package includes
 
 import (
 	// import queue types
-	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/format"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/codec/json"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/console"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/elasticsearch"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/fileout"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/kafka"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/logstash"
-	_ "github.com/elastic/beats/v7/libbeat/outputs/redis"
-	_ "github.com/elastic/beats/v7/libbeat/publisher/queue/diskqueue"
-	_ "github.com/elastic/beats/v7/libbeat/publisher/queue/memqueue"
-	_ "github.com/elastic/beats/v7/libbeat/publisher/queue/spool"
+	_ "github.com/sheng855174/elastictictic/libbeat/outputs/codec/format"
+	_ "github.com/sheng855174/elastictictic/libbeat/outputs/codec/json"
+	_ "github.com/sheng855174/elastictictic/libbeat/outputs/console"
+	_ "github.com/sheng855174/elastictictic/libbeat/outputs/elasticsearch"
+	_ "github.com/sheng855174/elastictictic/libbeat/outputs/fileout"
+	_ "github.com/sheng855174/elastictictic/libbeat/outputs/kafka"
+	_ "github.com/sheng855174/elastictictic/libbeat/outputs/logstash"
+	_ "github.com/sheng855174/elastictictic/libbeat/outputs/redis"
+	_ "github.com/sheng855174/elastictictic/libbeat/publisher/queue/diskqueue"
+	_ "github.com/sheng855174/elastictictic/libbeat/publisher/queue/memqueue"
+	_ "github.com/sheng855174/elastictictic/libbeat/publisher/queue/spool"
 )

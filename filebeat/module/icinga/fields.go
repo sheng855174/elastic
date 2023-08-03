@@ -20,7 +20,7 @@
 package icinga
 
 import (
-	"github.com/elastic/beats/v7/libbeat/asset"
+	"github.com/sheng855174/elastictictic/libbeat/asset"
 )
 
 func init() {

@@ -29,10 +29,10 @@ import (
 	"github.com/docker/docker/api/types/events"
 	"github.com/docker/docker/client"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/docker"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/sheng855174/elastictictic/metricbeat/mb"
+	"github.com/sheng855174/elastictictic/metricbeat/module/docker"
 )
 
 // init registers the MetricSet with the central registry as soon as the program

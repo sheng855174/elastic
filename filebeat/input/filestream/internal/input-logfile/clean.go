@@ -23,7 +23,7 @@ import (
 	"github.com/elastic/go-concert/timed"
 	"github.com/elastic/go-concert/unison"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/logp"
 )
 
 // cleaner removes finished entries from the registry file.

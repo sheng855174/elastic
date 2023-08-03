@@ -7,9 +7,9 @@ package application
 import (
 	"runtime"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/paths"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/paths"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
 )
 
 // InjectAgentConfig injects config to a provided configuration.

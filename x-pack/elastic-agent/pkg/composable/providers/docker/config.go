@@ -7,7 +7,7 @@ package docker
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/docker"
+	"github.com/sheng855174/elastic/libbeat/common/docker"
 )
 
 // Config for docker provider

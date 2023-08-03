@@ -22,12 +22,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/magefile/mage/mg"
-	"github.com/pkg/errors"
+	"magefile/mage/mg"
+	"pkg/errors"
 
-	devtools "github.com/elastic/beats/v7/dev-tools/mage"
-	"github.com/elastic/beats/v7/dev-tools/mage/target/build"
-	"github.com/elastic/beats/v7/dev-tools/mage/target/pkg"
+	devtools "dev-tools/mage"
+	"dev-tools/mage/target/build"
+	"dev-tools/mage/target/pkg"
 )
 
 const (

@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/mssql"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/x-pack/metricbeat/module/mssql"
 )
 
 type performanceCounter struct {

@@ -5,10 +5,10 @@
 package application
 
 import (
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/pipeline"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/pipeline"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
 )
 
 type once struct {

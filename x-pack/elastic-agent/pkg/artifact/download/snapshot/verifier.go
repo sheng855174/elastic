@@ -5,11 +5,11 @@
 package snapshot
 
 import (
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/download"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/download/http"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/download"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/download/http"
 )
 
 // Verifier is responsible for verifying downloaded artifacts

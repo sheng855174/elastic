@@ -28,12 +28,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/packetbeat/procs"
-	"github.com/elastic/beats/v7/packetbeat/protos"
-	"github.com/elastic/beats/v7/packetbeat/publish"
+	"github.com/sheng855174/elastictic/libbeat/beat"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/packetbeat/procs"
+	"github.com/sheng855174/elastictic/packetbeat/protos"
+	"github.com/sheng855174/elastictic/packetbeat/publish"
 )
 
 type eventStore struct {

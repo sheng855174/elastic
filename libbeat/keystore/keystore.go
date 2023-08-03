@@ -20,10 +20,10 @@ package keystore
 import (
 	"errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
 	"github.com/elastic/go-ucfg"
 	"github.com/elastic/go-ucfg/parse"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/bus"
 )
 
 var (

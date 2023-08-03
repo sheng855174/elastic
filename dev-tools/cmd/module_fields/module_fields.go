@@ -25,9 +25,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/elastic/beats/v7/libbeat/asset"
-	"github.com/elastic/beats/v7/libbeat/generator/fields"
-	"github.com/elastic/beats/v7/licenses"
+	"github.com/sheng855174/elastictic/libbeat/asset"
+	"github.com/sheng855174/elastictic/libbeat/generator/fields"
+	"github.com/sheng855174/elastictic/licenses"
 )
 
 var usageText = `

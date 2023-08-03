@@ -17,10 +17,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sync/errgroup"
 
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	beattest "github.com/elastic/beats/v7/libbeat/publisher/testing"
+	v2 "github.com/sheng855174/elastic/filebeat/input/v2"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	beattest "github.com/sheng855174/elastic/libbeat/publisher/testing"
 )
 
 func TestStatelessHTTPJSONInput(t *testing.T) {

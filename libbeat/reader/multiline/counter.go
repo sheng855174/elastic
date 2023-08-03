@@ -20,7 +20,7 @@ package multiline
 import (
 	"io"
 
-	"github.com/elastic/beats/v7/libbeat/reader"
+	"github.com/sheng855174/elastictictic/libbeat/reader"
 )
 
 type counterReader struct {

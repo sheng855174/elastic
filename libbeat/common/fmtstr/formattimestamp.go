@@ -20,8 +20,8 @@ package fmtstr
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 // TimestampFormatString is a wrapper around EventFormatString for the

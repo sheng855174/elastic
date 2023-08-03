@@ -27,7 +27,7 @@ import (
 	"github.com/elastic/go-libaudit/v2"
 	"github.com/elastic/go-libaudit/v2/rule"
 
-	"github.com/elastic/beats/v7/auditbeat/cmd"
+	"github.com/sheng855174/elastictic/auditbeat/cmd"
 )
 
 var (

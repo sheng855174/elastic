@@ -18,8 +18,8 @@
 package log
 
 import (
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/filebeat/input/file"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 func loggerWithState(logger *logp.Logger, state file.State) *logp.Logger {

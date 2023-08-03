@@ -25,9 +25,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	"github.com/elastic/beats/v7/metricbeat/module/ceph/mgrtest"
+	"github.com/sheng855174/elastictictic/libbeat/tests/compose"
+	mbtest "github.com/sheng855174/elastictictic/metricbeat/mb/testing"
+	"github.com/sheng855174/elastictictic/metricbeat/module/ceph/mgrtest"
 )
 
 const user = "demo"

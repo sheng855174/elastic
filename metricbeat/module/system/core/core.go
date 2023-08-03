@@ -23,10 +23,10 @@ package core
 import (
 	"github.com/pkg/errors"
 
-	metrics "github.com/elastic/beats/v7/metricbeat/internal/metrics/cpu"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/mb/parse"
-	"github.com/elastic/beats/v7/metricbeat/module/system"
+	metrics "github.com/sheng855174/elastictic/metricbeat/internal/metrics/cpu"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
+	"github.com/sheng855174/elastictic/metricbeat/mb/parse"
+	"github.com/sheng855174/elastictic/metricbeat/module/system"
 )
 
 func init() {

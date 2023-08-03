@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact"
 )
 
 // Descriptor defines a program which needs to be run.

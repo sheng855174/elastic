@@ -33,16 +33,16 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/joeshaw/multierror"
+	"joeshaw/multierror"
 	"golang.org/x/sys/windows"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/winlogbeat/checkpoint"
-	"github.com/elastic/beats/v7/winlogbeat/sys"
-	"github.com/elastic/beats/v7/winlogbeat/sys/winevent"
-	win "github.com/elastic/beats/v7/winlogbeat/sys/wineventlog"
+	"libbeat/common"
+	"libbeat/common/cfgwarn"
+	"libbeat/logp"
+	"winlogbeat/checkpoint"
+	"winlogbeat/sys"
+	"winlogbeat/sys/winevent"
+	win "winlogbeat/sys/wineventlog"
 )
 
 var (

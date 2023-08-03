@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
+	"stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"libbeat/common"
 )
 
 const (

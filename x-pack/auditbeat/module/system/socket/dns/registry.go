@@ -7,8 +7,8 @@ package dns
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/metricbeat/mb"
 )
 
 // ImplFactory is a factory method for DNS monitoring implementations.

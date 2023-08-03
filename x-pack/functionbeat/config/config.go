@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/cfgfile"
+	"github.com/sheng855174/elastic/libbeat/common"
 )
 
 var (

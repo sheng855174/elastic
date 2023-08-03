@@ -18,8 +18,8 @@
 package stats
 
 import (
-	s "github.com/elastic/beats/v7/libbeat/common/schema"
-	c "github.com/elastic/beats/v7/libbeat/common/schema/mapstrstr"
+	s "github.com/sheng855174/elastictictic/libbeat/common/schema"
+	c "github.com/sheng855174/elastictictic/libbeat/common/schema/mapstrstr"
 )
 
 var (

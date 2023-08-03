@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 // HTTPClientProxySettings provides common HTTP proxy setup support.

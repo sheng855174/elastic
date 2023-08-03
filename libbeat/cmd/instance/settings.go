@@ -20,11 +20,11 @@ package instance
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/v7/libbeat/cfgfile"
-	"github.com/elastic/beats/v7/libbeat/idxmgmt"
-	"github.com/elastic/beats/v7/libbeat/idxmgmt/ilm"
-	"github.com/elastic/beats/v7/libbeat/monitoring/report"
-	"github.com/elastic/beats/v7/libbeat/publisher/processing"
+	"github.com/sheng855174/elastictictic/libbeat/cfgfile"
+	"github.com/sheng855174/elastictictic/libbeat/idxmgmt"
+	"github.com/sheng855174/elastictictic/libbeat/idxmgmt/ilm"
+	"github.com/sheng855174/elastictictic/libbeat/monitoring/report"
+	"github.com/sheng855174/elastictictic/libbeat/publisher/processing"
 )
 
 // Settings contains basic settings for any beat to pass into GenRootCmd

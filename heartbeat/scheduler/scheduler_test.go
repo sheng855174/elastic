@@ -29,8 +29,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/sheng855174/elastictictic/heartbeat/config"
+	"github.com/sheng855174/elastictictic/libbeat/monitoring"
 )
 
 // The runAt in the island of tarawa 🏝. Good test TZ because it's pretty rare for a local box

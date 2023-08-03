@@ -23,7 +23,7 @@ package file
 import (
 	"fmt"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 func newINodeMarkerIdentifier(cfg *common.Config) (StateIdentifier, error) {

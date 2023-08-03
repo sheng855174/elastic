@@ -20,10 +20,10 @@ package memory
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/internal/metrics/memory"
 	sysinfo "github.com/elastic/go-sysinfo"
 	sysinfotypes "github.com/elastic/go-sysinfo/types"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/metricbeat/internal/metrics/memory"
 )
 
 // FetchLinuxMemStats gets page_stat and huge pages data for linux

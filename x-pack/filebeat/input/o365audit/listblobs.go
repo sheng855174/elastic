@@ -15,7 +15,7 @@ import (
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/x-pack/filebeat/input/o365audit/poll"
+	"github.com/sheng855174/elastic/x-pack/filebeat/input/o365audit/poll"
 )
 
 // listBlob is a poll.Transaction that handles the content/"blobs" list.

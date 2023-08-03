@@ -22,8 +22,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/beats/v7/filebeat/harvester"
-	"github.com/elastic/beats/v7/filebeat/inputsource/udp"
+	"github.com/sheng855174/elastictictic/filebeat/harvester"
+	"github.com/sheng855174/elastictictic/filebeat/inputsource/udp"
 )
 
 var defaultConfig = config{

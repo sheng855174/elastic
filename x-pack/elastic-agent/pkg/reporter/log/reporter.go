@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/reporter"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/reporter"
 )
 
 type logger interface {

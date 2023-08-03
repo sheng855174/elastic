@@ -21,9 +21,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi/resourcegroupstaggingapiiface"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/aws"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/metricbeat/mb"
+	"github.com/sheng855174/elastic/x-pack/metricbeat/module/aws"
 )
 
 var (

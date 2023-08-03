@@ -10,14 +10,14 @@ package compute_vm_scaleset
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/x-pack/metricbeat/module/azure/test"
+	"github.com/sheng855174/elastic/x-pack/metricbeat/module/azure/test"
 
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/sheng855174/elastic/metricbeat/mb/testing"
 
 	// Register input module and metricset
-	_ "github.com/elastic/beats/v7/x-pack/metricbeat/module/azure/monitor"
+	_ "github.com/sheng855174/elastic/x-pack/metricbeat/module/azure/monitor"
 )
 
 func TestFetchMetricset(t *testing.T) {

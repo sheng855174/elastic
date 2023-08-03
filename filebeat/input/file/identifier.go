@@ -24,7 +24,7 @@ import (
 
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 const (

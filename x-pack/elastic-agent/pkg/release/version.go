@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	libbeatVersion "github.com/elastic/beats/v7/libbeat/version"
+	libbeatVersion "github.com/sheng855174/elastic/libbeat/version"
 )
 
 const (

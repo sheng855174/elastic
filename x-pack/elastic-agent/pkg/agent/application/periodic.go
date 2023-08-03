@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/pipeline"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/filewatcher"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/pipeline"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/filewatcher"
 )
 
 type periodic struct {

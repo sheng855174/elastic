@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 // GetCmdStr Convert cmd array to cmd line

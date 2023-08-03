@@ -27,14 +27,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/paths"
+	"libbeat/beat"
+	"libbeat/common"
+	"libbeat/logp"
+	"libbeat/paths"
 
-	"github.com/elastic/beats/v7/winlogbeat/checkpoint"
-	"github.com/elastic/beats/v7/winlogbeat/config"
-	"github.com/elastic/beats/v7/winlogbeat/eventlog"
+	"winlogbeat/checkpoint"
+	"winlogbeat/config"
+	"winlogbeat/eventlog"
 )
 
 // Time the application was started.

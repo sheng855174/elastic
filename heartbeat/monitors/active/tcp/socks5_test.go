@@ -28,11 +28,11 @@ import (
 	"github.com/armon/go-socks5"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/hbtest"
-	"github.com/elastic/beats/v7/libbeat/common"
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/isdef"
 	"github.com/elastic/go-lookslike/testslike"
+	"github.com/sheng855174/elastictictic/heartbeat/hbtest"
+	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 func TestSocks5Job(t *testing.T) {

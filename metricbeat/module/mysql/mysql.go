@@ -23,7 +23,7 @@ package mysql
 import (
 	"database/sql"
 
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastictictic/metricbeat/mb"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/pkg/errors"

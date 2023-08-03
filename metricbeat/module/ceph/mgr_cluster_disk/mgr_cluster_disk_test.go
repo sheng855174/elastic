@@ -20,8 +20,8 @@ package mgr_cluster_disk
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
-	_ "github.com/elastic/beats/v7/metricbeat/module/ceph"
+	mbtest "github.com/sheng855174/elastictictic/metricbeat/mb/testing"
+	_ "github.com/sheng855174/elastictictic/metricbeat/module/ceph"
 )
 
 func TestDataFiles(t *testing.T) {

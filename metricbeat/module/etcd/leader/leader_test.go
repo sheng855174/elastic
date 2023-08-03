@@ -28,7 +28,7 @@ import (
 
 	"testing"
 
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	mbtest "github.com/sheng855174/elastictic/metricbeat/mb/testing"
 )
 
 func TestEventMapping(t *testing.T) {

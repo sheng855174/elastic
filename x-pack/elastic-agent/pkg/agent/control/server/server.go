@@ -16,19 +16,19 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/reexec"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/application/upgrade"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/control/proto"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/errors"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/agent/program"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
-	monitoring "github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/monitoring/beats"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/socket"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/status"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/fleetapi"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/release"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/sorted"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/reexec"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/application/upgrade"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/control/proto"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/errors"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/agent/program"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
+	monitoring "github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/monitoring/beats"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/socket"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/status"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/fleetapi"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/release"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/sorted"
 )
 
 // Server is the daemon side of the control protocol.

@@ -22,14 +22,14 @@ import (
 
 	"github.com/elastic/ecs/code/go/ecs"
 
-	"github.com/elastic/beats/v7/libbeat/asset"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/mapping"
-	"github.com/elastic/beats/v7/libbeat/processors"
-	"github.com/elastic/beats/v7/libbeat/processors/actions"
-	"github.com/elastic/beats/v7/libbeat/processors/timeseries"
+	"github.com/sheng855174/elastictictic/libbeat/asset"
+	"github.com/sheng855174/elastictictic/libbeat/beat"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/mapping"
+	"github.com/sheng855174/elastictictic/libbeat/processors"
+	"github.com/sheng855174/elastictictic/libbeat/processors/actions"
+	"github.com/sheng855174/elastictictic/libbeat/processors/timeseries"
 )
 
 // builder is used to create the event processing pipeline in Beats.  The

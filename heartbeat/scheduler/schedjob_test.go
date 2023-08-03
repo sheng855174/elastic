@@ -25,9 +25,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/heartbeat/config"
-	batomic "github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
+	"github.com/sheng855174/elastictictic/heartbeat/config"
+	batomic "github.com/sheng855174/elastictictic/libbeat/common/atomic"
+	"github.com/sheng855174/elastictictic/libbeat/monitoring"
 )
 
 func TestSchedJobRun(t *testing.T) {

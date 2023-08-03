@@ -20,7 +20,7 @@
 package sip
 
 import (
-	"github.com/elastic/beats/v7/libbeat/asset"
+	"github.com/sheng855174/elastictic/libbeat/asset"
 )
 
 func init() {

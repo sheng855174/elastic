@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/logp"
 )
 
 func TestLogFileTimedClosing(t *testing.T) {

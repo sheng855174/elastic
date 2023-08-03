@@ -9,8 +9,8 @@ import (
 
 	"github.com/rcrowley/go-metrics"
 
-	"github.com/elastic/beats/v7/libbeat/monitoring"
-	"github.com/elastic/beats/v7/libbeat/monitoring/adapter"
+	"github.com/sheng855174/elastic/libbeat/monitoring"
+	"github.com/sheng855174/elastic/libbeat/monitoring/adapter"
 )
 
 type inputMetrics struct {

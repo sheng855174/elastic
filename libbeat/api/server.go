@@ -24,8 +24,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 // Server takes cares of correctly starting the HTTP component of the API

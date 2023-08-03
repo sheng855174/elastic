@@ -10,9 +10,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/elastic/beats/v7/heartbeat/monitors/plugin"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/heartbeat/monitors/plugin"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 func init() {

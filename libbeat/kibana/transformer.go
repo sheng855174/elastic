@@ -18,8 +18,8 @@
 package kibana
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common"
 	"github.com/elastic/go-ucfg/yaml"
+	"github.com/sheng855174/elastictictic/libbeat/common"
 )
 
 type transformer struct {

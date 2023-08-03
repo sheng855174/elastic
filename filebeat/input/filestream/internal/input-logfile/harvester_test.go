@@ -27,11 +27,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/tests/resources"
-	"github.com/elastic/beats/v7/x-pack/dockerlogbeat/pipelinemock"
 	"github.com/elastic/go-concert/unison"
+	input "github.com/sheng855174/elastictic/filebeat/input/v2"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/tests/resources"
+	"github.com/sheng855174/elastictic/x-pack/dockerlogbeat/pipelinemock"
 )
 
 func TestReaderGroup(t *testing.T) {

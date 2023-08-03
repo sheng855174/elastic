@@ -9,20 +9,20 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/processors"
-	"github.com/elastic/beats/v7/libbeat/processors/script/javascript"
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/isdef"
 	"github.com/elastic/go-lookslike/validator"
+	"github.com/sheng855174/elastic/libbeat/beat"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/processors"
+	"github.com/sheng855174/elastic/libbeat/processors/script/javascript"
 
 	// Register JS "require" modules.
-	_ "github.com/elastic/beats/v7/libbeat/processors/script/javascript/module"
+	_ "github.com/sheng855174/elastic/libbeat/processors/script/javascript/module"
 	// Register required processors.
-	_ "github.com/elastic/beats/v7/libbeat/cmd/instance"
-	_ "github.com/elastic/beats/v7/libbeat/processors/timestamp"
+	_ "github.com/sheng855174/elastic/libbeat/cmd/instance"
+	_ "github.com/sheng855174/elastic/libbeat/processors/timestamp"
 )
 
 var logInputHeaders = []string{

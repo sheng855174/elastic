@@ -23,10 +23,10 @@ package state_daemonset
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/metricbeat/helper/prometheus/ptest"
-	mbtest "github.com/elastic/beats/v7/metricbeat/mb/testing"
+	"github.com/sheng855174/elastictictic/metricbeat/helper/prometheus/ptest"
+	mbtest "github.com/sheng855174/elastictictic/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/v7/metricbeat/module/kubernetes"
+	_ "github.com/sheng855174/elastictictic/metricbeat/module/kubernetes"
 )
 
 func TestEventMapping(t *testing.T) {

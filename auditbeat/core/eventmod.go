@@ -18,8 +18,8 @@
 package core
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
 )
 
 // AddDatasetToEvent adds dataset information to the event. In particular this

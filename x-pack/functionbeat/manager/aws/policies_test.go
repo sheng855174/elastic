@@ -11,9 +11,9 @@ import (
 	"github.com/awslabs/goformation/v4/cloudformation/iam"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/x-pack/functionbeat/function/provider"
-	fnaws "github.com/elastic/beats/v7/x-pack/functionbeat/provider/aws/aws"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/x-pack/functionbeat/function/provider"
+	fnaws "github.com/sheng855174/elastic/x-pack/functionbeat/provider/aws/aws"
 )
 
 func TestConfig(t *testing.T) {

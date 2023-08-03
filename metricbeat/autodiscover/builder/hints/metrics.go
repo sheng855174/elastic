@@ -24,13 +24,13 @@ import (
 
 	"github.com/elastic/go-ucfg"
 
-	"github.com/elastic/beats/v7/libbeat/autodiscover"
-	"github.com/elastic/beats/v7/libbeat/autodiscover/builder"
-	"github.com/elastic/beats/v7/libbeat/autodiscover/template"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastictic/libbeat/autodiscover"
+	"github.com/sheng855174/elastictic/libbeat/autodiscover/builder"
+	"github.com/sheng855174/elastictic/libbeat/autodiscover/template"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/common/bus"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
 )
 
 func init() {

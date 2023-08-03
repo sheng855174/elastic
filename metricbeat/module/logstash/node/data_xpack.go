@@ -20,10 +20,10 @@ package node
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/metricbeat/helper/elastic"
-	"github.com/elastic/beats/v7/metricbeat/mb"
-	"github.com/elastic/beats/v7/metricbeat/module/logstash"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/metricbeat/helper/elastic"
+	"github.com/sheng855174/elastictictic/metricbeat/mb"
+	"github.com/sheng855174/elastictictic/metricbeat/module/logstash"
 )
 
 func eventMappingXPack(r mb.ReporterV2, m *MetricSet, pipelines []logstash.PipelineState, overrideClusterUUID string) error {

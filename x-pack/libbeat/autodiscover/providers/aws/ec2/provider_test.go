@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/bus"
-	"github.com/elastic/beats/v7/libbeat/keystore"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	awsauto "github.com/elastic/beats/v7/x-pack/libbeat/autodiscover/providers/aws"
-	"github.com/elastic/beats/v7/x-pack/libbeat/autodiscover/providers/aws/test"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/bus"
+	"github.com/sheng855174/elastic/libbeat/keystore"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	awsauto "github.com/sheng855174/elastic/x-pack/libbeat/autodiscover/providers/aws"
+	"github.com/sheng855174/elastic/x-pack/libbeat/autodiscover/providers/aws/test"
 )
 
 func Test_internalBuilder(t *testing.T) {

@@ -11,8 +11,8 @@ package kubernetes
 import (
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/kubernetes/metadata"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/common/kubernetes/metadata"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // Config for kubernetes provider

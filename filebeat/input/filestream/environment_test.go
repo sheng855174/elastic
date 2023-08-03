@@ -29,17 +29,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
-	input "github.com/elastic/beats/v7/filebeat/input/v2"
-	v2 "github.com/elastic/beats/v7/filebeat/input/v2"
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/acker"
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/statestore"
-	"github.com/elastic/beats/v7/libbeat/statestore/storetest"
 	"github.com/elastic/go-concert/unison"
+	loginp "github.com/sheng855174/elastictic/filebeat/input/filestream/internal/input-logfile"
+	input "github.com/sheng855174/elastictic/filebeat/input/v2"
+	v2 "github.com/sheng855174/elastictic/filebeat/input/v2"
+	"github.com/sheng855174/elastictic/libbeat/beat"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/common/acker"
+	"github.com/sheng855174/elastictic/libbeat/common/transform/typeconv"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/statestore"
+	"github.com/sheng855174/elastictic/libbeat/statestore/storetest"
 )
 
 type inputTestingEnvironment struct {

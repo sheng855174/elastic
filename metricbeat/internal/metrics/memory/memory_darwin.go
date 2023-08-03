@@ -39,7 +39,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/opt"
+	"github.com/sheng855174/elastictictic/libbeat/opt"
 )
 
 type xswUsage struct {

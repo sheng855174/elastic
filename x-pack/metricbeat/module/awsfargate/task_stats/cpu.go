@@ -7,8 +7,8 @@ package task_stats
 import (
 	"github.com/docker/docker/api/types"
 
-	"github.com/elastic/beats/v7/metricbeat/module/docker"
-	"github.com/elastic/beats/v7/metricbeat/module/docker/cpu"
+	"github.com/sheng855174/elastic/metricbeat/module/docker"
+	"github.com/sheng855174/elastic/metricbeat/module/docker/cpu"
 )
 
 func getCPUStats(taskStats types.StatsJSON) cpu.CPUStats {

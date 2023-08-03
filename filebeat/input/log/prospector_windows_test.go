@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/v7/libbeat/common/match"
+	"github.com/sheng855174/elastictictic/libbeat/common/match"
 )
 
 var matchTestsWindows = []struct {

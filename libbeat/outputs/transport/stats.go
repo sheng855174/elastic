@@ -18,7 +18,7 @@
 package transport
 
 import (
-	"github.com/elastic/beats/v7/libbeat/common/transport"
+	"github.com/sheng855174/elastictictic/libbeat/common/transport"
 )
 
 type IOStatser = transport.IOStatser

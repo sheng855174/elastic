@@ -23,13 +23,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/atomic"
-	"github.com/elastic/beats/v7/libbeat/common/cleanup"
-	"github.com/elastic/beats/v7/libbeat/common/transform/typeconv"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/statestore"
 	"github.com/elastic/go-concert"
 	"github.com/elastic/go-concert/unison"
+	"github.com/sheng855174/elastictic/libbeat/common/atomic"
+	"github.com/sheng855174/elastictic/libbeat/common/cleanup"
+	"github.com/sheng855174/elastictic/libbeat/common/transform/typeconv"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/statestore"
 )
 
 // sourceStore is a store which can access resources using the Source

@@ -16,10 +16,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/config"
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/core/logger"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/config"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/core/logger"
 )
 
 const (

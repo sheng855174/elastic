@@ -10,7 +10,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 type azureInputConfig struct {

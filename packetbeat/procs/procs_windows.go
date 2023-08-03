@@ -30,8 +30,8 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/elastic/beats/v7/packetbeat/protos/applayer"
 	"github.com/elastic/go-sysinfo/types"
+	"github.com/sheng855174/elastictic/packetbeat/protos/applayer"
 )
 
 var machineEndiannes = getMachineEndiannes()

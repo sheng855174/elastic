@@ -27,10 +27,10 @@ import (
 	"github.com/PaesslerAG/gval"
 	"github.com/PaesslerAG/jsonpath"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/v7/libbeat/common/jsontransform"
-	"github.com/elastic/beats/v7/libbeat/conditions"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/cfgwarn"
+	"github.com/sheng855174/elastictictic/libbeat/common/jsontransform"
+	"github.com/sheng855174/elastictictic/libbeat/conditions"
 )
 
 type jsonChecker func(interface{}) bool

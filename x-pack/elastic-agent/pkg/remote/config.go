@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/v7/libbeat/common/transport/httpcommon"
+	"github.com/sheng855174/elastic/libbeat/common/transport/httpcommon"
 )
 
 // Config is the configuration for the client.

@@ -20,7 +20,7 @@ package sys
 import (
 	"strings"
 
-	"github.com/elastic/beats/v7/libbeat/common"
+	"libbeat/common"
 )
 
 // UTF16BytesToString converts the given UTF-16 bytes to a string.

@@ -27,9 +27,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/metricbeat/helper/windows/pdh"
-	"github.com/elastic/beats/v7/metricbeat/mb"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/metricbeat/helper/windows/pdh"
+	"github.com/sheng855174/elastictic/metricbeat/mb"
 )
 
 const (

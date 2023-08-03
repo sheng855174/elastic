@@ -23,9 +23,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	k8s "k8s.io/client-go/kubernetes"
 
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/kubernetes"
-	"github.com/elastic/beats/v7/libbeat/common/safemapstr"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/kubernetes"
+	"github.com/sheng855174/elastictictic/libbeat/common/safemapstr"
 )
 
 // Resource generates metadata for any kubernetes resource

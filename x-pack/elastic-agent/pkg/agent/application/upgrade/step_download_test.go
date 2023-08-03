@@ -7,7 +7,7 @@ package upgrade
 import (
 	"testing"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/artifact/download"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/artifact/download"
 
 	"github.com/stretchr/testify/require"
 )

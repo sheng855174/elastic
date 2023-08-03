@@ -29,14 +29,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/v7/libbeat/beat"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/monitoring"
-	"github.com/elastic/beats/v7/packetbeat/pb"
-	"github.com/elastic/beats/v7/packetbeat/procs"
-	"github.com/elastic/beats/v7/packetbeat/protos"
 	"github.com/elastic/ecs/code/go/ecs"
+	"github.com/sheng855174/elastictic/libbeat/beat"
+	"github.com/sheng855174/elastictic/libbeat/common"
+	"github.com/sheng855174/elastictic/libbeat/logp"
+	"github.com/sheng855174/elastictic/libbeat/monitoring"
+	"github.com/sheng855174/elastictic/packetbeat/pb"
+	"github.com/sheng855174/elastictic/packetbeat/procs"
+	"github.com/sheng855174/elastictic/packetbeat/protos"
 )
 
 var debugf = logp.MakeDebug("http")

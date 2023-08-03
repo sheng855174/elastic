@@ -20,7 +20,7 @@ package statestore
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/elastic/beats/v7/libbeat/statestore/backend"
+	"github.com/sheng855174/elastictictic/libbeat/statestore/backend"
 )
 
 type mockRegistry struct {

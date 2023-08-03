@@ -5,19 +5,19 @@
 package cmd
 
 import (
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/beater"
-	"github.com/elastic/beats/v7/x-pack/osquerybeat/internal/install"
+	"github.com/sheng855174/elastic/x-pack/osquerybeat/beater"
+	"github.com/sheng855174/elastic/x-pack/osquerybeat/internal/install"
 
-	cmd "github.com/elastic/beats/v7/libbeat/cmd"
-	"github.com/elastic/beats/v7/libbeat/cmd/instance"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/cli"
-	"github.com/elastic/beats/v7/libbeat/logp"
-	"github.com/elastic/beats/v7/libbeat/publisher/processing"
+	cmd "github.com/sheng855174/elastic/libbeat/cmd"
+	"github.com/sheng855174/elastic/libbeat/cmd/instance"
+	"github.com/sheng855174/elastic/libbeat/common"
+	"github.com/sheng855174/elastic/libbeat/common/cli"
+	"github.com/sheng855174/elastic/libbeat/logp"
+	"github.com/sheng855174/elastic/libbeat/publisher/processing"
 
 	"github.com/spf13/cobra"
 
-	_ "github.com/elastic/beats/v7/x-pack/libbeat/include"
+	_ "github.com/sheng855174/elastic/x-pack/libbeat/include"
 )
 
 // Name of this beat

@@ -9,7 +9,7 @@ package program
 import (
 	"strings"
 
-	"github.com/elastic/beats/v7/x-pack/elastic-agent/pkg/packer"
+	"github.com/sheng855174/elastic/x-pack/elastic-agent/pkg/packer"
 )
 
 var Supported []Spec

@@ -30,11 +30,11 @@ import (
 	"github.com/elastic/go-concert/timed"
 	"github.com/elastic/go-concert/unison"
 
-	"github.com/elastic/beats/v7/filebeat/input/file"
-	loginp "github.com/elastic/beats/v7/filebeat/input/filestream/internal/input-logfile"
-	"github.com/elastic/beats/v7/libbeat/common"
-	"github.com/elastic/beats/v7/libbeat/common/match"
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"github.com/sheng855174/elastictictic/filebeat/input/file"
+	loginp "github.com/sheng855174/elastictictic/filebeat/input/filestream/internal/input-logfile"
+	"github.com/sheng855174/elastictictic/libbeat/common"
+	"github.com/sheng855174/elastictictic/libbeat/common/match"
+	"github.com/sheng855174/elastictictic/libbeat/logp"
 )
 
 const (

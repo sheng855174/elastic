@@ -24,12 +24,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/andrewkroh/sys/windows/svc/eventlog"
-	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
+	"andrewkroh/sys/windows/svc/eventlog"
+	"pkg/errors"
+	"stretchr/testify/assert"
 	"golang.org/x/sys/windows"
 
-	"github.com/elastic/beats/v7/libbeat/logp"
+	"libbeat/logp"
 )
 
 func TestEventIterator(t *testing.T) {
@@ -164,7 +164,7 @@ func TestEventIterator(t *testing.T) {
 		assert.EqualValues(t, eventCount, iterateCount)
 	})
 
-	// Check for regressions of https://github.com/elastic/beats/issues/3076
+	// Check for regressions of https://elastic/beats/issues/3076
 	// where EvtNext fails reading batch of large events.
 	//
 	// Note: As of 2020-03 Windows 2019 no longer exhibits this behavior.
