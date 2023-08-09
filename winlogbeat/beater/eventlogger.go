@@ -104,17 +104,19 @@ func (e *eventLogger) run(
 	// Initialize per event log metrics.
 	initMetrics(api.Name())
 
-	e.log.Info("test pipetool.WithACKer start...")
+	e.log.Info("sheng pipetool.WithACKer start...")
 	pipeline = pipetool.WithACKer(pipeline, acker.EventPrivateReporter(func(_ int, private []interface{}) {
 		eventACKer.ACKEvents(private)
 	}))
-	e.log.Info("test pipetool.WithACKer end...")
+	e.log.Info("sheng pipetool.WithACKer end...")
 
 	client, err := e.connect(pipeline)
 	if err != nil {
 		e.log.Warnw("Pipeline error. Failed to connect to publisher pipeline", "error", err)
 		return
 	}
+
+	e.log.Info("sheng e.connect(pipeline) end...")
 
 	// close client on function return or when `done` is triggered (unblock client)
 	defer client.Close()
@@ -137,6 +139,8 @@ func (e *eventLogger) run(
 
 runLoop:
 	for stop := false; !stop; {
+		e.log.Info("sheng !stop; start...")
+
 		err = api.Open(state)
 
 		switch {
