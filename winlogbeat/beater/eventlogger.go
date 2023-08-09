@@ -211,6 +211,7 @@ runLoop:
 			}
 
 			eventACKer.Add(len(records))
+			e.log.Info("sheng eventACKer.Add(%d) start...", len(records))
 			for _, lr := range records {
 				client.Publish(lr.ToEvent())
 			}
