@@ -139,7 +139,7 @@ func (e *eventLogger) run(
 
 runLoop:
 	for stop := false; !stop; {
-		e.log.Info("sheng !stop; start...")
+		e.log.Info("sheng 1 for !stop; start...")
 
 		err = api.Open(state)
 
@@ -166,6 +166,8 @@ runLoop:
 		e.log.Debug("Opened successfully.")
 
 		for !stop {
+			e.log.Info("sheng 2 for !stop; start...")
+
 			select {
 			case <-done:
 				return
