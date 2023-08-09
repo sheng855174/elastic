@@ -136,11 +136,11 @@ func (eb *Winlogbeat) Run(b *beat.Beat) error {
 		state, _ := persistedState[log.source.Name()]
 
 		// Start a goroutine for each event log.
-		wg.Add(1)
-		go eb.processEventLog(&wg, log, state, acker)
+		//wg.Add(1)
+		eb.processEventLog(&wg, log, state, acker)
 	}
 
-	wg.Wait()
+	//wg.Wait()
 	defer eb.checkpoint.Shutdown()
 
 	if eb.config.ShutdownTimeout > 0 {
