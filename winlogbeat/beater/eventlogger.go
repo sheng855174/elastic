@@ -104,11 +104,11 @@ func (e *eventLogger) run(
 	// Initialize per event log metrics.
 	initMetrics(api.Name())
 
-	e.log.Info("sheng test pipetool.WithACKer start...")
+	e.log.Info("test pipetool.WithACKer start...")
 	pipeline = pipetool.WithACKer(pipeline, acker.EventPrivateReporter(func(_ int, private []interface{}) {
 		eventACKer.ACKEvents(private)
 	}))
-	e.log.Info("sheng test pipetool.WithACKer end...")
+	e.log.Info("test pipetool.WithACKer end...")
 
 	client, err := e.connect(pipeline)
 	if err != nil {

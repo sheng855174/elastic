@@ -121,14 +121,14 @@ func (eb *Winlogbeat) setup(b *beat.Beat) error {
 
 // Run is used within the beats interface to execute the Winlogbeat workers.
 func (eb *Winlogbeat) Run(b *beat.Beat) error {
-	eb.log.Info("sheng test Run(b *beat.Beat) start...")
+	eb.log.Info("sheng Run(b *beat.Beat) start...")
 
 	if err := eb.setup(b); err != nil {
 		return err
 	}
 
 	acker := newEventACKer(eb.checkpoint)
-	eb.log.Info("sheng test eb.checkpoint.States() start...")
+	eb.log.Info("sheng eb.checkpoint.States() start...")
 	persistedState := eb.checkpoint.States()
 	eb.log.Info("sheng eb.checkpoint.States() end...")
 
@@ -140,11 +140,11 @@ func (eb *Winlogbeat) Run(b *beat.Beat) error {
 		state, _ := persistedState[log.source.Name()]
 
 		// Start a goroutine for each event log.
-		//wg.Add(1)
+		wg.Add(1)
 		eb.processEventLog(&wg, log, state, acker)
 	}
 
-	//wg.Wait()
+	wg.Wait()
 	eb.log.Info("sheng range eb.eventLogs end...")
 
 	defer eb.checkpoint.Shutdown()
@@ -174,6 +174,6 @@ func (eb *Winlogbeat) processEventLog(
 	state checkpoint.EventLogState,
 	acker *eventACKer,
 ) {
-	//defer wg.Done()
+	defer wg.Done()
 	logger.run(eb.done, eb.pipeline, state, acker)
 }
