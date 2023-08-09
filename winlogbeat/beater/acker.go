@@ -42,7 +42,6 @@ func newEventACKer(checkpoint *checkpoint.Checkpoint) *eventACKer {
 // ACKEvents receives callbacks from the publisher for every event that is
 // published. It persists the record number of the last event in each
 func (a *eventACKer) ACKEvents(data []interface{}) {
-	eb.log.Info("sheng test ACKEvents(data []interface{}) start...")
 
 	states := make(map[string]*checkpoint.EventLogState)
 
@@ -60,7 +59,6 @@ func (a *eventACKer) ACKEvents(data []interface{}) {
 	a.active.Add(-1 * len(data))
 	a.wg.Add(-1 * len(data))
 
-	eb.log.Info("sheng test ACKEvents(data []interface{}) end...")
 }
 
 // Wait waits for all events to be ACKed or for the context to be done.

@@ -145,6 +145,7 @@ func (eb *Winlogbeat) Run(b *beat.Beat) error {
 	}
 
 	//wg.Wait()
+	eb.log.Info("sheng range eb.eventLogs end...")
 
 	defer eb.checkpoint.Shutdown()
 
