@@ -166,7 +166,6 @@ runLoop:
 		e.log.Debug("Opened successfully.")
 
 		for !stop {
-			e.log.Info("sheng 2 for !stop; start...")
 
 			select {
 			case <-done:
@@ -203,6 +202,7 @@ runLoop:
 
 			e.log.Debugf("Read() returned %d records.", len(records))
 			if len(records) == 0 {
+				e.log.Info("sheng len(records) == 0 start...")
 				time.Sleep(time.Second)
 				if stop {
 					return
