@@ -257,7 +257,6 @@ func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
         log.Fatalf("open file error=%v", err)
     }
     defer f.Close()
-    logger := log.New(f, "", log.Ldate|log.Ltime)
     logger.Print("hello")
     logger.Println("world")
 
