@@ -349,12 +349,15 @@ func (l *winEventLog) Read() ([]Record, error) {
 			continue
 		}
 
+		logp.Info("sheng range handles2 start...", len(handles))
 		r := l.buildRecordFromXML(l.outputBuf.Bytes(), err)
+		logp.Info("sheng range handles3 start...", len(handles))
 		r.Offset = checkpoint.EventLogState{
 			Name:         l.id,
 			RecordNumber: r.RecordID,
 			Timestamp:    r.TimeCreated.SystemTime,
 		}
+		logp.Info("sheng range handles4 start...", len(handles))
 
 		if r.Offset.Bookmark, err = l.createBookmarkFromEvent(h); err != nil {
 			logp.Warn("%s failed creating bookmark: %v", l.logPrefix, err)
