@@ -331,7 +331,6 @@ func (l *winEventLog) Read() ([]Record, error) {
 	var records []Record //nolint:prealloc // This linter gives bad advice and does not take into account conditionals in loops.
 	logp.Info("sheng range handles start...", len(handles))
 	for _, h := range handles {
-		logp.Info("sheng range handles loop start...")
 
 		l.outputBuf.Reset()
 		err := l.render(h, l.outputBuf)
@@ -344,14 +343,12 @@ func (l *winEventLog) Read() ([]Record, error) {
 			err = l.render(h, l.outputBuf)
 		}
 
-		logp.Info("sheng range handles1 loop start...")
 		if err != nil && l.outputBuf.Len() == 0 {
 			logp.Err("%s Dropping event with rendering error. %v", l.logPrefix, err)
 			incrementMetric(dropReasons, err)
 			continue
 		}
 
-		logp.Info("sheng range handles2 loop start...")
 		r := l.buildRecordFromXML(l.outputBuf.Bytes(), err)
 		r.Offset = checkpoint.EventLogState{
 			Name:         l.id,
@@ -359,12 +356,10 @@ func (l *winEventLog) Read() ([]Record, error) {
 			Timestamp:    r.TimeCreated.SystemTime,
 		}
 
-		logp.Info("sheng range handles3 loop start...")
 		if r.Offset.Bookmark, err = l.createBookmarkFromEvent(h); err != nil {
 			logp.Warn("%s failed creating bookmark: %v", l.logPrefix, err)
 		}
 
-		logp.Info("sheng range handles4 loop start...")
 		if r.Message == "" {
 			r.Message, err = l.message(h)
 			if err != nil {
@@ -374,7 +369,6 @@ func (l *winEventLog) Read() ([]Record, error) {
 		}
 		records = append(records, r)
 		l.lastRead = r.Offset
-		logp.Info("sheng range handles5 loop start...")
 	}
 	logp.Info("sheng range handles end...")
 
