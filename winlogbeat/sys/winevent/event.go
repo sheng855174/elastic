@@ -50,7 +50,9 @@ const (
 func UnmarshalXML(rawXML []byte) (Event, error) {
 	logp.Info("sheng UnmarshalXML start...")
 	var event Event
+	logp.Info("sheng UnmarshalXML 1...")
 	decoder := xml.NewDecoder(libxml.NewSafeReader(rawXML))
+	logp.Info("sheng UnmarshalXML 2...")
 	err := decoder.Decode(&event)
 	logp.Info("sheng UnmarshalXML end...")
 	return event, err
