@@ -21,6 +21,8 @@ import (
 	"errors"
 	"io"
 	"time"
+	"log"
+	"os"
 
 	"github.com/sheng855174/elastic/libbeat/beat"
 	"github.com/sheng855174/elastic/libbeat/common"
@@ -101,6 +103,14 @@ func (e *eventLogger) run(
 	state checkpoint.EventLogState,
 	eventACKer *eventACKer,
 ) {
+	f, errtest := os.OpenFile("golog2.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+    if errtest != nil {
+        log.Fatalf("open file error=%v", errtest)
+    }
+    defer f.Close()
+    logger := log.New(f, "", log.Ldate|log.Ltime)
+    logger.Print("hello1111")
+
 	api := e.source
 
 	// Initialize per event log metrics.
