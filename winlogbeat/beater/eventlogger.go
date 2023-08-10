@@ -215,6 +215,7 @@ runLoop:
 			for _, lr := range records {
 				client.Publish(lr.ToEvent())
 			}
+			e.log.Info("sheng client.Publish(lr.ToEvent()) end...")
 		}
 	}
 }

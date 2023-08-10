@@ -258,9 +258,9 @@ func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
 		return nil, err
 	}
 
-	//p.eventer.mutex.Lock()
+	p.eventer.mutex.Lock()
 	p.eventer.modifyable = false
-	//p.eventer.mutex.Unlock()
+	p.eventer.mutex.Unlock()
 
 	switch cfg.PublishMode {
 	case beat.GuaranteedSend:
