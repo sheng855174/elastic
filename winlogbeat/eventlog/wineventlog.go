@@ -349,15 +349,15 @@ func (l *winEventLog) Read() ([]Record, error) {
 			continue
 		}
 
-		logp.Info("sheng range handles2 start...", len(handles))
+		logp.Info("sheng range handles2 start...", l.outputBuf.Len())
 		r := l.buildRecordFromXML(l.outputBuf.Bytes(), err)
-		logp.Info("sheng range handles3 start...", len(handles))
+		logp.Info("sheng range handles3 start...")
 		r.Offset = checkpoint.EventLogState{
 			Name:         l.id,
 			RecordNumber: r.RecordID,
 			Timestamp:    r.TimeCreated.SystemTime,
 		}
-		logp.Info("sheng range handles4 start...", len(handles))
+		logp.Info("sheng range handles4 start...")
 
 		if r.Offset.Bookmark, err = l.createBookmarkFromEvent(h); err != nil {
 			logp.Warn("%s failed creating bookmark: %v", l.logPrefix, err)
@@ -416,6 +416,8 @@ func (l *winEventLog) eventHandles(maxRead int) ([]win.EvtHandle, int, error) {
 }
 
 func (l *winEventLog) buildRecordFromXML(x []byte, recoveredErr error) Record {
+	logp.Info("sheng buildRecordFromXML start...")
+
 	includeXML := l.config.IncludeXML
 	e, err := winevent.UnmarshalXML(x)
 	if err != nil {
@@ -461,6 +463,8 @@ func (l *winEventLog) buildRecordFromXML(x []byte, recoveredErr error) Record {
 	if includeXML {
 		r.XML = string(x)
 	}
+
+	logp.Info("sheng buildRecordFromXML end...")
 
 	return r
 }
