@@ -78,6 +78,7 @@ func newEventLogger(
 }
 
 func (e *eventLogger) connect(pipeline beat.Pipeline) (beat.Client, error) {
+	e.log.Info("sheng connect(pipeline beat.Pipeline) start...")
 	return pipeline.ConnectWith(beat.ClientConfig{
 		PublishMode: beat.GuaranteedSend,
 		Processing: beat.ProcessingConfig{
@@ -89,7 +90,7 @@ func (e *eventLogger) connect(pipeline beat.Pipeline) (beat.Client, error) {
 		ACKHandler: acker.Counting(func(n int) {
 			addPublished(e.source.Name(), n)
 			e.log.Debugw("Successfully published events.", "event.count", n)
-			e.log.Info("Successfully published events.", "event.count", n)
+			e.log.Info("sheng Successfully published events end...")
 		}),
 	})
 }
