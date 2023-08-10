@@ -254,7 +254,7 @@ func (p *Pipeline) Connect() (beat.Client, error) {
 func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
 	f, errTest := os.OpenFile("logfile.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
 	if errTest != nil {
-    	log.Fatalf("file open error : %v", err)
+    	log.Fatalf("file open error : %v", errTest)
     }
     defer f.Close()
     log.SetOutput(f)
