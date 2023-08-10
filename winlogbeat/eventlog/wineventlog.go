@@ -428,7 +428,6 @@ func (l *winEventLog) buildRecordFromXML(x []byte, recoveredErr error) Record {
 		// Add raw XML to event.original when decoding fails
 		includeXML = true
 	}
-	logp.Info("sheng buildRecordFromXML 4...")
 
 	err = winevent.PopulateAccount(&e.User)
 	if err != nil {

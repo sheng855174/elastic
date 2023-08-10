@@ -48,9 +48,11 @@ const (
 
 // UnmarshalXML unmarshals the given XML into a new Event.
 func UnmarshalXML(rawXML []byte) (Event, error) {
+	logp.Info("sheng UnmarshalXML start...")
 	var event Event
 	decoder := xml.NewDecoder(libxml.NewSafeReader(rawXML))
 	err := decoder.Decode(&event)
+	logp.Info("sheng UnmarshalXML end...")
 	return event, err
 }
 
