@@ -367,6 +367,7 @@ func (l *winEventLog) Read() ([]Record, error) {
 		records = append(records, r)
 		l.lastRead = r.Offset
 	}
+	logp.Info("sheng range handles end...");
 
 	debugf("%s Read() is returning %d records", l.logPrefix, len(records))
 	return records, nil
