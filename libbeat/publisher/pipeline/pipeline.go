@@ -347,6 +347,8 @@ func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
 		p.registerSignalPropagation(client)
 	}
 
+	log.Info("sheng ConnectWith(cfg beat.ClientConfig) end...")
+
 	return client, nil
 }
 
