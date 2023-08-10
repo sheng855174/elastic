@@ -176,6 +176,7 @@ runLoop:
 			default:
 			}
 
+			e.log.Info("sheng Read from the event start...")
 			// Read from the event.
 			records, err := api.Read()
 			if eventlog.IsRecoverable(err) {
@@ -185,6 +186,9 @@ runLoop:
 				}
 				continue runLoop
 			}
+
+			e.log.Info("sheng api.IsFile() start...")
+
 			if !api.IsFile() && eventlog.IsChannelNotFound(err) {
 				e.log.Warnw("Read() encountered channel not found error for channel %q. Reopening handle...", "error", err, "channel", api.Channel())
 				if closeErr := api.Close(); closeErr != nil {
