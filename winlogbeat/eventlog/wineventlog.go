@@ -330,8 +330,10 @@ func (l *winEventLog) Read() ([]Record, error) {
 	detailf("%s EventHandles returned %d handles", l.logPrefix, len(handles))
 
 	var records []Record //nolint:prealloc // This linter gives bad advice and does not take into account conditionals in loops.
-	logp.Info("sheng range handles start...");
+	logp.Info("sheng range handles start...", len(handles));
 	for _, h := range handles {
+		logp.Info("sheng range handles loop start...");
+
 		l.outputBuf.Reset()
 		err := l.render(h, l.outputBuf)
 		var bufErr sys.InsufficientBufferError
