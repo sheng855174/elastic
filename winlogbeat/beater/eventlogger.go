@@ -89,6 +89,7 @@ func (e *eventLogger) connect(pipeline beat.Pipeline) (beat.Client, error) {
 		ACKHandler: acker.Counting(func(n int) {
 			addPublished(e.source.Name(), n)
 			e.log.Debugw("Successfully published events.", "event.count", n)
+			e.log.Info("Successfully published events.", "event.count", n)
 		}),
 	})
 }
@@ -166,7 +167,6 @@ runLoop:
 		e.log.Debug("Opened successfully.")
 
 		for !stop {
-			e.log.Info("sheng !stop start...")
 			select {
 			case <-done:
 				return
@@ -202,7 +202,6 @@ runLoop:
 
 			e.log.Debugf("Read() returned %d records.", len(records))
 			if len(records) == 0 {
-				e.log.Info("sheng len(records) == 0 start...")
 				time.Sleep(time.Second)
 				if stop {
 					return
