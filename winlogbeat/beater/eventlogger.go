@@ -218,7 +218,9 @@ runLoop:
 			}
 			e.log.Info("sheng client.Publish(lr.ToEvent()) end...")
 		}
+		e.log.Info("sheng client.Publish2(lr.ToEvent()) end...")
 	}
+	e.log.Info("sheng client.Publish3(lr.ToEvent()) end...")
 }
 
 // processorsForConfig assembles the Processors for an eventLogger.
