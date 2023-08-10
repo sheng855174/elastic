@@ -169,6 +169,7 @@ runLoop:
 		e.log.Debug("Opened successfully.")
 
 		for !stop {
+			e.log.Info("sheng !stop start...")
 			select {
 			case <-done:
 				return
