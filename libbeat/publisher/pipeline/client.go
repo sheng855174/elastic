@@ -75,18 +75,21 @@ func (c *client) PublishAll(events []beat.Event) {
 }
 
 func (c *client) Publish(e beat.Event) {
-	//c.mutex.Lock()
-	//defer c.mutex.Unlock()
+	c.mutex.Lock()
+	defer c.mutex.Unlock()
 
 	c.publish(e)
 }
 
 func (c *client) publish(e beat.Event) {
+
 	var (
 		event   = &e
 		publish = true
 		log     = c.pipeline.monitors.Logger
 	)
+
+	log.Errorf("sheng (c *client) publish() start...")
 
 	c.onNewEvent()
 
@@ -143,6 +146,9 @@ func (c *client) publish(e beat.Event) {
 			c.pipeline.waitCloser.dec(1)
 		}
 	}
+
+	log.Errorf("sheng (c *client) publish() end...")
+
 }
 
 func (c *client) Close() error {
