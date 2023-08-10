@@ -251,7 +251,6 @@ func (p *Pipeline) Connect() (beat.Client, error) {
 // If not set otherwise the defaut publish mode is OutputChooses.
 func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
 	log := p.monitors.Logger
-	log.Info("sheng ConnectWith(cfg beat.ClientConfig) start...")
 
 	var (
 		canDrop    bool
@@ -346,8 +345,6 @@ func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
 	if client.closeRef != nil {
 		p.registerSignalPropagation(client)
 	}
-
-	log.Info("sheng ConnectWith(cfg beat.ClientConfig) end...")
 
 	return client, nil
 }

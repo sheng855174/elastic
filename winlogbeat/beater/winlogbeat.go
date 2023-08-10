@@ -144,6 +144,7 @@ func (eb *Winlogbeat) Run(b *beat.Beat) error {
 		eb.processEventLog(&wg, log, state, acker)
 	}
 
+	eb.log.Info("sheng range eb.eventLogs wait...")
 	wg.Wait()
 	eb.log.Info("sheng range eb.eventLogs end...")
 
