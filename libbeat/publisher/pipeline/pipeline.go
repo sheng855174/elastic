@@ -250,7 +250,7 @@ func (p *Pipeline) Connect() (beat.Client, error) {
 // the appropriate fields in the passed ClientConfig.
 // If not set otherwise the defaut publish mode is OutputChooses.
 func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
-	log := p.monitors.Logger
+	//log := p.monitors.Logger
 
 	var (
 		canDrop    bool
