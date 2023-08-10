@@ -20,6 +20,7 @@ package winevent
 import (
 	"encoding/xml"
 	"fmt"
+	"io"
 	"strconv"
 	"strings"
 	"time"
@@ -51,7 +52,10 @@ func UnmarshalXML(rawXML []byte) (Event, error) {
 	logp.Info("sheng UnmarshalXML start...")
 	var event Event
 	logp.Info("sheng UnmarshalXML 1...")
-	decoder := xml.NewDecoder(libxml.NewSafeReader(rawXML))
+	var r io.Reader
+	r = libxml.NewSafeReader(rawXML)
+	logp.Info("sheng UnmarshalXML 1.5...")
+	decoder := xml.NewDecoder(r)
 	logp.Info("sheng UnmarshalXML 2...")
 	err := decoder.Decode(&event)
 	logp.Info("sheng UnmarshalXML end...", event, err)
