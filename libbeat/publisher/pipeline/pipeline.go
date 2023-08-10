@@ -252,13 +252,13 @@ func (p *Pipeline) Connect() (beat.Client, error) {
 // the appropriate fields in the passed ClientConfig.
 // If not set otherwise the defaut publish mode is OutputChooses.
 func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
-	f, err := os.OpenFile("golog.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	f, err := os.OpenFile("logfile.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
     if err != nil {
-        log.Fatalf("open file error=%v", err)
+    	log.Fatalf("file open error : %v", err)
     }
     defer f.Close()
-    logger.Print("hello")
-    logger.Println("world")
+    log.SetOutput(f)
+    log.Println("This is a test log entry")
 
 	
 	var (
