@@ -315,6 +315,9 @@ func (l *winEventLog) openFile(state checkpoint.EventLogState, bookmark win.EvtH
 }
 
 func (l *winEventLog) Read() ([]Record, error) {
+	logp.Info("sheng Read() start...");
+
+
 	handles, _, err := l.eventHandles(l.maxRead)
 	if err != nil || len(handles) == 0 {
 		return nil, err
@@ -327,6 +330,7 @@ func (l *winEventLog) Read() ([]Record, error) {
 	detailf("%s EventHandles returned %d handles", l.logPrefix, len(handles))
 
 	var records []Record //nolint:prealloc // This linter gives bad advice and does not take into account conditionals in loops.
+	logp.Info("sheng range handles start...");
 	for _, h := range handles {
 		l.outputBuf.Reset()
 		err := l.render(h, l.outputBuf)
