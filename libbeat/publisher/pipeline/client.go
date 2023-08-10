@@ -75,8 +75,8 @@ func (c *client) PublishAll(events []beat.Event) {
 }
 
 func (c *client) Publish(e beat.Event) {
-	c.mutex.Lock()
-	defer c.mutex.Unlock()
+	//c.mutex.Lock()
+	//defer c.mutex.Unlock()
 
 	c.publish(e)
 }
