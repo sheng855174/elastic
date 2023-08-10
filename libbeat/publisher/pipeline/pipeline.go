@@ -36,8 +36,6 @@ import (
 	"github.com/sheng855174/elastic/libbeat/publisher/processing"
 	"github.com/sheng855174/elastic/libbeat/publisher/queue"
 
-	"log"
-	"os"
 )
 
 // Pipeline implementation providint all beats publisher functionality.
@@ -252,16 +250,9 @@ func (p *Pipeline) Connect() (beat.Client, error) {
 // the appropriate fields in the passed ClientConfig.
 // If not set otherwise the defaut publish mode is OutputChooses.
 func (p *Pipeline) ConnectWith(cfg beat.ClientConfig) (beat.Client, error) {
-	
-	f, errtest := os.OpenFile("golog.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
-    if errtest != nil {
-        log.Fatalf("open file error=%v", errtest)
-    }
-    defer f.Close()
-    logger := log.New(f, "", log.Ldate|log.Ltime)
-    logger.Print("hello")
+	log := p.monitors.Logger
+	log.Info("sheng ConnectWith(cfg beat.ClientConfig) start...")
 
-	
 	var (
 		canDrop    bool
 		eventFlags publisher.EventFlags
