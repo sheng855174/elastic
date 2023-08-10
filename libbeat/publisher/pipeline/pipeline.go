@@ -35,7 +35,6 @@ import (
 	"github.com/sheng855174/elastic/libbeat/publisher"
 	"github.com/sheng855174/elastic/libbeat/publisher/processing"
 	"github.com/sheng855174/elastic/libbeat/publisher/queue"
-
 )
 
 // Pipeline implementation providint all beats publisher functionality.
