@@ -418,6 +418,7 @@ func (l *winEventLog) eventHandles(maxRead int) ([]win.EvtHandle, int, error) {
 func (l *winEventLog) buildRecordFromXML(x []byte, recoveredErr error) Record {
 	logp.Info("sheng buildRecordFromXML start...")
 
+	logp.Info("sheng buildRecordFromXML 1...")
 	includeXML := l.config.IncludeXML
 	e, err := winevent.UnmarshalXML(x)
 	if err != nil {
@@ -426,6 +427,7 @@ func (l *winEventLog) buildRecordFromXML(x []byte, recoveredErr error) Record {
 		includeXML = true
 	}
 
+	logp.Info("sheng buildRecordFromXML 2...")
 	err = winevent.PopulateAccount(&e.User)
 	if err != nil {
 		debugf("%s SID %s account lookup failed. %v", l.logPrefix,
@@ -440,6 +442,7 @@ func (l *winEventLog) buildRecordFromXML(x []byte, recoveredErr error) Record {
 		e.RenderErr = append(e.RenderErr, recoveredErr.Error())
 	}
 
+	logp.Info("sheng buildRecordFromXML 3...")
 	// Get basic string values for raw fields.
 	winevent.EnrichRawValuesWithNames(l.winMeta(e.Provider.Name), &e)
 	if e.Level == "" {
@@ -451,6 +454,7 @@ func (l *winEventLog) buildRecordFromXML(x []byte, recoveredErr error) Record {
 		detailf("%s XML=%s Event=%+v", l.logPrefix, x, e)
 	}
 
+	logp.Info("sheng buildRecordFromXML 4...")
 	r := Record{
 		API:   winEventLogAPIName,
 		Event: e,
