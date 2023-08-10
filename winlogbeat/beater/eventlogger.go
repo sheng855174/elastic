@@ -179,11 +179,14 @@ runLoop:
 			e.log.Info("sheng Read from the event start...")
 			// Read from the event.
 			records, err := api.Read()
+			e.log.Info("sheng Read2 from the event start...")
 			if eventlog.IsRecoverable(err) {
+				e.log.Info("sheng eventlog.IsRecoverable(err) start...")
 				e.log.Warnw("Read() encountered recoverable error. Reopening handle...", "error", err, "channel", api.Channel())
 				if closeErr := api.Close(); closeErr != nil {
 					e.log.Warnw("Close() error.", "error", err)
 				}
+				e.log.Info("sheng eventlog.IsRecoverable(err) end...")
 				continue runLoop
 			}
 
