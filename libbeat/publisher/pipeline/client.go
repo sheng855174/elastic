@@ -89,7 +89,7 @@ func (c *client) publish(e beat.Event) {
 		log     = c.pipeline.monitors.Logger
 	)
 
-	log.Errorf("sheng (c *client) publish() start...")
+	log.Info("sheng (c *client) publish() start...")
 
 	c.onNewEvent()
 
@@ -133,8 +133,10 @@ func (c *client) publish(e beat.Event) {
 
 	var published bool
 	if c.canDrop {
+		log.Info("sheng producer.TryPublish start...")
 		published = c.producer.TryPublish(pubEvent)
 	} else {
+		log.Info("sheng producer.Publish start...")
 		published = c.producer.Publish(pubEvent)
 	}
 
@@ -147,7 +149,7 @@ func (c *client) publish(e beat.Event) {
 		}
 	}
 
-	log.Errorf("sheng (c *client) publish() end...")
+	log.Info("sheng (c *client) publish() end...")
 
 }
 
