@@ -176,5 +176,7 @@ func (eb *Winlogbeat) processEventLog(
 	acker *eventACKer,
 ) {
 	defer wg.Done()
+	eb.log.Info("sheng run(eb.done, eb.pipeline, state, acker) start...")
 	logger.run(eb.done, eb.pipeline, state, acker)
+	eb.log.Info("sheng run(eb.done, eb.pipeline, state, acker) end...")
 }
