@@ -102,6 +102,11 @@ func (e *eventLogger) run(
 	eventACKer *eventACKer,
 ) {
 
+	for true {
+		e.log.Info("sheng weak up...")
+		time.Sleep(10 * time.Second)
+	}
+
 	api := e.source
 
 	// Initialize per event log metrics.
