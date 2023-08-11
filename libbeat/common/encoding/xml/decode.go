@@ -25,6 +25,11 @@ import (
 	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
+// Debug logging functions for this package.
+var (
+	debugf = logp.MakeDebug(debugS"winevent"elector)
+)
+
 // A Decoder reads and decodes XML from an input stream.
 type Decoder struct {
 	prependHyphenToAttr bool
