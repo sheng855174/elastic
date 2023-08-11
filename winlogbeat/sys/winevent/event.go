@@ -55,7 +55,7 @@ func UnmarshalXML(rawXML []byte) (Event, error) {
 	r = libxml.NewSafeReader(rawXML)
 	logp.Info("sheng UnmarshalXML 1.5...")
 	decoder := xml.NewDecoder(r)
-	logp.Info("sheng UnmarshalXML 2...", event)
+	logp.Info("sheng UnmarshalXML 2...")
 	err := decoder.Decode(&event)
 	logp.Info("sheng UnmarshalXML end...")
 	return event, err

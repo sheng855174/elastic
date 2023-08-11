@@ -22,6 +22,7 @@ import (
 	"encoding/xml"
 	"io"
 	"strings"
+	"github.com/sheng855174/elastic/libbeat/logp"
 )
 
 // A Decoder reads and decodes XML from an input stream.
