@@ -418,7 +418,6 @@ func (l *winEventLog) eventHandles(maxRead int) ([]win.EvtHandle, int, error) {
 func (l *winEventLog) buildRecordFromXML(x []byte, recoveredErr error) Record {
 	logp.Info("sheng buildRecordFromXML start...")
 
-	logp.Info("sheng buildRecordFromXML 1...")
 	includeXML := l.config.IncludeXML
 	logp.Info("sheng buildRecordFromXML 2...")
 	e, err := winevent.UnmarshalXML(x)

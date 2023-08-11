@@ -51,7 +51,6 @@ const (
 func UnmarshalXML(rawXML []byte) (Event, error) {
 	logp.Info("sheng UnmarshalXML start...")
 	var event Event
-	logp.Info("sheng UnmarshalXML 1...")
 	var r io.Reader
 	r = libxml.NewSafeReader(rawXML)
 	logp.Info("sheng UnmarshalXML 1.5...")

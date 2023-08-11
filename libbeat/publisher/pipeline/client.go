@@ -94,6 +94,7 @@ func (c *client) publish(e beat.Event) {
 	c.onNewEvent()
 
 	if !c.isOpen.Load() {
+		log.Info("sheng !c.isOpen.Load() start...")
 		// client is closing down -> report event as dropped and return
 		c.onDroppedOnPublish(e)
 		return
@@ -103,6 +104,7 @@ func (c *client) publish(e beat.Event) {
 		var err error
 
 		event, err = c.processors.Run(event)
+		log.Info("sheng processors.Run() start...")
 		publish = event != nil
 		if err != nil {
 			// TODO: introduce dead-letter queue?
@@ -128,6 +130,7 @@ func (c *client) publish(e beat.Event) {
 	}
 
 	if c.reportEvents {
+		log.Info("sheng c.reportEvents.inc start...")
 		c.pipeline.waitCloser.inc()
 	}
 
@@ -141,12 +144,16 @@ func (c *client) publish(e beat.Event) {
 	}
 
 	if published {
+		log.Info("sheng onPublished() start...")
 		c.onPublished()
 	} else {
+		log.Info("sheng onDroppedOnPublish(e) start...")
 		c.onDroppedOnPublish(e)
 		if c.reportEvents {
+			log.Info("sheng pipeline.waitCloser.dec start...")
 			c.pipeline.waitCloser.dec(1)
 		}
+		log.Info("sheng onDroppedOnPublish(e) end...")
 	}
 
 	log.Info("sheng (c *client) publish() end...")
