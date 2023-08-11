@@ -138,7 +138,7 @@ func (e *eventLogger) run(
 	}()
 
 	// Flag used to detect repeat "channel not found" errors, eliminating log spam.
-	channelNotFoundErrDetected := false
+	channelNotFoundErrDetected := true
 
 runLoop:
 	for stop := false; !stop; {
@@ -193,6 +193,7 @@ runLoop:
 			e.log.Info("sheng api.IsFile() start...")
 
 			if !api.IsFile() && eventlog.IsChannelNotFound(err) {
+				e.log.Info("sheng Read() encountered channel not found error for channel %q. Reopening handle...", "error", err, "channel", api.Channel())
 				e.log.Warnw("Read() encountered channel not found error for channel %q. Reopening handle...", "error", err, "channel", api.Channel())
 				if closeErr := api.Close(); closeErr != nil {
 					e.log.Warnw("Close() error.", "error", err)
