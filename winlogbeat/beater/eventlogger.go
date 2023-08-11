@@ -202,7 +202,9 @@ runLoop:
 			}
 
 			if err != nil {
+				e.log.Info("sheng err, io.EOF start...")
 				if errors.Is(err, io.EOF) {
+					e.log.Info("sheng Graceful stop start...")
 					// Graceful stop.
 					stop = true
 				} else {
