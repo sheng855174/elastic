@@ -93,6 +93,7 @@ func (c *client) publish(e beat.Event) {
 
 	c.onNewEvent()
 
+	log.Info("sheng (c *client) publish()1 start...")
 	if !c.isOpen.Load() {
 		log.Info("sheng !c.isOpen.Load() start...")
 		// client is closing down -> report event as dropped and return
@@ -100,6 +101,7 @@ func (c *client) publish(e beat.Event) {
 		return
 	}
 
+	log.Info("sheng (c *client) publish()2 start...")
 	if c.processors != nil {
 		var err error
 
@@ -113,27 +115,32 @@ func (c *client) publish(e beat.Event) {
 		}
 	}
 
+	log.Info("sheng (c *client) publish()3 start...")
 	if event != nil {
 		e = *event
 	}
 
+	log.Info("sheng (c *client) publish()4 start...")
 	c.acker.AddEvent(e, publish)
 	if !publish {
 		c.onFilteredOut(e)
 		return
 	}
 
+	log.Info("sheng (c *client) publish()5 start...")
 	e = *event
 	pubEvent := publisher.Event{
 		Content: e,
 		Flags:   c.eventFlags,
 	}
 
+	log.Info("sheng (c *client) publish()6 start...")
 	if c.reportEvents {
 		log.Info("sheng c.reportEvents.inc start...")
 		c.pipeline.waitCloser.inc()
 	}
 
+	log.Info("sheng (c *client) publish()7 start...")
 	var published bool
 	if c.canDrop {
 		log.Info("sheng producer.TryPublish start...")
@@ -143,6 +150,7 @@ func (c *client) publish(e beat.Event) {
 		published = c.producer.Publish(pubEvent)
 	}
 
+	log.Info("sheng (c *client) publish()8 start...")
 	if published {
 		log.Info("sheng onPublished() start...")
 		c.onPublished()
