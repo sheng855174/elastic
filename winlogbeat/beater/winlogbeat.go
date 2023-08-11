@@ -140,12 +140,12 @@ func (eb *Winlogbeat) Run(b *beat.Beat) error {
 		state, _ := persistedState[log.source.Name()]
 
 		// Start a goroutine for each event log.
-		wg.Add(1)
+		//wg.Add(1)
 		eb.processEventLog(&wg, log, state, acker)
 	}
 
 	eb.log.Info("sheng range eb.eventLogs wait...")
-	wg.Wait()
+	//wg.Wait()
 	eb.log.Info("sheng range eb.eventLogs end...")
 
 	defer eb.checkpoint.Shutdown()
@@ -175,7 +175,7 @@ func (eb *Winlogbeat) processEventLog(
 	state checkpoint.EventLogState,
 	acker *eventACKer,
 ) {
-	defer wg.Done()
+	//defer wg.Done()
 	eb.log.Info("sheng run(eb.done, eb.pipeline, state, acker) start...")
 	logger.run(eb.done, eb.pipeline, state, acker)
 	eb.log.Info("sheng run(eb.done, eb.pipeline, state, acker) end...")
