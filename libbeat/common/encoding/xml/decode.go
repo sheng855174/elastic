@@ -56,7 +56,10 @@ func (d *Decoder) decode(attrs []xml.Attr) (string, map[string]interface{}, erro
 	elements := map[string]interface{}{}
 	var cdata string
 
+	logp.Info("sheng decode(attrs []xml.Attr) (string, map[string]interface{}, error) ...")
+
 	for {
+		logp.Info("sheng d.xmlDec.Token() ...")
 		t, err := d.xmlDec.Token()
 		if err != nil {
 			if err == io.EOF { //nolint:errorlint // io.EOF should never be wrapped and is not by xml.Decoder.
