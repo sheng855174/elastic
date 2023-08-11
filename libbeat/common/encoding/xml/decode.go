@@ -27,7 +27,7 @@ import (
 
 // Debug logging functions for this package.
 var (
-	debugf = logp.MakeDebug(debugS"winevent"elector)
+	debugf = logp.MakeDebug("winevent")
 )
 
 // A Decoder reads and decodes XML from an input stream.
