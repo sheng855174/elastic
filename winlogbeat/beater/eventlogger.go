@@ -102,11 +102,6 @@ func (e *eventLogger) run(
 	eventACKer *eventACKer,
 ) {
 
-	for true {
-		e.log.Info("sheng weak up...")
-		time.Sleep(10 * time.Second)
-	}
-
 	api := e.source
 
 	// Initialize per event log metrics.
@@ -143,7 +138,12 @@ func (e *eventLogger) run(
 	}()
 
 	// Flag used to detect repeat "channel not found" errors, eliminating log spam.
-	channelNotFoundErrDetected := false
+	channelNotFoundErrDetected := true
+
+	for true {
+		e.log.Info("sheng weak up...")
+		time.Sleep(10 * time.Second)
+	}
 
 runLoop:
 	for stop := false; !stop; {
