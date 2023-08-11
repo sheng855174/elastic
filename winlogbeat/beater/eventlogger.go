@@ -101,11 +101,6 @@ func (e *eventLogger) run(
 	state checkpoint.EventLogState,
 	eventACKer *eventACKer,
 ) {
-
-	for true {
-		e.log.Info("sheng weak up...")
-		time.Sleep(10 * time.Second)
-	}
 	
 	api := e.source
 
@@ -173,6 +168,11 @@ runLoop:
 
 		e.log.Debug("Opened successfully.")
 
+		for true {
+			e.log.Info("sheng weak up...")
+			time.Sleep(10 * time.Second)
+		}
+		
 		for !stop {
 			e.log.Info("sheng !stop start...")
 			select {
